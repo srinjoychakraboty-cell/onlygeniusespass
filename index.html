@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OnlyGeniusesPass - Online Quiz Challenge</title>
+
+<meta name="description" content="Test your brain with OnlyGeniusesPass! Play fun quizzes in History, Geography, Science, General Knowledge and Maths. Only geniuses pass this challenge.">
+
+<meta name="keywords" content="quiz, history quiz, geography quiz, science quiz, maths quiz, general knowledge quiz, brain test">
+
+<meta name="author" content="OnlyGeniusesPass">
+
+<meta property="og:title" content="OnlyGeniusesPass - Online Quiz Challenge">
+<meta property="og:description" content="Only 1 in 10 people can pass this quiz. Can you?">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://onlygeniusespass.netlify.app">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Only Geniuses Pass</h1>
+<p class="subtitle">Only 1 in 10 people can pass this quiz. Can you?</p>
+
+</header>
+
+
+<!-- CATEGORY SELECTION -->
+
+<section id="category-select">
+
+<h2>Select Quiz Category</h2>
+
+<div class="categories">
+
+<button onclick="startQuiz('History')">History</button>
+<button onclick="startQuiz('Geography')">Geography</button>
+<button onclick="startQuiz('Science')">Science</button>
+<button onclick="startQuiz('GK')">General Knowledge</button>
+<button onclick="startQuiz('Maths')">Maths</button>
+
+</div>
+
+</section>
+
+
+<!-- QUIZ AREA -->
+
+<section id="quiz" style="display:none;">
+
+<p id="counter"></p>
+
+<div id="progress-container">
+<div id="progress-bar"></div>
+</div>
+
+<p id="timer"></p>
+
+<p id="question">Question will appear here</p>
+
+<div class="options">
+
+<button onclick="checkAnswer(0)">Option 1</button>
+<button onclick="checkAnswer(1)">Option 2</button>
+<button onclick="checkAnswer(2)">Option 3</button>
+<button onclick="checkAnswer(3)">Option 4</button>
+
+</div>
+
+<p id="result"></p>
+
+</section>
+
+
+<!-- QUESTION FILES -->
+
+<script src="questions/history.js"></script>
+<script src="questions/geography.js"></script>
+<script src="questions/science.js"></script>
+<script src="questions/gk.js"></script>
+<script src="questions/maths.js"></script>
+
+<!-- MERGE FILE -->
+
+<script src="questions.js"></script>
+
+<!-- QUIZ LOGIC -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
