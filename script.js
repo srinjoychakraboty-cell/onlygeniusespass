@@ -5,8 +5,6 @@ let quizQuestions = [];
 let score = 0;
 let currentQuestionIndex = 0;
 
-/* TIMER VARIABLES */
-
 let timer;
 let timeLeft = 10;
 
@@ -18,19 +16,23 @@ function startQuiz(category){
 selectedCategory = category;
 
 /* filter questions by category */
+
 filteredQuestions = questions.filter(q => q.category === category);
 
 /* if no questions exist */
+
 if(filteredQuestions.length === 0){
 alert("Questions for this category are coming soon!");
 return;
 }
 
 /* shuffle questions */
+
 let shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
 
 /* pick first 15 questions */
-quizQuestions = shuffled.slice(0,15);
+
+quizQuestions = shuffled.slice(0,10);
 
 score = 0;
 currentQuestionIndex = 0;

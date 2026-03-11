@@ -756,8 +756,6 @@ const questions = [
 
 /* ================= HISTORY ================= */
 
-/* ================= HISTORY ================= */
-
 {
 question: "Who founded the Mauryan Empire?",
 options: ["Ashoka","Bindusara","Chandragupta Maurya","Bimbisara"],
