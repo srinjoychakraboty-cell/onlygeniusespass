@@ -16,6 +16,62 @@ answer: 1,
 category: "History"
 },
 
+{
+question: "Who was the first Governor-General of independent India?",
+options: ["Lord Mountbatten","C. Rajagopalachari","Dr. Rajendra Prasad","Jawaharlal Nehru"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Which Mughal emperor built the Taj Mahal?",
+options: ["Akbar","Shah Jahan","Aurangzeb","Humayun"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Who wrote the Arthashastra?",
+options: ["Kalidasa","Chanakya","Megasthenes","Panini"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Which movement was launched by Mahatma Gandhi in 1942?",
+options: ["Non-Cooperation Movement","Civil Disobedience Movement","Quit India Movement","Khilafat Movement"],
+answer: 2,
+category: "History"
+},
+
+{
+question: "Who was the founder of the Gupta Empire?",
+options: ["Samudragupta","Chandragupta I","Skandagupta","Chandragupta II"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "The Jallianwala Bagh massacre took place in which year?",
+options: ["1919","1920","1917","1922"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the first woman ruler of Delhi?",
+options: ["Nur Jahan","Razia Sultana","Chand Bibi","Rani Durgavati"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Which European power first arrived in India for trade?",
+options: ["Portuguese","British","French","Dutch"],
+answer: 0,
+category: "History"
+},
+
 /* ================= GEOGRAPHY ================= */
 
 {
