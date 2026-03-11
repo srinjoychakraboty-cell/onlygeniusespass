@@ -1,4 +1,6 @@
-const historyQuestions = [
+const questions = [
+
+/* ================= HISTORY ================= */
 
 {
 question: "Who founded the Mauryan Empire?",
@@ -12,10 +14,9 @@ question: "The Battle of Plassey was fought in which year?",
 options: ["1764","1757","1748","1772"],
 answer: 1,
 category: "History"
-}
+},
 
-];
-const geographyQuestions = [
+/* ================= GEOGRAPHY ================= */
 
 {
 question: "Which is the longest river in the world?",
@@ -29,30 +30,27 @@ question: "Which country has the largest land area?",
 options: ["USA","China","Russia","Canada"],
 answer: 2,
 category: "Geography"
-}
+},
 
-];
-const scienceQuestions = [
+/* ================= SCIENCE ================= */
 
 {
 question: "What is the boiling point of water?",
 options: ["90°C","100°C","120°C","80°C"],
 answer: 1,
 category: "Science"
-}
+},
 
-];
-const gkQuestions = [
+/* ================= GK ================= */
 
 {
 question: "Who is known as the Father of the Nation in India?",
 options: ["Nehru","Gandhi","Patel","Ambedkar"],
 answer: 1,
 category: "GK"
-}
+},
 
-];
-const mathsQuestions = [
+/* ================= MATHS ================= */
 
 {
 question: "What is 12 × 8?",

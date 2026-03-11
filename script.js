@@ -1,11 +1,14 @@
-console.log(questions.length);
-
 let selectedCategory = "";
 let filteredQuestions = [];
 let quizQuestions = [];
 
 let score = 0;
 let currentQuestionIndex = 0;
+
+/* TIMER VARIABLES */
+
+let timer;
+let timeLeft = 10;
 
 
 /* ================= START QUIZ ================= */
@@ -81,12 +84,40 @@ currentQuestion.options[i];
 
 }
 
+
+/* ================= TIMER ================= */
+
+clearInterval(timer);
+
+timeLeft = 10;
+
+document.getElementById("timer").innerText =
+"⏱ Time Left: " + timeLeft + "s";
+
+timer = setInterval(function(){
+
+timeLeft--;
+
+document.getElementById("timer").innerText =
+"⏱ Time Left: " + timeLeft + "s";
+
+if(timeLeft <= 0){
+
+clearInterval(timer);
+nextQuestion();
+
+}
+
+},1000);
+
 }
 
 
 /* ================= CHECK ANSWER ================= */
 
 function checkAnswer(choice){
+
+clearInterval(timer);
 
 let currentQuestion = quizQuestions[currentQuestionIndex];
 
@@ -130,7 +161,7 @@ document.getElementById("quiz").innerHTML =
 "<p>Your Score: " + score + " / " +
 quizQuestions.length + "</p>" +
 
-"<p>🧠 Only geniuses score above 12!</p>" +
+"<p>🧠 Only 1 in 10 people pass this quiz!</p>" +
 
 "<br><button onclick='shareScore()'>Share Score</button>" +
 
