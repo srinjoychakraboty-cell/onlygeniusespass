@@ -825,6 +825,222 @@ options: ["Portuguese","British","French","Dutch"],
 answer: 0,
 category: "History"
 },
+{
+question: "Which European power first arrived in India for trade?",
+options: ["Portuguese","British","French","Dutch"],
+answer: 0,
+category: "History"
+},
+{
+question: "Who was the last ruler of the Mauryan dynasty?",
+options: ["Ashoka","Brihadratha","Bindusara","Dasharatha"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Which Veda is the oldest?",
+options: ["Rigveda","Samaveda","Yajurveda","Atharvaveda"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the court poet of Chandragupta II?",
+options: ["Kalidasa","Banabhatta","Harsha","Panini"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who established the Slave Dynasty in India?",
+options: ["Qutb-ud-din Aibak","Iltutmish","Balban","Razia"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the founder of the Mughal Empire in India?",
+options: ["Babur","Humayun","Akbar","Jahangir"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who succeeded Babur as the Mughal emperor?",
+options: ["Akbar","Humayun","Aurangzeb","Jahangir"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Who introduced the Mansabdari system?",
+options: ["Babur","Akbar","Aurangzeb","Shah Jahan"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Who built the Red Fort in Delhi?",
+options: ["Akbar","Aurangzeb","Shah Jahan","Humayun"],
+answer: 2,
+category: "History"
+},
+
+{
+question: "The Permanent Settlement was introduced by?",
+options: ["Lord Cornwallis","Lord Wellesley","Lord Curzon","Lord Hastings"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the leader of the Revolt of 1857 in Kanpur?",
+options: ["Tatya Tope","Nana Sahib","Rani Lakshmibai","Kunwar Singh"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Who was the Viceroy of India during the Partition of Bengal (1905)?",
+options: ["Lord Curzon","Lord Ripon","Lord Hardinge","Lord Lytton"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who founded the Indian National Congress?",
+options: ["A.O. Hume","Bal Gangadhar Tilak","Mahatma Gandhi","Dadabhai Naoroji"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "In which year was the Indian National Congress founded?",
+options: ["1885","1905","1890","1915"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who gave the slogan 'Swaraj is my birthright'?",
+options: ["Tilak","Gandhi","Nehru","Patel"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the first President of the Indian National Congress?",
+options: ["W.C. Bonnerjee","Dadabhai Naoroji","Gopal Krishna Gokhale","Tilak"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Which act transferred power from the East India Company to the British Crown?",
+options: ["Government of India Act 1858","Regulating Act 1773","Charter Act 1813","Indian Councils Act 1861"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the last Mughal emperor?",
+options: ["Bahadur Shah II","Akbar II","Aurangzeb","Shah Alam"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Which movement did Gandhi start in 1930?",
+options: ["Civil Disobedience Movement","Quit India Movement","Non-Cooperation Movement","Swadeshi Movement"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "The Dandi March was associated with which movement?",
+options: ["Civil Disobedience","Non-Cooperation","Quit India","Swadeshi"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was known as Netaji?",
+options: ["Subhas Chandra Bose","Bhagat Singh","Nehru","Patel"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who founded the Azad Hind Fauj?",
+options: ["Subhas Chandra Bose","Rash Behari Bose","Bhagat Singh","Rajguru"],
+answer: 1,
+category: "History"
+},
+
+{
+question: "Who wrote 'Discovery of India'?",
+options: ["Nehru","Gandhi","Tagore","Tilak"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Which Governor-General abolished Sati?",
+options: ["Lord William Bentinck","Lord Dalhousie","Lord Ripon","Lord Curzon"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the founder of the Brahmo Samaj?",
+options: ["Raja Ram Mohan Roy","Swami Vivekananda","Dayananda Saraswati","Ishwar Chandra Vidyasagar"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who founded Arya Samaj?",
+options: ["Dayananda Saraswati","Vivekananda","Raja Ram Mohan Roy","Tilak"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who founded the Ramakrishna Mission?",
+options: ["Swami Vivekananda","Dayananda Saraswati","Raja Ram Mohan Roy","Tilak"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who wrote 'Vande Mataram'?",
+options: ["Bankim Chandra Chatterjee","Tagore","Sarojini Naidu","Tilak"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who composed India's national anthem?",
+options: ["Rabindranath Tagore","Bankim Chandra","Sarojini Naidu","Nehru"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the first Prime Minister of India?",
+options: ["Nehru","Patel","Rajendra Prasad","Indira Gandhi"],
+answer: 0,
+category: "History"
+},
+
+{
+question: "Who was the first President of India?",
+options: ["Dr. Rajendra Prasad","Nehru","Patel","Radhakrishnan"],
+answer: 0,
+category: "History"
+},
+
 
 /* ================= GEOGRAPHY ================= */
 
