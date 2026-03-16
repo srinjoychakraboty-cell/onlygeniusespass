@@ -1,97 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>OnlyGeniusesPass - Online Quiz Challenge</title>
-
 <meta name="description" content="Test your brain with OnlyGeniusesPass! Play quizzes in History, Geography, Science, GK and Maths. Only geniuses pass this challenge.">
 <meta name="keywords" content="quiz, history quiz, geography quiz, science quiz, maths quiz, general knowledge quiz, MCQ quiz">
 <meta name="author" content="OnlyGeniusesPass">
-
-<!-- Canonical URL -->
 <link rel="canonical" href="https://onlygeniusespass.srinjoychakraboty.workers.dev/">
-
-<!-- Open Graph SEO -->
 <meta property="og:title" content="OnlyGeniusesPass - Online Quiz Challenge">
 <meta property="og:description" content="Only 1 in 10 people can pass this quiz. Can you?">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://onlygeniusespass.srinjoychakraboty.workers.dev/">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 <link rel="icon" href="favicon.ico">
-
 </head>
-
 <body>
 
-<header>
-<h1>Only Geniuses Pass</h1>
-<p class="subtitle">Only 1 in 10 people can pass this quiz. Can you?</p>
-</header>
+<!-- ══════════════ HOME SCREEN ══════════════ -->
+<div id="screen-home" class="screen active">
+  <div class="home-inner">
+    <div class="home-header">
+      <div class="eyebrow">Challenge yourself</div>
+      <h1 class="home-title">Only <span>Geniuses</span> Pass</h1>
+      <p class="home-sub">Only 1 in 10 people can pass this quiz.<br>Are you one of them?</p>
+    </div>
 
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-num">51</div>
+        <div class="stat-lbl">Questions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">5</div>
+        <div class="stat-lbl">Categories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10s</div>
+        <div class="stat-lbl">Per question</div>
+      </div>
+    </div>
 
-<!-- CATEGORY SELECTION -->
+    <div class="cat-section">
+      <div class="cat-heading">Select a category to begin</div>
+      <div class="cat-list">
+        <button class="cat-btn" onclick="startQuiz('History')">
+          <div class="cat-icon" style="background:#FAEEDA;">📜</div>
+          <div class="cat-info">
+            <div class="cat-name">History</div>
+            <div class="cat-meta">20 questions · Mixed difficulty</div>
+          </div>
+          <div class="cat-arrow">›</div>
+        </button>
+        <button class="cat-btn" onclick="startQuiz('Geography')">
+          <div class="cat-icon" style="background:#E1F5EE;">🌍</div>
+          <div class="cat-info">
+            <div class="cat-name">Geography</div>
+            <div class="cat-meta">9 questions · Mixed difficulty</div>
+          </div>
+          <div class="cat-arrow">›</div>
+        </button>
+        <button class="cat-btn" onclick="startQuiz('Science')">
+          <div class="cat-icon" style="background:#E6F1FB;">🔬</div>
+          <div class="cat-info">
+            <div class="cat-name">Science</div>
+            <div class="cat-meta">7 questions · Mixed difficulty</div>
+          </div>
+          <div class="cat-arrow">›</div>
+        </button>
+        <button class="cat-btn" onclick="startQuiz('GK')">
+          <div class="cat-icon" style="background:#EEEDFE;">💡</div>
+          <div class="cat-info">
+            <div class="cat-name">General Knowledge</div>
+            <div class="cat-meta">8 questions · Mixed difficulty</div>
+          </div>
+          <div class="cat-arrow">›</div>
+        </button>
+        <button class="cat-btn" onclick="startQuiz('Maths')">
+          <div class="cat-icon" style="background:#EAF3DE;">➗</div>
+          <div class="cat-info">
+            <div class="cat-name">Maths</div>
+            <div class="cat-meta">7 questions · Mixed difficulty</div>
+          </div>
+          <div class="cat-arrow">›</div>
+        </button>
+      </div>
+    </div>
 
-<section id="category-select">
-
-<h2>Select Quiz Category</h2>
-
-<div class="categories">
-
-<button onclick="startQuiz('History')">History</button>
-<button onclick="startQuiz('Geography')">Geography</button>
-<button onclick="startQuiz('Science')">Science</button>
-<button onclick="startQuiz('GK')">General Knowledge</button>
-<button onclick="startQuiz('Maths')">Maths</button>
-
+    <footer class="home-footer">© 2026 OnlyGeniusesPass · Challenge Your Brain</footer>
+  </div>
 </div>
 
-</section>
+<!-- ══════════════ QUIZ SCREEN ══════════════ -->
+<div id="screen-quiz" class="screen">
+  <div class="quiz-inner">
 
+    <div class="quiz-topbar">
+      <button class="quit-btn" onclick="quitQuiz()">✕ Quit</button>
+      <div class="quiz-logo">OnlyGeniusesPass</div>
+      <div class="quiz-cat-tag" id="quiz-cat-tag">History</div>
+    </div>
 
-<!-- QUIZ AREA -->
+    <div class="quiz-progress-wrap">
+      <div class="quiz-meta-row">
+        <span id="counter">Q 1 / 10</span>
+        <span id="score-live">Score: 0</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-bar"></div>
+      </div>
+    </div>
 
-<section id="quiz" style="display:none;">
+    <div class="timer-row">
+      <div class="timer-badge" id="timer-badge">
+        <div class="timer-dot"></div>
+        <span id="timer">10s</span>
+      </div>
+    </div>
 
-<p id="counter"></p>
+    <div class="question-card" id="question-card">
+      <p class="question-text" id="question">Loading...</p>
+      <div class="options" id="options-container">
+        <button class="opt-btn" id="opt-0" onclick="checkAnswer(0)"><span class="opt-letter">A</span><span class="opt-text"></span></button>
+        <button class="opt-btn" id="opt-1" onclick="checkAnswer(1)"><span class="opt-letter">B</span><span class="opt-text"></span></button>
+        <button class="opt-btn" id="opt-2" onclick="checkAnswer(2)"><span class="opt-letter">C</span><span class="opt-text"></span></button>
+        <button class="opt-btn" id="opt-3" onclick="checkAnswer(3)"><span class="opt-letter">D</span><span class="opt-text"></span></button>
+      </div>
+    </div>
 
-<div id="progress-container">
-<div id="progress-bar"></div>
+  </div>
 </div>
 
-<p id="timer"></p>
+<!-- ══════════════ RESULTS SCREEN ══════════════ -->
+<div id="screen-results" class="screen">
+  <div class="results-inner">
 
-<p id="question">Question will appear here</p>
+    <div class="result-card">
+      <div class="result-badge" id="result-badge">Genius!</div>
+      <div class="result-pct" id="result-pct">0<span>%</span></div>
+      <div class="result-msg" id="result-msg"></div>
 
-<div class="options">
+      <div class="result-stats">
+        <div class="r-stat">
+          <div class="r-stat-num" id="r-correct">0</div>
+          <div class="r-stat-lbl">Correct</div>
+        </div>
+        <div class="r-stat">
+          <div class="r-stat-num" id="r-wrong">0</div>
+          <div class="r-stat-lbl">Wrong</div>
+        </div>
+        <div class="r-stat">
+          <div class="r-stat-num" id="r-time">0s</div>
+          <div class="r-stat-lbl">Time</div>
+        </div>
+      </div>
 
-<button onclick="checkAnswer(0)">Option 1</button>
-<button onclick="checkAnswer(1)">Option 2</button>
-<button onclick="checkAnswer(2)">Option 3</button>
-<button onclick="checkAnswer(3)">Option 4</button>
+      <div class="result-btns">
+        <button class="btn-primary" onclick="retryQuiz()">Try again</button>
+        <button class="btn-secondary" onclick="shareScore()">Share on WhatsApp</button>
+        <button class="btn-ghost" onclick="goHome()">Choose category</button>
+      </div>
+    </div>
 
+    <div class="leaderboard-section">
+      <div class="lb-title">🏆 All-time leaderboard</div>
+      <div class="lb-row"><div class="lb-rank gold">1</div><div class="lb-name">Arjun S.</div><div class="lb-score">100%</div></div>
+      <div class="lb-row"><div class="lb-rank silver">2</div><div class="lb-name">Priya M.</div><div class="lb-score">90%</div></div>
+      <div class="lb-row you" id="lb-you">
+        <div class="lb-rank you-rank">—</div>
+        <div class="lb-name">You</div>
+        <div class="lb-score" id="lb-your-score">—</div>
+      </div>
+      <div class="lb-row"><div class="lb-rank bronze">3</div><div class="lb-name">Rahul K.</div><div class="lb-score">80%</div></div>
+    </div>
+
+    <footer class="home-footer">© 2026 OnlyGeniusesPass · Challenge Your Brain</footer>
+  </div>
 </div>
 
-<p id="result"></p>
-
-</section>
-
-
-<footer>
-<p>© 2026 OnlyGeniusesPass | Challenge Your Brain</p>
-</footer>
-
-
-<!-- QUESTIONS DATABASE -->
 <script src="questions.js"></script>
-
-<!-- QUIZ LOGIC -->
 <script src="script.js"></script>
-
 </body>
 </html>

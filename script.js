@@ -1,199 +1,249 @@
-let selectedCategory = "";
-let filteredQuestions = [];
-let quizQuestions = [];
+/* ══════════════════════════════════════════
+   OnlyGeniusesPass — Quiz Logic
+   Works with the existing questions.js array
+   ══════════════════════════════════════════ */
 
-let score = 0;
-let currentQuestionIndex = 0;
+let selectedCategory  = "";
+let quizQuestions     = [];
+let score             = 0;
+let currentIndex      = 0;
+let timer             = null;
+let timeLeft          = 10;
+let answered          = false;
+let startTime         = 0;
 
-let timer;
-let timeLeft = 10;
-
-
-/* ================= START QUIZ ================= */
-
-function startQuiz(category){
-
-selectedCategory = category;
-
-/* filter questions by category */
-
-filteredQuestions = questions.filter(q => q.category === category);
-
-/* if no questions exist */
-
-if(filteredQuestions.length === 0){
-alert("Questions for this category are coming soon!");
-return;
+/* ── helpers ── */
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo(0, 0);
 }
 
-/* shuffle questions */
+/* ══════════════════════════════════════════
+   START QUIZ
+   ══════════════════════════════════════════ */
+function startQuiz(category) {
 
-let shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
+  selectedCategory = category;
 
-/* pick first 15 questions */
+  /* filter + shuffle + pick 10 */
+  const filtered = questions.filter(q => q.category === category);
 
-quizQuestions = shuffled.slice(0,10);
+  if (filtered.length === 0) {
+    alert("Questions for this category are coming soon!");
+    return;
+  }
 
-score = 0;
-currentQuestionIndex = 0;
+  quizQuestions = [...filtered]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 10);
 
-document.getElementById("category-select").style.display = "none";
-document.getElementById("quiz").style.display = "block";
+  score        = 0;
+  currentIndex = 0;
+  startTime    = Date.now();
 
-loadQuestion();
+  /* update category tag */
+  const labels = { GK: "General Knowledge" };
+  document.getElementById("quiz-cat-tag").textContent =
+    labels[category] || category;
 
+  showScreen("screen-quiz");
+  loadQuestion();
 }
 
+/* ══════════════════════════════════════════
+   LOAD QUESTION
+   ══════════════════════════════════════════ */
+function loadQuestion() {
 
-/* ================= LOAD QUESTION ================= */
+  answered = false;
 
-function loadQuestion(){
+  const q  = quizQuestions[currentIndex];
+  const n  = quizQuestions.length;
+  const letters = ["A", "B", "C", "D"];
 
-let currentQuestion = quizQuestions[currentQuestionIndex];
+  /* counter + score */
+  document.getElementById("counter").textContent =
+    "Q " + (currentIndex + 1) + " / " + n;
 
-document.getElementById("result").innerText = "";
+  document.getElementById("score-live").textContent =
+    "Score: " + score;
 
-/* question counter */
+  /* progress bar */
+  const pct = ((currentIndex) / n) * 100;
+  document.getElementById("progress-bar").style.width = pct + "%";
 
-document.getElementById("counter").innerText =
-"Question " + (currentQuestionIndex + 1) + " / " + quizQuestions.length;
+  /* question text */
+  document.getElementById("question").textContent = q.question;
 
+  /* options */
+  for (let i = 0; i < 4; i++) {
+    const btn  = document.getElementById("opt-" + i);
+    const text = btn.querySelector(".opt-text");
+    const ltr  = btn.querySelector(".opt-letter");
 
-/* progress bar */
+    text.textContent   = q.options[i];
+    ltr.textContent    = letters[i];
+    btn.className      = "opt-btn";
+    btn.disabled       = false;
+  }
 
-let progress =
-((currentQuestionIndex + 1) / quizQuestions.length) * 100;
+  /* re-animate card */
+  const card = document.getElementById("question-card");
+  card.style.animation = "none";
+  void card.offsetWidth;
+  card.style.animation = "slideIn .3s ease";
 
-document.getElementById("progress-bar").style.width =
-progress + "%";
-
-
-/* question text */
-
-document.getElementById("question").innerText =
-currentQuestion.question;
-
-
-/* options */
-
-let buttons =
-document.querySelectorAll("#quiz .options button");
-
-for(let i = 0; i < 4; i++){
-
-buttons[i].innerText =
-currentQuestion.options[i];
-
+  startTimer();
 }
 
+/* ══════════════════════════════════════════
+   TIMER
+   ══════════════════════════════════════════ */
+function startTimer() {
+  clearInterval(timer);
+  timeLeft = 10;
+  updateTimerUI();
 
-/* ================= TIMER ================= */
-
-clearInterval(timer);
-
-timeLeft = 10;
-
-document.getElementById("timer").innerText =
-"⏱ Time Left: " + timeLeft + "s";
-
-timer = setInterval(function(){
-
-timeLeft--;
-
-document.getElementById("timer").innerText =
-"⏱ Time Left: " + timeLeft + "s";
-
-if(timeLeft <= 0){
-
-clearInterval(timer);
-nextQuestion();
-
+  timer = setInterval(() => {
+    timeLeft--;
+    updateTimerUI();
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      if (!answered) timeUp();
+    }
+  }, 1000);
 }
 
-},1000);
+function updateTimerUI() {
+  const badge = document.getElementById("timer-badge");
+  document.getElementById("timer").textContent = timeLeft + "s";
 
+  badge.className = "timer-badge";
+  if      (timeLeft <= 5)  badge.classList.add("danger");
+  else if (timeLeft <= 8)  badge.classList.add("warn");
 }
 
-
-/* ================= CHECK ANSWER ================= */
-
-function checkAnswer(choice){
-
-clearInterval(timer);
-
-let currentQuestion = quizQuestions[currentQuestionIndex];
-
-if(choice === currentQuestion.answer){
-
-document.getElementById("result").innerText = "✅ Correct!";
-document.getElementById("result").style.color = "green";
-
-score++;
-
-}
-else{
-
-document.getElementById("result").innerText = "❌ Wrong!";
-document.getElementById("result").style.color = "red";
-
+function timeUp() {
+  answered = true;
+  /* reveal correct answer */
+  const correct = quizQuestions[currentIndex].answer;
+  document.getElementById("opt-" + correct).classList.add("correct");
+  disableOptions();
+  setTimeout(nextQuestion, 1200);
 }
 
-setTimeout(nextQuestion,800);
+/* ══════════════════════════════════════════
+   CHECK ANSWER
+   ══════════════════════════════════════════ */
+function checkAnswer(choice) {
+  if (answered) return;
+  answered = true;
+  clearInterval(timer);
 
+  const correct = quizQuestions[currentIndex].answer;
+  disableOptions();
+
+  if (choice === correct) {
+    score++;
+    document.getElementById("opt-" + choice).classList.add("correct");
+  } else {
+    document.getElementById("opt-" + choice).classList.add("wrong");
+    document.getElementById("opt-" + correct).classList.add("correct");
+  }
+
+  setTimeout(nextQuestion, 900);
 }
 
-
-/* ================= NEXT QUESTION ================= */
-
-function nextQuestion(){
-
-currentQuestionIndex++;
-
-if(currentQuestionIndex < quizQuestions.length){
-
-loadQuestion();
-
-}
-else{
-
-document.getElementById("quiz").innerHTML =
-
-"<h2>Quiz Finished!</h2>" +
-
-"<p>Your Score: " + score + " / " +
-quizQuestions.length + "</p>" +
-
-"<p>🧠 Only 1 in 10 people pass this quiz!</p>" +
-
-"<br><button onclick='shareScore()'>Share Score</button>" +
-
-"<br><br><button onclick='location.reload()'>Play Again</button>";
-
+function disableOptions() {
+  for (let i = 0; i < 4; i++) {
+    document.getElementById("opt-" + i).disabled = true;
+  }
 }
 
+/* ══════════════════════════════════════════
+   NEXT QUESTION / END
+   ══════════════════════════════════════════ */
+function nextQuestion() {
+  currentIndex++;
+
+  if (currentIndex < quizQuestions.length) {
+    loadQuestion();
+  } else {
+    showResults();
+  }
 }
 
+/* ══════════════════════════════════════════
+   RESULTS
+   ══════════════════════════════════════════ */
+function showResults() {
 
-/* ================= SHARE SCORE ================= */
+  const n       = quizQuestions.length;
+  const pct     = Math.round((score / n) * 100);
+  const elapsed = Math.round((Date.now() - startTime) / 1000);
+  const passed  = pct >= 60;
 
-function shareScore(){
+  /* fill progress to 100% */
+  document.getElementById("progress-bar").style.width = "100%";
 
-let message =
+  /* badge */
+  const badge = document.getElementById("result-badge");
+  badge.textContent = passed ? "🎉 Genius!" : "Keep going!";
+  badge.className   = "result-badge " + (passed ? "pass" : "fail");
 
-"🧠 I scored " + score + "/" +
-quizQuestions.length +
+  /* percentage */
+  document.getElementById("result-pct").innerHTML =
+    pct + "<span>%</span>";
 
-" on OnlyGeniusesPass!\n\n" +
+  /* message */
+  document.getElementById("result-msg").textContent = passed
+    ? "You're in the top 10%! Truly impressive."
+    : "You scored " + pct + "% — you almost had it. Try again?";
 
-"Only 1 in 10 people can beat this quiz.\n\n" +
+  /* stats */
+  document.getElementById("r-correct").textContent = score;
+  document.getElementById("r-wrong").textContent   = n - score;
+  document.getElementById("r-time").textContent    = elapsed + "s";
 
-"Can you beat me?\n\n" +
+  /* leaderboard row */
+  document.getElementById("lb-your-score").textContent = pct + "%";
 
-"https://onlygeniusespass.netlify.app";
+  showScreen("screen-results");
+}
 
-let url =
-"https://wa.me/?text=" + encodeURIComponent(message);
+/* ══════════════════════════════════════════
+   NAVIGATION
+   ══════════════════════════════════════════ */
+function goHome() {
+  clearInterval(timer);
+  showScreen("screen-home");
+}
 
-window.open(url,"_blank");
+function quitQuiz() {
+  clearInterval(timer);
+  showScreen("screen-home");
+}
 
+function retryQuiz() {
+  startQuiz(selectedCategory);
+}
+
+/* ══════════════════════════════════════════
+   SHARE (WhatsApp)
+   ══════════════════════════════════════════ */
+function shareScore() {
+  const n   = quizQuestions.length;
+  const pct = Math.round((score / n) * 100);
+
+  const message =
+    "🧠 I scored " + score + "/" + n + " (" + pct + "%) on OnlyGeniusesPass!\n\n" +
+    "Only 1 in 10 people can beat this quiz.\n\n" +
+    "Can you beat me? 👇\n" +
+    "https://onlygeniusespass.srinjoychakraboty.workers.dev";
+
+  window.open(
+    "https://wa.me/?text=" + encodeURIComponent(message),
+    "_blank"
+  );
 }
