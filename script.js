@@ -3,6 +3,19 @@
    Works with the existing questions.js array
    ══════════════════════════════════════════ */
 
+/* ── populate home screen stats from live data ── */
+function initStats() {
+  const cats = ['History', 'Geography', 'Science', 'GK', 'Maths'];
+  document.getElementById('stat-total').textContent = questions.length.toLocaleString();
+  document.getElementById('stat-cats').textContent  = cats.length;
+  cats.forEach(c => {
+    const count = questions.filter(q => q.category === c).length;
+    const el    = document.getElementById('meta-' + c);
+    if (el) el.textContent = count + ' questions · Medium–Hard';
+  });
+}
+document.addEventListener('DOMContentLoaded', initStats);
+
 let selectedCategory  = "";
 let quizQuestions     = [];
 let score             = 0;
