@@ -2,44 +2,44 @@ const questions = [
 
 {
 id: 1,
-question: 'Who was the Viceroy of India during the partition of Bengal in 1905?',
-options: ["Lord Curzon","Lord Dalhousie","Lord Mountbatten","Lord Rippon"],
-answer: 0,
+question: "The 'Devadasi' system was prevalent in which period of Indian history?",
+options: ["Vedic","Gupta","Medieval","Chola"],
+answer: 3,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 2,
-question: 'The Treaty of Versailles was signed in which year?',
-options: ["1917","1918","1919","1920"],
+question: 'Which Upanishad contains the famous dialogue between Nachiketa and Yama?',
+options: ["Chandogya","Brihadaranyaka","Katha","Mundaka"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 3,
+question: "The 'Arthashastra' is divided into how many books (Adhikaranas)?",
+options: ["10","12","15","17"],
 answer: 2,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 3,
-question: "Which battle ended Napoleon's rule?",
-options: ["Battle of Trafalgar","Battle of Waterloo","Battle of Leipzig","Battle of Austerlitz"],
-answer: 1,
+id: 4,
+question: "Which ruler issued the 'Allahabad Pillar Inscription' praising Samudragupta?",
+options: ["Harishena","Vasubandhu","Kalidasa","Nagarjuna"],
+answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 4,
-question: 'Who founded the Indian National Congress in 1885?',
-options: ["Dadabhai Naoroji","A.O. Hume","Bal Gangadhar Tilak","Surendranath Banerjee"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
 id: 5,
-question: 'The Rowlatt Act was passed in which year?',
-options: ["1917","1919","1921","1923"],
+question: "The term 'Varna' in Rigveda primarily referred to?",
+options: ["Caste","Colour","Clan","Occupation"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -47,62 +47,62 @@ difficulty: "medium"
 
 {
 id: 6,
-question: 'Which emperor issued the Edict of Milan granting religious tolerance?',
-options: ["Constantine I","Diocletian","Nero","Augustus"],
-answer: 0,
+question: "Who composed the 'Buddhacharita'?",
+options: ["Nagarjuna","Ashvaghosha","Vasubandhu","Dignaga"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 7,
-question: 'Who was the last Mughal Emperor of India?',
-options: ["Aurangzeb","Bahadur Shah I","Bahadur Shah Zafar","Akbar II"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 8,
-question: 'The Magna Carta was signed in which year?',
-options: ["1215","1315","1415","1115"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 9,
-question: 'Which civilization built Machu Picchu?',
-options: ["Aztec","Maya","Inca","Olmec"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 10,
-question: 'Who was the first Sultan of the Delhi Sultanate?',
-options: ["Iltutmish","Qutb-ud-din Aibak","Balban","Alauddin Khilji"],
+question: 'The Satavahana ruler who repelled the Saka invasion was?',
+options: ["Simuka","Gautamiputra Satakarni","Vashishtiputra","Yajna Sri Satakarni"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 8,
+question: 'In the Indus Valley Civilisation, the Great Bath was discovered at?',
+options: ["Harappa","Lothal","Dholavira","Mohenjo-daro"],
+answer: 3,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 9,
+question: "Which school of philosophy believes 'perception' (Pratyaksha) as the only valid source of knowledge?",
+options: ["Nyaya","Charvaka","Vaisheshika","Mimamsa"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 10,
+question: "The 'Milindapanha' is a dialogue between Nagasena and?",
+options: ["Ashoka","Menander","Demetrius","Kanishka"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 11,
-question: 'The Dandi March took place in which year?',
-options: ["1928","1929","1930","1931"],
-answer: 2,
+question: "The term 'Nishtika' in early India referred to?",
+options: ["A gold coin","A silver coin","A copper coin","A tax"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 12,
-question: 'Who assassinated Archduke Franz Ferdinand?',
-options: ["Gavrilo Princip","Black Hand","Dragutin Dimitrijević","Nedeljko Čabrinović"],
+question: 'Which Ashokan edict mentions the Kalinga War?',
+options: ["Rock Edict XIII","Rock Edict XII","Pillar Edict VII","Rock Edict X"],
 answer: 0,
 category: "History",
 difficulty: "hard"
@@ -110,44 +110,44 @@ difficulty: "hard"
 
 {
 id: 13,
-question: 'Which dynasty built the Angkor Wat temple complex?',
-options: ["Pallava","Khmer","Chola","Gupta"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 14,
-question: 'The Boston Tea Party occurred in which year?',
-options: ["1770","1771","1773","1775"],
+question: 'The first Buddhist Council was held at?',
+options: ["Vaishali","Pataliputra","Rajagriha","Kundalavana"],
 answer: 2,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 15,
-question: "Who wrote 'The Prince', a treatise on political power?",
-options: ["Dante","Machiavelli","Rousseau","Voltaire"],
+id: 14,
+question: 'The Chola king who conquered Sri Lanka and established Sinhala as a tributary was?',
+options: ["Rajaraja I","Rajendra I","Kulottunga I","Parantaka I"],
 answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 16,
-question: "Which Indian king defeated Alexander the Great's forces at the Hydaspes?",
-options: ["Chandragupta","Porus","Ambhi","Dhana Nanda"],
-answer: 1,
+id: 15,
+question: "Which Gupta king adopted the title 'Vikramaditya'?",
+options: ["Chandragupta I","Samudragupta","Chandragupta II","Kumaragupta I"],
+answer: 2,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 16,
+question: 'The Aihole inscription was composed by?',
+options: ["Ravikirti","Harishena","Bilhana","Kalhana"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 17,
-question: 'The Opium Wars were fought between China and which country?',
-options: ["France","USA","Britain","Russia"],
+question: "The 'Tripitaka' is the sacred text of which religion?",
+options: ["Jainism","Sikhism","Buddhism","Zoroastrianism"],
 answer: 2,
 category: "History",
 difficulty: "medium"
@@ -155,8 +155,8 @@ difficulty: "medium"
 
 {
 id: 18,
-question: 'Who was the first female Pharaoh of Egypt?',
-options: ["Nefertiti","Cleopatra","Hatshepsut","Merneith"],
+question: 'Which dynasty built the Shore Temple at Mahabalipuram?',
+options: ["Chola","Chalukya","Pallava","Rashtrakuta"],
 answer: 2,
 category: "History",
 difficulty: "hard"
@@ -164,8 +164,8 @@ difficulty: "hard"
 
 {
 id: 19,
-question: 'Which Indian reformer founded the Brahmo Samaj?',
-options: ["Swami Vivekananda","Ram Mohan Roy","Dayananda Saraswati","Ishwar Chandra Vidyasagar"],
+question: "The Upanishad meaning 'sitting near' refers to?",
+options: ["Vedic hymns","Secret teachings","Sacrificial rites","Philosophical dialogues"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -173,143 +173,143 @@ difficulty: "medium"
 
 {
 id: 20,
-question: 'The French Revolution began in which year?',
-options: ["1787","1788","1789","1790"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 21,
-question: 'Who built the Konark Sun Temple?',
-options: ["Narasimhadeva I","Ashoka","Chandragupta II","Harsha"],
-answer: 0,
+question: "The term 'Dasa' in the Rigveda referred to?",
+options: ["Slaves only","Non-Aryan people","Agricultural workers","Cattle herders"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 22,
-question: 'The Battle of Panipat in 1526 was fought between Babur and?',
-options: ["Ibrahim Lodi","Rana Sanga","Hemu","Sher Shah Suri"],
+id: 21,
+question: "The 'Tabaqat-i-Nasiri' was written by?",
+options: ["Minhaj-us-Siraj","Amir Khusrau","Ziauddin Barani","Abul Fazl"],
 answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 23,
-question: 'Which Chinese dynasty built the Great Wall?',
-options: ["Han","Ming","Qin","Tang"],
+id: 22,
+question: "Which sultan introduced the 'token currency' system using copper coins?",
+options: ["Iltutmish","Alauddin Khilji","Muhammad bin Tughlaq","Firuz Shah Tughlaq"],
 answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 23,
+question: "The 'Bhakti Movement' in South India was largely propagated by?",
+options: ["Alvars and Nayanmars","Kabir and Tukaram","Ramananda and Chaitanya","Shankaracharya and Ramanuja"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 24,
-question: 'Who led the Bolshevik Revolution in Russia?',
-options: ["Stalin","Trotsky","Lenin","Kerensky"],
-answer: 2,
+question: 'Amir Khusrau is credited with inventing which musical instrument?',
+options: ["Sitar","Tabla","Sarod","Santoor"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 25,
-question: 'The Khilafat Movement in India was led by?',
-options: ["Ali Brothers","Gandhi","Nehru","Maulana Azad"],
-answer: 0,
+question: "The 'Saluva dynasty' ruled which medieval kingdom?",
+options: ["Bahmani","Vijayanagara","Maratha","Bijapur"],
+answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 26,
-question: 'Which empire was ruled by Suleiman the Magnificent?',
-options: ["Safavid","Mughal","Ottoman","Abbasid"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 27,
-question: 'The Congress of Vienna took place after the defeat of?',
-options: ["Napoleon","Hitler","Kaiser Wilhelm","Franz Ferdinand"],
-answer: 0,
+question: 'Which Vijayanagara ruler is described in Nuniz and Paes accounts as very powerful?',
+options: ["Deva Raya II","Krishnadeva Raya","Rama Raya","Harihara II"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 28,
-question: 'Who founded the Maratha Empire?',
-options: ["Baji Rao I","Shivaji","Peshwa Balaji","Sambhaji"],
+id: 27,
+question: 'The Mughal system of calculating revenue based on average produce of last 10 years was called?',
+options: ["Zabti","Dahsala","Batai","Kankut"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 29,
-question: 'The Suez Canal was opened in which year?',
-options: ["1859","1864","1869","1875"],
+id: 28,
+question: "The 'Sufi order' founded by Moinuddin Chishti in India is called?",
+options: ["Suhrawardiyya","Qadiriyya","Chishtiyya","Naqshbandiyya"],
 answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 29,
+question: "Shivaji's council of eight ministers was called?",
+options: ["Ashtadhyayi","Ashta Pradhan","Ashta Dikpala","Nav Ratna"],
+answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 30,
-question: "Which Indian ruler was known as 'Tiger of Mysore'?",
-options: ["Hyder Ali","Tipu Sultan","Krishnaraja Wadiyar","Haider Ali II"],
-answer: 1,
+question: 'The Battle of Talikota (1565) resulted in the defeat of?',
+options: ["Bahmani Sultanate","Maratha Confederacy","Vijayanagara Empire","Bidar Sultanate"],
+answer: 2,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 31,
-question: 'The Amritsar Massacre was ordered by which British officer?',
-options: ["General Dyer","Lord Chelmsford","Lord Reading","General O'Dwyer"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 32,
-question: 'Which civilization built Stonehenge?',
-options: ["Celts","Romans","Druids","Neolithic people"],
-answer: 3,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 33,
-question: 'The Treaty of Westphalia ended which war?',
-options: ["Thirty Years' War","Hundred Years' War","Seven Years' War","War of Roses"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 34,
-question: 'Who was the founder of the Sikh religion?',
-options: ["Guru Gobind Singh","Guru Nanak","Guru Arjan Dev","Guru Tegh Bahadur"],
+question: "Which Mughal Emperor issued the 'Farmans' giving trading rights to the English East India Company?",
+options: ["Aurangzeb","Jahangir","Shah Jahan","Babur"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 32,
+question: "The 'Jizyah' tax was abolished by Akbar and re-imposed by?",
+options: ["Jahangir","Shah Jahan","Aurangzeb","Bahadur Shah I"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 33,
+question: 'Malik Kafur was the general of which Sultan?',
+options: ["Iltutmish","Balban","Alauddin Khilji","Muhammad bin Tughlaq"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 34,
+question: "The 'Buland Darwaza' at Fatehpur Sikri was built to commemorate?",
+options: ["Birth of Salim","Victory over Gujarat","Victory over Mewar","Completion of mosque"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 35,
-question: 'The Boxer Rebellion took place in which country?',
-options: ["Japan","Korea","China","Vietnam"],
+question: "The Sikh Guru who compiled the 'Adi Granth' was?",
+options: ["Guru Nanak","Guru Amar Das","Guru Arjan Dev","Guru Ram Das"],
 answer: 2,
 category: "History",
 difficulty: "medium"
@@ -317,62 +317,62 @@ difficulty: "medium"
 
 {
 id: 36,
-question: 'Which ruler constructed the Brihadeeswara Temple at Thanjavur?',
-options: ["Rajaraja Chola I","Rajendra Chola","Kulottunga Chola","Vikramaditya"],
-answer: 0,
+question: "Alauddin Khilji's 'Diwani-Riyasat' was responsible for?",
+options: ["Military affairs","Revenue collection","Market control","Foreign policy"],
+answer: 2,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 37,
-question: 'The Non-Cooperation Movement was launched in which year?',
-options: ["1919","1920","1921","1922"],
-answer: 1,
+question: "The 'Chauth' collected by Marathas was equivalent to what percentage of revenue?",
+options: ["1/4","1/5","1/6","1/3"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 38,
-question: 'Who was the first Roman Emperor?',
-options: ["Julius Caesar","Mark Antony","Augustus","Nero"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 39,
-question: 'The Battle of Thermopylae was fought between Greeks and?',
-options: ["Romans","Persians","Macedonians","Carthaginians"],
-answer: 1,
+question: "The 'Diwan-i-Bandagan' was a department dealing with?",
+options: ["Slaves","Revenue","Military","Correspondence"],
+answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 40,
-question: 'Which Indian state was the last to be annexed by British under Doctrine of Lapse?',
-options: ["Jhansi","Satara","Nagpur","Awadh"],
-answer: 2,
+id: 39,
+question: "Which Mughal emperor banned the 'Sati' practice within his empire?",
+options: ["Akbar","Humayun","Jahangir","Shah Jahan"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 40,
+question: "The 'Fourth Battle of Panipat' is sometimes used to describe which battle?",
+options: ["Battle of Buxar","Battle of Plassey","Battle of Khardla","Battle of Assaye"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 41,
-question: "The Peasants' Revolt in England occurred in which century?",
-options: ["13th","14th","15th","16th"],
-answer: 1,
+question: "The 'Doctrine of Lapse' was used to annex which state last?",
+options: ["Jhansi","Satara","Nagpur","Awadh"],
+answer: 3,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 42,
-question: "Who gave the slogan 'Do or Die'?",
-options: ["Bhagat Singh","Nehru","Gandhi","Bose"],
+question: "The 'Regulating Act of 1773' was significant because it?",
+options: ["Established Supreme Court at Calcutta","Created the post of Governor-General","Both A and B","Abolished the Company"],
 answer: 2,
 category: "History",
 difficulty: "hard"
@@ -380,98 +380,98 @@ difficulty: "hard"
 
 {
 id: 43,
-question: 'The partition of India occurred in which year?',
-options: ["1945","1946","1947","1948"],
-answer: 2,
+question: "The 'Ilbert Bill Controversy' of 1883 was related to?",
+options: ["Rights of Indian judges to try Europeans","Partition of Bengal","Land revenue settlement","Employment of Indians in ICS"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 44,
-question: 'Which pharaoh built the Great Pyramid of Giza?',
-options: ["Khafre","Khufu","Menkaure","Ramesses II"],
+question: "Who presided over the historic Lahore Session of INC (1929) which demanded 'Purna Swaraj'?",
+options: ["Gandhi","Nehru","Subhas Bose","Bhagat Singh"],
 answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 45,
-question: 'Who was the first President of the USA?',
-options: ["John Adams","Benjamin Franklin","Thomas Jefferson","George Washington"],
-answer: 3,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 46,
-question: 'The Vijayanagara Empire was founded in which year?',
-options: ["1236","1336","1436","1536"],
-answer: 1,
+id: 45,
+question: "The 'August Offer' of 1940 was made by?",
+options: ["Lord Linlithgow","Lord Wavell","Lord Mountbatten","Stafford Cripps"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 46,
+question: "The 'Poona Pact' (1932) between Gandhi and Ambedkar was related to?",
+options: ["Separate electorates for Muslims","Separate electorates for Depressed Classes","Provincial autonomy","Hindu-Muslim unity"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 47,
-question: 'Which Mughal Emperor banned alcohol?',
-options: ["Akbar","Jahangir","Aurangzeb","Shah Jahan"],
-answer: 2,
+question: "The 'Ghadr Party' was founded in 1913 at?",
+options: ["London","San Francisco","Lahore","Calcutta"],
+answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 48,
-question: 'The Lucknow Pact of 1916 was signed between Congress and?',
-options: ["Muslim League","Khilafat Committee","Hindu Mahasabha","All India League"],
-answer: 0,
+question: "'Abhinav Bharat' was a secret society founded by?",
+options: ["Bhagat Singh","Bal Gangadhar Tilak","V.D. Savarkar","Lala Lajpat Rai"],
+answer: 2,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 49,
-question: 'Who was the founder of the Ahom dynasty in Assam?',
-options: ["Sukaphaa","Supimphaa","Suhungmung","Sudangphaa"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 50,
-question: 'The Silk Road primarily connected China to?',
-options: ["India","Rome","Arabia","Persia"],
+question: "The 'Minto-Morley Reforms' introduced the principle of?",
+options: ["Dyarchy","Separate communal electorates","Provincial autonomy","Federal structure"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 51,
-question: 'Which Viceroy partitioned Bengal in 1905?',
-options: ["Lord Curzon","Lord Dalhousie","Lord Minto","Lord Hardinge"],
+id: 50,
+question: 'The Champaran Satyagraha (1917) was primarily against?',
+options: ["Indigo plantation system","Salt tax","Land revenue settlement","Cattle tax"],
 answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 52,
-question: 'The Spanish Armada was defeated in which year?',
-options: ["1580","1585","1588","1592"],
-answer: 2,
+id: 51,
+question: "The 'Hunter Commission' of 1919-20 investigated which incident?",
+options: ["Jallianwala Bagh massacre","Chauri Chaura","Partition of Bengal","Moplah Rebellion"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 52,
+question: "Which session of INC gave the call for 'Complete Independence' (Purna Swaraj)?",
+options: ["Calcutta 1928","Lahore 1929","Karachi 1931","Lucknow 1916"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 53,
-question: "Who wrote 'Ain-i-Akbari'?",
-options: ["Birbal","Abul Fazl","Todar Mal","Faizi"],
+question: "The 'Wavell Plan' (1945) proposed?",
+options: ["Transfer of power","Indianisation of Executive Council","Partition of India","Dominion Status"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -479,17 +479,17 @@ difficulty: "medium"
 
 {
 id: 54,
-question: 'The Indian Councils Act of 1909 is also known as?',
-options: ["Montford Reforms","Morley-Minto Reforms","Rowlatt Act","Pitt's India Act"],
-answer: 1,
+question: "The 'Individual Satyagraha' launched in 1940 was led first by?",
+options: ["Gandhi","Nehru","Vinoba Bhave","Patel"],
+answer: 2,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 55,
-question: 'Which country was formerly known as Persia?',
-options: ["Iraq","Iran","Turkey","Afghanistan"],
+question: "Who gave the slogan 'Swaraj is my birthright and I shall have it'?",
+options: ["Gandhi","Bal Gangadhar Tilak","Gokhale","Nehru"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -497,53 +497,53 @@ difficulty: "medium"
 
 {
 id: 56,
-question: 'The Chauri Chaura incident occurred in which year?',
-options: ["1920","1921","1922","1923"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 57,
-question: 'Who was the founder of Buddhism?',
-options: ["Vardhamana Mahavira","Siddhartha Gautama","Ashoka","Nagarjuna"],
+question: "The 'Direct Action Day' was observed on August 16, 1946 by?",
+options: ["Indian National Congress","Muslim League","Hindu Mahasabha","Communist Party"],
 answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 58,
-question: 'The Berlin Wall fell in which year?',
-options: ["1987","1988","1989","1990"],
+id: 57,
+question: "The 'Cripps Mission' of 1942 failed because?",
+options: ["Congress rejected it","Muslim League rejected it","Both rejected it","British recalled it"],
 answer: 2,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 59,
-question: 'Which dynasty did Chandragupta Maurya overthrow?',
-options: ["Nanda","Shishunaga","Gupta","Satavahana"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 60,
-question: 'The first Indian War of Independence was fought in?',
-options: ["1857","1858","1859","1860"],
+id: 58,
+question: 'The Indian Independence Act was passed by British Parliament on?',
+options: ["July 18, 1947","August 15, 1947","June 3, 1947","July 4, 1947"],
 answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
+id: 59,
+question: "The 'Kakori Train Robbery' (1925) was organized by?",
+options: ["INC","HSRA (Hindustan Socialist Republican Association)","Ghadr Party","Anushilan Samiti"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 60,
+question: "The 'Nehru Report' (1928) was prepared to?",
+options: ["Draft India's Constitution","Respond to Montford Reforms","Counter Simon Commission","Propose Dominion Status"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 61,
-question: "Who led India's delegation at the Second Round Table Conference?",
-options: ["Gandhi","Nehru","Ambedkar","Patel"],
+question: "The 'Marshall Plan' was officially known as?",
+options: ["European Recovery Program","American Aid Initiative","Western Reconstruction Plan","Allied Support Program"],
 answer: 0,
 category: "History",
 difficulty: "medium"
@@ -551,35 +551,35 @@ difficulty: "medium"
 
 {
 id: 62,
-question: 'Which empire was at its peak under Emperor Trajan?',
-options: ["Greek","Byzantine","Roman","Ottoman"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 63,
-question: 'The Prarthana Samaj was founded by?',
-options: ["Atmaram Pandurang","Bal Gangadhar Tilak","M.G. Ranade","Gopal Hari Deshmukh"],
+question: "The 'Truman Doctrine' (1947) was primarily aimed at?",
+options: ["Containing Soviet expansion","Rebuilding Europe","Establishing NATO","Korean War support"],
 answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 64,
-question: 'Who was the last ruler of the Tughlaq dynasty?',
-options: ["Firuz Shah Tughlaq","Muhammad bin Tughlaq","Ghiyas-ud-din","Nasir-ud-din Mahmud"],
-answer: 3,
+id: 63,
+question: "The 'Long March' in China (1934-35) was led by?",
+options: ["Chiang Kai-shek","Zhou Enlai","Mao Zedong","Deng Xiaoping"],
+answer: 2,
 category: "History",
 difficulty: "medium"
 },
 
 {
+id: 64,
+question: "The 'Balfour Declaration' (1917) was related to?",
+options: ["Arab independence","Jewish homeland in Palestine","Syrian mandate","Iraqi oil rights"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
 id: 65,
-question: 'The Khyber Pass connects Pakistan with?',
-options: ["India","Afghanistan","Iran","China"],
+question: "The 'Berlin Blockade' (1948-49) was ended by?",
+options: ["NATO intervention","Western Airlift","Soviet withdrawal","UN mediation"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -587,17 +587,17 @@ difficulty: "medium"
 
 {
 id: 66,
-question: 'Which Indian revolutionary threw a bomb in the Central Legislative Assembly?',
-options: ["Bhagat Singh","Sukhdev","Rajguru","Azad"],
-answer: 0,
+question: "The 'Sykes-Picot Agreement' (1916) divided?",
+options: ["Africa","Middle East","Southeast Asia","Balkans"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 67,
-question: 'The Treaty of Paris (1783) ended which war?',
-options: ["Seven Years' War","American Revolutionary War","War of 1812","French-Indian War"],
+question: "The 'Zimmermann Telegram' (1917) proposed alliance between Germany and?",
+options: ["Ottoman Empire","Mexico","Austria-Hungary","Bulgaria"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -605,98 +605,98 @@ difficulty: "medium"
 
 {
 id: 68,
-question: 'The Home Rule Movement was started by?',
-options: ["Annie Besant and Tilak","Gandhi and Nehru","Jinnah and Aga Khan","Patel and Rajagopalachari"],
+question: "The 'Cuban Missile Crisis' (1962) was resolved when?",
+options: ["USA invaded Cuba","USSR removed missiles, USA pledged non-invasion","Cuba joined NATO","UN imposed sanctions"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 69,
+question: "The 'Bandung Conference' (1955) led to the formation of?",
+options: ["ASEAN","Non-Aligned Movement","SAARC","G77"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 70,
+question: "The 'Meiji Restoration' in Japan (1868) resulted in?",
+options: ["Shogunate strengthening","Modernisation and emperor's power restoration","Military dictatorship","Colonial expansion only"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 71,
+question: "Who wrote the 'Indica' describing Mauryan India?",
+options: ["Megasthenes","Ptolemy","Strabo","Arrian"],
 answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 69,
-question: 'Who was the first Governor-General of Pakistan?',
-options: ["Liaquat Ali Khan","Muhammad Ali Jinnah","Ayub Khan","Iskander Mirza"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 70,
-question: 'The Mughal Emperor who built Fatehpur Sikri was?',
-options: ["Humayun","Akbar","Jahangir","Shah Jahan"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 71,
-question: 'Which war resulted in India gaining independence of Bangladesh?',
-options: ["Kargil War","Indo-Pak War 1971","Indo-Pak War 1965","Indo-Pak War 1947"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
 id: 72,
-question: 'The Sepoy Mutiny of 1857 began at which place?',
-options: ["Delhi","Meerut","Lucknow","Kanpur"],
-answer: 1,
+question: "The 'Sangam Literature' was produced in which period?",
+options: ["300 BCE - 300 CE","100 BCE - 100 CE","500 BCE - 500 CE","600 BCE - 200 CE"],
+answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
 id: 73,
-question: 'Who invented the printing press?',
-options: ["Leonardo da Vinci","Galileo Galilei","Johannes Gutenberg","Isaac Newton"],
-answer: 2,
+question: "The 'Dandi March' covered a distance of approximately?",
+options: ["150 km","241 km","340 km","480 km"],
+answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 74,
-question: 'The Mauryan Empire reached its greatest extent under?',
-options: ["Chandragupta","Bindusara","Ashoka","Brihadratha"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 75,
-question: 'The Peshwas were the hereditary prime ministers of which empire?',
-options: ["Mughal","Maratha","Vijayanagara","Mysore"],
+question: "The 'Mountbatten Plan' (June 3, 1947) provided for?",
+options: ["Dominion Status to unified India","Partition into India and Pakistan","Federal structure with strong center","All princely states independent"],
 answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 76,
-question: "Which country was known as the 'Sick Man of Europe'?",
-options: ["Austria-Hungary","Russia","Ottoman Empire","Spain"],
-answer: 2,
+id: 75,
+question: "The 'Hindu Widows Remarriage Act' was passed under?",
+options: ["Lord Dalhousie","Lord Canning","Lord Bentinck","Lord Ripon"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 77,
-question: 'The Partition of Bengal was annulled in which year?',
-options: ["1909","1911","1913","1915"],
+id: 76,
+question: 'The Vernacular Press Act (1878) was repealed by?',
+options: ["Lord Curzon","Lord Ripon","Lord Lytton","Lord Dufferin"],
 answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 77,
+question: "The term 'Imperial Preference' in British India context refers to?",
+options: ["Favourable trade terms within Empire","Preference for British goods","Discrimination against Indians","Military priorities"],
+answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
 id: 78,
-question: 'Simon Commission was boycotted because?',
-options: ["It raised taxes","It had no Indian member","It proposed partition","It banned Congress"],
+question: "'Satyashodhak Samaj' was founded by?",
+options: ["Gopal Hari Deshmukh","Jyotiba Phule","Bal Gangadhar Tilak","Vitthal Ramji Shinde"],
 answer: 1,
 category: "History",
 difficulty: "hard"
@@ -704,8 +704,8 @@ difficulty: "hard"
 
 {
 id: 79,
-question: 'Who was the Commander-in-Chief during the Second Battle of Panipat?',
-options: ["Akbar","Bairam Khan","Hemu","Sher Shah"],
+question: "The 'Char Minar' at Hyderabad was constructed in?",
+options: ["1501","1591","1601","1651"],
 answer: 1,
 category: "History",
 difficulty: "medium"
@@ -713,763 +713,16 @@ difficulty: "medium"
 
 {
 id: 80,
-question: 'The Indus Valley Civilization flourished around which millennium BCE?',
-options: ["5th","4th","3rd","2nd"],
-answer: 2,
+question: 'The Sikh Empire disintegrated finally after which Anglo-Sikh War?',
+options: ["First (1845-46)","Second (1848-49)","Third (never occurred)","It merged voluntarily"],
+answer: 1,
 category: "History",
-difficulty: "medium"
+difficulty: "hard"
 },
 
 {
 id: 81,
-question: 'Who built the Char Minar in Hyderabad?',
-options: ["Aurangzeb","Quli Qutb Shah","Nizamul Mulk","Ibrahim Adil Shah"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 82,
-question: 'The Declaration of Independence was adopted in?',
-options: ["1774","1775","1776","1777"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 83,
-question: 'Who was the first Indian to become a member of the British Parliament?',
-options: ["Dadabhai Naoroji","Gopal Krishna Gokhale","Pherozeshah Mehta","Bal Gangadhar Tilak"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 84,
-question: 'The Harappan city of Lothal was located in present-day?',
-options: ["Punjab","Rajasthan","Gujarat","Sindh"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 85,
-question: "Which Indian ruler wrote 'Arthashastra'?",
-options: ["Chanakya","Chandragupta","Ashoka","Bindusara"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 86,
-question: 'The Crusades were primarily fought to capture?',
-options: ["Constantinople","Jerusalem","Alexandria","Antioch"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 87,
-question: 'Who was the founder of the Lodi Dynasty?',
-options: ["Bahlul Lodi","Sikandar Lodi","Ibrahim Lodi","Daulat Khan Lodi"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 88,
-question: 'The Tashkent Declaration was signed after which war?',
-options: ["1962 Indo-China War","1965 Indo-Pak War","1971 Indo-Pak War","Kargil War"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 89,
-question: 'Which Chola king sent a naval expedition to Southeast Asia?',
-options: ["Rajaraja I","Rajendra I","Kulottunga I","Parantaka I"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 90,
-question: 'The Rowlatt Act allowed detention without?',
-options: ["Bail","Trial","Warrant","Lawyer"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 91,
-question: 'Who commanded the English fleet against the Spanish Armada?',
-options: ["Walter Raleigh","Francis Drake","John Hawkins","Charles Howard"],
-answer: 3,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 92,
-question: 'The Quit India Movement was launched in?',
-options: ["1940","1941","1942","1943"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 93,
-question: 'Which Mughal emperor abolished Jizya tax?',
-options: ["Babur","Akbar","Humayun","Jahangir"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 94,
-question: 'The Balkan Wars of 1912-13 were fought in?',
-options: ["Eastern Europe","Southeast Europe","Central Asia","Middle East"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 95,
-question: 'Who founded the city of Alexandria?',
-options: ["Ptolemy I","Alexander the Great","Julius Caesar","Cleopatra"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 96,
-question: 'The Indian Independence Act was passed in?',
-options: ["June 1947","July 1947","August 1947","September 1947"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 97,
-question: 'The Diwan-i-Khas was built by?',
-options: ["Akbar","Shah Jahan","Aurangzeb","Babur"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 98,
-question: 'Who was the last Peshwa?',
-options: ["Baji Rao II","Baji Rao I","Madhav Rao I","Nana Fadnavis"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 99,
-question: "The word 'India' is derived from which river?",
-options: ["Brahmaputra","Ganga","Indus","Saraswati"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 100,
-question: 'Which battle marked the end of the Byzantine Empire?',
-options: ["Battle of Manzikert","Fall of Constantinople","Battle of Yarmouk","Battle of Adrianople"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 101,
-question: 'Tipu Sultan died in which battle?',
-options: ["Battle of Pollilur","Battle of Porto Novo","Battle of Seringapatam","Battle of Sholingarh"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 102,
-question: 'The Carnatic Wars were fought between the British and?',
-options: ["Marathas","Mysore","French","Dutch"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 103,
-question: 'Who was the founder of the Pallava dynasty?',
-options: ["Simhavishnu","Mahendravarman","Narasimhavarman","Sivaskandavarman"],
-answer: 3,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 104,
-question: "The term 'Renaissance' means?",
-options: ["Revolution","Rebirth","Reform","Restoration"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 105,
-question: 'The Sarda Act of 1929 raised the minimum age of marriage for girls to?',
-options: ["12","14","16","18"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 106,
-question: "Who was the Mughal Emperor during Nadir Shah's invasion?",
-options: ["Aurangzeb","Bahadur Shah I","Muhammad Shah","Shah Alam II"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 107,
-question: 'The 14 Points were proposed by which US President?',
-options: ["Roosevelt","Wilson","Taft","Harding"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 108,
-question: 'Which Indian mathematician wrote Aryabhatiya?',
-options: ["Brahmagupta","Bhaskara","Aryabhata","Varahamihira"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 109,
-question: 'The Peace of Westphalia (1648) established the concept of?',
-options: ["Democracy","Nation-state sovereignty","Colonialism","Feudalism"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 110,
-question: "Who was known as the 'Grand Old Man of India'?",
-options: ["Gopal Krishna Gokhale","Bal Gangadhar Tilak","Dadabhai Naoroji","Pherozeshah Mehta"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 111,
-question: 'The Raziya Sultana was the daughter of?',
-options: ["Qutb-ud-din Aibak","Iltutmish","Ghiyas-ud-din Balban","Alauddin Khilji"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 112,
-question: 'The Sikh Empire was founded by?',
-options: ["Guru Gobind Singh","Maharaja Ranjit Singh","Banda Singh Bahadur","Hari Singh Nalwa"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 113,
-question: "Who gave the title 'Mahatma' to Gandhi?",
-options: ["Nehru","Tagore","Gokhale","Patel"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 114,
-question: 'The INA (Indian National Army) was reorganized by?',
-options: ["Subhas Chandra Bose","Mohan Singh","Shah Nawaz Khan","Giani Pritam Singh"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 115,
-question: 'The Moplah Rebellion of 1921 occurred in?',
-options: ["Punjab","Kerala","Bengal","Maharashtra"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 116,
-question: 'Who was the architect of the Indian Constitution?',
-options: ["Nehru","Gandhi","Patel","Ambedkar"],
-answer: 3,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 117,
-question: 'The Vijayanagara capital was located at?',
-options: ["Mysore","Hampi","Belur","Halebidu"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 118,
-question: 'Which Act introduced dyarchy in Indian provinces?',
-options: ["Indian Councils Act 1909","Government of India Act 1919","Government of India Act 1935","Indian Independence Act 1947"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 119,
-question: 'The First Battle of Tarain was fought in?',
-options: ["1191","1192","1193","1194"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 120,
-question: 'Who was the founder of the Slave Dynasty?',
-options: ["Iltutmish","Qutb-ud-din Aibak","Raziya","Ghiyas-ud-din Balban"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 121,
-question: "The Pitt's India Act was passed in?",
-options: ["1782","1783","1784","1785"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 122,
-question: 'The Azad Hind Fauj was established in?',
-options: ["Singapore","Malaysia","Burma","Japan"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 123,
-question: 'Which ruler introduced the market reforms?',
-options: ["Iltutmish","Ghiyas-ud-din Balban","Alauddin Khilji","Firuz Shah Tughlaq"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 124,
-question: 'The Kuka Movement was started by?',
-options: ["Guru Ram Singh","Guru Gobind Singh","Maharaja Ranjit Singh","Banda Bahadur"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 125,
-question: 'Who was the first to circumnavigate the globe?',
-options: ["Columbus","Vasco da Gama","Magellan","Drake"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 126,
-question: 'The Deccan Plateau was mostly under which empire during 300 BCE?',
-options: ["Nanda","Maurya","Gupta","Satavahana"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 127,
-question: 'The Tripartite Treaty of 1838 was signed between?',
-options: ["British, Ranjit Singh, and Shah Shuja","British, Marathas, and Mysore","British, France, and Portugal","British, Hyderabad, and Mysore"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 128,
-question: 'The Gandhara School of Art was influenced by?',
-options: ["Greek art","Persian art","Chinese art","Roman art"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 129,
-question: 'Who established the Theosophical Society in India?',
-options: ["Annie Besant","H.P. Blavatsky","Henry Steel Olcott","Col. Alcott"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 130,
-question: 'Which battle ended the Third Maratha War?',
-options: ["Battle of Koregaon","Battle of Bhima Koregaon","Battle of Kirkee","Battle of Sitabaldi"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 131,
-question: "The term 'Cold War' was coined by?",
-options: ["Walter Lippmann","George Orwell","Churchill","Truman"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 132,
-question: 'The Hunter Commission of 1882 was related to?',
-options: ["Police reform","Education reform","Revenue reform","Military reform"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 133,
-question: "Who wrote 'Hind Swaraj'?",
-options: ["Nehru","Tilak","Gandhi","Gokhale"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 134,
-question: 'The Battle of Buxar was fought in?',
-options: ["1763","1764","1765","1766"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 135,
-question: 'Which act provided for the establishment of Supreme Court in Calcutta?',
-options: ["Regulating Act 1773","Pitt's India Act","Charter Act 1813","Charter Act 1833"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 136,
-question: 'The Poona Pact of 1932 was between Gandhi and?',
-options: ["Jinnah","Ambedkar","Nehru","Patel"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 137,
-question: 'Who founded the Aligarh Muslim University?',
-options: ["Syed Ahmed Khan","Muhammad Ali Jinnah","Aga Khan","Maulana Azad"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 138,
-question: 'The First Carnatic War ended with the?',
-options: ["Treaty of Pondicherry","Treaty of Aix-la-Chapelle","Treaty of Paris","Treaty of Madras"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 139,
-question: 'The Kalinga War was fought in?',
-options: ["260 BCE","261 BCE","262 BCE","265 BCE"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 140,
-question: 'Which Act of 1935 provided for a Federal Court?',
-options: ["Government of India Act","Indian Councils Act","Indian Independence Act","Morley-Minto Reform"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 141,
-question: 'The Permanent Settlement was introduced in?',
-options: ["1793","1794","1795","1796"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 142,
-question: 'Which Mughal painter is known for his portraits?',
-options: ["Abul Hasan","Bichitr","Ustad Mansur","Bishandas"],
-answer: 3,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 143,
-question: 'The Brahmo Samaj was founded in?',
-options: ["1828","1830","1832","1835"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 144,
-question: 'The transfer of capital from Calcutta to Delhi was in?',
-options: ["1909","1910","1911","1912"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 145,
-question: "Who wrote 'Anandamath' from which the song 'Vande Mataram' was taken?",
-options: ["Rabindranath Tagore","Bankim Chandra Chattopadhyay","Michael Madhusudan Dutt","Sarat Chandra"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 146,
-question: 'The Lucknow Session of Indian National Congress (1916) was presided by?',
-options: ["Ambika Charan Mazumdar","Bal Gangadhar Tilak","Annie Besant","Surendranath Banerjee"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 147,
-question: 'The Third Battle of Panipat was fought in?',
-options: ["1760","1761","1762","1763"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 148,
-question: "Which Gupta ruler is known as 'Napoleon of India'?",
-options: ["Chandragupta I","Samudragupta","Chandragupta II","Kumaragupta"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 149,
-question: 'The Surat Split in Congress happened in?',
-options: ["1905","1906","1907","1908"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 150,
-question: 'Who killed Afzal Khan?',
-options: ["Shivaji","Sambhaji","Bajirao","Tanaji"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 151,
-question: 'The foundation of the Muslim League was laid in?',
-options: ["1904","1905","1906","1907"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 152,
-question: 'Indian Civil Services was founded by?',
-options: ["Lord Cornwallis","Lord Dalhousie","Lord Wellesley","Lord Curzon"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 153,
-question: 'The Montagu-Chelmsford Reforms were introduced in?',
-options: ["1917","1918","1919","1920"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 154,
-question: "Which Indian ruler first introduced the 'Iqta' system?",
-options: ["Iltutmish","Qutb-ud-din Aibak","Alauddin Khilji","Ghiyas-ud-din Balban"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 155,
-question: 'The Charter Act of 1813 was significant because?',
-options: ["It abolished the East India Company","It opened India to Christian missionaries","It transferred power to Crown","It gave voting rights to Indians"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 156,
-question: 'The Vernacular Press Act of 1878 was passed by?',
-options: ["Lord Lytton","Lord Ripon","Lord Curzon","Lord Dufferin"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 157,
-question: 'Bhagat Singh was hanged in?',
-options: ["1930","1931","1932","1933"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 158,
-question: 'The Indian National Congress was founded in?',
-options: ["1883","1884","1885","1886"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 159,
-question: 'Who was the first Indian woman President?',
-options: ["Vijaya Lakshmi Pandit","Sarojini Naidu","Pratibha Patil","Indira Gandhi"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 160,
-question: 'The Champaran Satyagraha was against?',
-options: ["Salt tax","Indigo cultivation","Cotton tax","Land revenue"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 161,
-question: 'The Cabinet Mission came to India in?',
-options: ["1944","1945","1946","1947"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 162,
-question: "Which ruler issued the 'Blood and Iron' policy?",
-options: ["Otto von Bismarck","Kaiser Wilhelm II","Frederick the Great","Adolf Hitler"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 163,
-question: "The revolt of 1857 was described as 'First War of Independence' by?",
-options: ["V.D. Savarkar","Bal Gangadhar Tilak","R.C. Majumdar","S.N. Sen"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 164,
-question: 'The Subsidiary Alliance system was introduced by?',
+question: "The 'Subsidiary Alliance' was a system introduced by?",
 options: ["Lord Wellesley","Lord Dalhousie","Lord Cornwallis","Lord Hastings"],
 answer: 0,
 category: "History",
@@ -1477,306 +730,1053 @@ difficulty: "medium"
 },
 
 {
-id: 165,
-question: 'The Cripps Mission came to India in?',
-options: ["1940","1941","1942","1943"],
-answer: 2,
+id: 82,
+question: "Who translated the Upanishads into Persian as 'Sirr-e-Akbar'?",
+options: ["Abul Fazl","Dara Shikoh","Akbar","Aurangzeb"],
+answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 166,
-question: "Who coined the slogan 'Jai Hind'?",
-options: ["Gandhi","Nehru","Bose","Patel"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 167,
-question: 'The Tebhaga Movement was a peasant movement in?',
-options: ["Punjab","Bengal","Bihar","Andhra Pradesh"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 168,
-question: 'The Burma Campaign in WW2 was led by?',
-options: ["Field Marshal Slim","General Auchinleck","General Wavell","Lord Mountbatten"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 169,
-question: 'The Chittagong Armoury Raid was led by?',
-options: ["Bhagat Singh","Surya Sen","Khudiram Bose","Prafulla Chaki"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 170,
-question: 'The Alipur Bomb Case was related to?',
-options: ["Bhagat Singh","Aurobindo Ghose","Bal Gangadhar Tilak","Lala Lajpat Rai"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 171,
-question: "Who established the Mughal Empire's Din-i-Ilahi religion?",
-options: ["Babur","Humayun","Akbar","Jahangir"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 172,
-question: 'The Swadeshi Movement began after?',
-options: ["Partition of Bengal","Jallianwala Bagh","Rowlatt Act","Simon Commission"],
+id: 83,
+question: "The 'Battle of Haldighati' (1576) was fought between Akbar's forces and?",
+options: ["Rana Pratap","Rana Sanga","Rana Kumbha","Rana Udai Singh"],
 answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 173,
-question: 'Who was the first Indian to win the Nobel Prize?',
-options: ["C.V. Raman","Rabindranath Tagore","Amartya Sen","Mother Teresa"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 174,
-question: 'The Government of India Act 1935 divided India into how many provinces?',
-options: ["9","11","13","15"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 175,
-question: "Who wrote 'The Discovery of India'?",
-options: ["Gandhi","Nehru","Ambedkar","Patel"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 176,
-question: "The term 'Divide and Rule' in Indian context refers to policies of?",
-options: ["Lord Curzon","Lord Dalhousie","Lord Minto","Lord Elgin"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 177,
-question: 'The Boundary Commission for Partition of India was headed by?',
-options: ["Stafford Cripps","Cyril Radcliffe","Lord Mountbatten","Pethick-Lawrence"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 178,
-question: 'Which city hosted the first session of Indian National Congress?',
-options: ["Calcutta","Delhi","Bombay","Madras"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 179,
-question: 'The Pala dynasty was founded by?',
-options: ["Gopala","Dharmapala","Devapala","Mahipala"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 180,
-question: 'Who introduced the Doctrine of Lapse?',
-options: ["Lord Dalhousie","Lord Wellesley","Lord Bentinck","Lord Cornwallis"],
+id: 84,
+question: "The 'Prarthana Samaj' was founded in 1867 at?",
+options: ["Bombay","Calcutta","Madras","Pune"],
 answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 181,
-question: 'The Treaty of Amritsar (1809) was between the British and?',
-options: ["Hyderabad","Mysore","Ranjit Singh","Marathas"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 182,
-question: "The 'Iron Curtain' speech was given by?",
-options: ["Roosevelt","Churchill","Truman","Eisenhower"],
+id: 85,
+question: 'The INC was founded in 1885 by A.O. Hume who was a retired?',
+options: ["Army General","Indian Civil Servant","Journalist","Lawyer"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 183,
-question: "Who led the 'Azad Hind Fauj' after Mohan Singh?",
-options: ["Shah Nawaz Khan","Subhas Chandra Bose","Giani Pritam Singh","Lakshmi Sahgal"],
-answer: 1,
+id: 86,
+question: "The 'Deoband School' was established in?",
+options: ["1866","1875","1885","1906"],
+answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 184,
-question: 'The Bandung Conference of 1955 was attended by how many countries?',
-options: ["19","25","29","35"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 185,
-question: 'The Ranbir Singh defeated which Afghan ruler in 1837?',
-options: ["Dost Mohammed","Shah Shuja","Akbar Khan","Elphinstone"],
+id: 87,
+question: "Who founded the 'Servants of India Society'?",
+options: ["Gopal Krishna Gokhale","Bal Gangadhar Tilak","M.G. Ranade","Dadabhai Naoroji"],
 answer: 0,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 186,
-question: 'Which Mughal general defeated Rana Pratap at Haldighati?',
-options: ["Todar Mal","Man Singh","Birbal","Abdur Rahim"],
+id: 88,
+question: "The 'Morley-Minto Reforms' are associated with which Government of India Act?",
+options: ["1892","1909","1919","1935"],
 answer: 1,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 187,
-question: 'The Indian Rebellion of 1857 is sometimes called?',
-options: ["First War of Independence","The Great Mutiny","Sepoy Mutiny","All of these"],
+id: 89,
+question: "The 'Rowlatt Act' was officially called?",
+options: ["Anarchical and Revolutionary Crimes Act","Sedition Prevention Act","Revolutionary Crimes Act","Anti-Terrorism Act"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 90,
+question: 'The first Indian to be elected to the British House of Commons was?',
+options: ["Dadabhai Naoroji","Gopal Krishna Gokhale","Mancherjee Bhownagree","W.C. Bonnerjee"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 91,
+question: "The 'Indian Councils Act 1861' was significant because it?",
+options: ["Established legislative councils","Introduced dyarchy","Gave Indians voting rights","Established Supreme Court"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 92,
+question: "The 'Black Hole of Calcutta' incident (1756) was related to?",
+options: ["Siraj-ud-Daula","Mir Jafar","Mir Kasim","Nawab Alivardi Khan"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 93,
+question: "The 'Third Battle of Panipat' (1761) resulted in defeat of?",
+options: ["Mughals","Marathas","Afghans","Sikhs"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 94,
+question: 'The Kuka (Namdhari) movement was connected with?',
+options: ["Punjab","Maharashtra","Bengal","Gujarat"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 95,
+question: "The 'Chittagong Armoury Raid' (1930) was led by?",
+options: ["Bhagat Singh","Surya Sen","Masterda","Surya Sen (Masterda)"],
 answer: 3,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 188,
-question: 'The Ghadar Party was founded in?',
-options: ["England","USA","Canada","Australia"],
+id: 96,
+question: "The 'Transfer of Power' in India was largely overseen by which Viceroy?",
+options: ["Lord Wavell","Lord Linlithgow","Lord Mountbatten","Lord Irwin"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 97,
+question: "The 'Forward Bloc' was founded by?",
+options: ["Nehru","Bose","Rajagopalachari","Jinnah"],
 answer: 1,
 category: "History",
 difficulty: "medium"
 },
 
 {
-id: 189,
-question: 'Who presided over the Lahore Session of Congress (1929)?',
-options: ["Nehru","Gandhi","Patel","Bose"],
+id: 98,
+question: "The 'Indian Home Rule League' was founded by Tilak in?",
+options: ["1914","1915","1916","1917"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 99,
+question: "Who gave the concept of 'Antyodaya' (last person first)?",
+options: ["Gandhi","Vinoba Bhave","Jayaprakash Narayan","Nehru"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 100,
+question: "The 'Sardar' title was given to Vallabhbhai Patel during which movement?",
+options: ["Non-Cooperation","Bardoli Satyagraha","Dandi March","Quit India"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 101,
+question: "The concept of 'Dharmarajya' was put forward by?",
+options: ["Gandhi","Nehru","Ambedkar","Rajagopalachari"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 102,
+question: "The 'Bhoodan Movement' was started by?",
+options: ["Gandhi","Vinoba Bhave","Jayaprakash Narayan","Nehru"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 103,
+question: "Nehru's foreign policy was based on the concept of?",
+options: ["Non-alignment","SAARC","Panchsheel","Both A and C"],
+answer: 3,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 104,
+question: "The 'Panchsheel Agreement' (1954) was signed between?",
+options: ["India and Pakistan","India and China","India and USA","India and USSR"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 105,
+question: "The 'Sino-Indian War' took place in?",
+options: ["1960","1961","1962","1963"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 106,
+question: "India's first Five Year Plan was modelled on?",
+options: ["Soviet model","American model","British model","Harrod-Domar model"],
+answer: 3,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 107,
+question: "The 'White Paper' on Jammu & Kashmir (1948) was issued by?",
+options: ["Indian Government","UN","Pakistan","Britain"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 108,
+question: "The 'Land Acquisition Act' that replaced the colonial-era act was passed in?",
+options: ["2010","2011","2012","2013"],
+answer: 3,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 109,
+question: "The 'Directive Principles of State Policy' in India were inspired by?",
+options: ["Irish Constitution","American Constitution","British Constitution","Soviet Constitution"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 110,
+question: "The word 'Secular' was added to the Indian Constitution by which amendment?",
+options: ["42nd","44th","52nd","73rd"],
 answer: 0,
 category: "History",
 difficulty: "hard"
 },
 
 {
-id: 190,
-question: 'Which country has the most time zones?',
-options: ["Russia","USA","France","China"],
+id: 111,
+question: "The 'National Emergency' under Article 352 was invoked for the first time in?",
+options: ["1962","1965","1971","1975"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 112,
+question: "Who coined the term 'Pakistan'?",
+options: ["Muhammad Iqbal","Choudhry Rahmat Ali","Muhammad Ali Jinnah","Liaquat Ali Khan"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 113,
+question: "The 'Lucknow Pact' (1916) between Congress and Muslim League was brokered by?",
+options: ["Gandhi","Tilak and Jinnah","Nehru","Gokhale"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 114,
+question: "The 'Azamgarh Proclamation' (1857) was issued by?",
+options: ["Bahadur Shah Zafar","Nana Sahib","Birjis Qadr of Awadh","Rani Laxmibai"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 115,
+question: "The 'Nehru-Liaquat Pact' (1950) dealt with?",
+options: ["Kashmir issue","Rights of minorities in both countries","Trade relations","Border demarcation"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 116,
+question: "The 'Purna Swaraj' declaration (January 26, 1930) chose that date because?",
+options: ["Independence Day traditionally","Nehru's birthday","Anniversary of INC founding","To be January 26 Constitution Day"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 117,
+question: "The 'Constituent Assembly' of India first met on?",
+options: ["December 9, 1946","January 26, 1947","August 15, 1947","November 26, 1949"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 118,
+question: "The 'Objective Resolution' was moved in the Constituent Assembly by?",
+options: ["Gandhi","Nehru","Ambedkar","Patel"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 119,
+question: "The 'Poona Sarvajanik Sabha' was founded by?",
+options: ["Gopal Hari Deshmukh","M.G. Ranade","Bal Gangadhar Tilak","Justice Ranade"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 120,
+question: "The 'Servants of India Society' was founded in?",
+options: ["1905","1907","1909","1911"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 121,
+question: "The 'Western Disturbances' that cause winter rainfall in north India originate from?",
+options: ["Mediterranean Sea","Atlantic Ocean","Arabian Sea","Bay of Bengal"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 122,
+question: "The 'Teesta River' is a tributary of which river?",
+options: ["Ganga","Brahmaputra","Meghna","Mahanadi"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 123,
+question: "'Loktak Lake', the largest freshwater lake in Northeast India, is in?",
+options: ["Assam","Manipur","Meghalaya","Mizoram"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 124,
+question: "The 'Siachen Glacier' dispute is between India and?",
+options: ["China","Nepal","Pakistan","Bangladesh"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 125,
+question: "The 'Agasthyamalai Biosphere Reserve' is shared between?",
+options: ["Kerala and Tamil Nadu","Karnataka and Tamil Nadu","Kerala and Karnataka","Goa and Karnataka"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 126,
+question: "The 'Chipko Movement' (1973) started in which district of Uttarakhand?",
+options: ["Chamoli","Dehradun","Nainital","Haridwar"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 127,
+question: "The river 'Chambal' originates from?",
+options: ["Vindhya Range","Satpura Range","Aravallis","Maikal Range"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 128,
+question: 'Which state has the longest international border in India?',
+options: ["West Bengal","Rajasthan","Arunachal Pradesh","Jammu & Kashmir"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 129,
+question: "The 'Chilika Lake' is a?",
+options: ["Freshwater lake","Brackish water lagoon","Saltwater lake","Man-made reservoir"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 130,
+question: "The 'Deccan Trap' formation was caused by?",
+options: ["Tectonic collision","Volcanic eruptions at end of Cretaceous","Glacial activity","Meteorite impact"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 131,
+question: "'Sundarbans' mangroves are primarily found in which delta?",
+options: ["Mahanadi","Ganga-Brahmaputra","Godavari","Krishna"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 132,
+question: "The 'Tropic of Cancer' passes through how many Indian states?",
+options: ["6","7","8","9"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 133,
+question: "'Loktak Lake' in Manipur is famous for?",
+options: ["Floating islands (Phumdis)","Migratory birds","Rare freshwater dolphins","Salt production"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 134,
+question: "The 'Eastern Ghats' are also known as?",
+options: ["Sahyadri","Malaya Mountains","Coromandel Range","Shevaroy Hills"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 135,
+question: "The 'Brahmaputra' river is known as 'Tsangpo' in?",
+options: ["India","Bangladesh","China (Tibet)","Bhutan"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 191,
-question: 'The Amazon River flows into which ocean?',
-options: ["Pacific","Atlantic","Indian","Arctic"],
+id: 136,
+question: 'Which state in India has the highest groundwater level depletion?',
+options: ["Punjab","Haryana","Rajasthan","Gujarat"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 137,
+question: "The 'Konkan Railway' connects which two cities?",
+options: ["Mumbai to Mangalore","Mumbai to Kochi","Roha to Thokur (Mangalore)","Mumbai to Goa"],
+answer: 2,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 138,
+question: "The 'Palk Strait' lies between Tamil Nadu and?",
+options: ["Maldives","Sri Lanka (Northern Province)","Lakshadweep","Andaman Islands"],
 answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 139,
+question: "The 'Nanda Devi' peak is located in which state?",
+options: ["Himachal Pradesh","Uttarakhand","Jammu & Kashmir","Sikkim"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 140,
+question: "India's 'Exclusive Economic Zone' (EEZ) extends up to?",
+options: ["200 nautical miles","300 nautical miles","350 nautical miles","150 nautical miles"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 141,
+question: "The 'Bhabhar' is a zone found at the?",
+options: ["Foothills of Himalayas","Coastal plains","Deccan Plateau edge","Eastern Ghats foothills"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 142,
+question: "The 'Kal Baisakhi' is a pre-monsoon thunderstorm that occurs in?",
+options: ["Punjab","West Bengal and Assam","Maharashtra","Gujarat"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 143,
+question: "The 'Rann of Kutch' is primarily classified as?",
+options: ["Desert","Salt marsh/Seasonal wetland","River delta","Coastal plain"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 144,
+question: 'Which of the following rivers flows through a rift valley?',
+options: ["Ganga","Narmada","Krishna","Mahanadi"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 145,
+question: "The 'Cardamom Hills' are part of which mountain system?",
+options: ["Western Ghats","Eastern Ghats","Nilgiris","Aravalli"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 146,
+question: "The 'Lokpal' and 'Lokayukta' in India are related to?",
+options: ["Electoral reforms","Anti-corruption ombudsman","Judicial reforms","Financial regulation"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 147,
+question: "'Jhum cultivation' is a type of?",
+options: ["Terrace farming","Shifting cultivation","Intensive farming","Plantation farming"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 148,
+question: "The 'Sambhar Lake' (largest inland salt lake in India) is in?",
+options: ["Gujarat","Rajasthan","Haryana","Punjab"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 149,
+question: "The 'Silent Valley National Park' is in?",
+options: ["Tamil Nadu","Karnataka","Kerala","Andhra Pradesh"],
+answer: 2,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 150,
+question: "The 'Trans-Himalayan region' is also known as?",
+options: ["The Great Himalayas","The Tibetan Plateau","Tethys Himalayas","The Karakoram"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 151,
+question: "The 'Nagarjuna Sagar Dam' is on which river?",
+options: ["Godavari","Krishna","Tungabhadra","Cauvery"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 152,
+question: "India's largest 'Tiger Reserve' by area is?",
+options: ["Corbett","Nagarjuna Sagar-Srisailam","Sundarbans","Kaziranga"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 153,
+question: "The 'Khasi Hills' are in which state?",
+options: ["Assam","Manipur","Meghalaya","Nagaland"],
+answer: 2,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 154,
+question: "The 'Andaman and Nicobar Islands' are separated by which channel?",
+options: ["Ten Degree Channel","Nine Degree Channel","Eight Degree Channel","Duncan Passage"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 155,
+question: "The 'Indira Point' (southernmost point of India) is located in?",
+options: ["Great Nicobar Island","Little Andaman","Car Nicobar","Ross Island"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 156,
+question: "The 'Chambal River' is known for?",
+options: ["Ravines and dacoits historically","Fertile plains","Hydropower","Navigation"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 157,
+question: "The 'Shiwalik Hills' are also known as?",
+options: ["Outer Himalayas","Sub-Himalayas","Lesser Himalayas","Great Himalayas"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 158,
+question: "The 'National Waterway-1' connects?",
+options: ["Allahabad to Haldia","Sadiya to Dhubri","Kollam to Kottapuram","Mumbai to Goa"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 159,
+question: "The 'Lonar Lake' (Maharashtra) is famous for being?",
+options: ["Crater lake formed by meteorite","Volcanic lake","Tectonic lake","Artificial reservoir"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 160,
+question: 'Which Indian state has the maximum length of coastline?',
+options: ["Maharashtra","Andhra Pradesh","Gujarat","Tamil Nadu"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 161,
+question: "The 'Rohtang Pass' connects?",
+options: ["Manali to Leh","Shimla to Spiti","Manali to Spiti Valley","Kinnaur to Spiti"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 162,
+question: "'Elephant Pass' is a strategic location in?",
+options: ["India (Assam)","Nepal","Sri Lanka","Bangladesh"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 163,
+question: "The 'Duars' plains are found in?",
+options: ["Assam and West Bengal foothills","Bihar plains","Uttar Pradesh plains","Odisha plains"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 164,
+question: "The 'Satpura Range' acts as a?",
+options: ["Watershed between Narmada and Tapti","Watershed between Ganga and Deccan rivers","East-West continental divide","None of the above"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 165,
+question: "The 'Coastal Regulation Zone' (CRZ) notification was first issued in?",
+options: ["1986","1991","1997","2011"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 166,
+question: "The 'Deccan Plateau' is bounded on the north by?",
+options: ["Vindhyas and Satpura","Aravallis","Eastern Ghats","Western Ghats"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 167,
+question: "The 'Majuli Island' in Assam is the world's largest?",
+options: ["River island","Delta island","Mangrove island","Tidal island"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 168,
+question: "The 'Malabar Coast' lies between which two points?",
+options: ["Goa to Kanyakumari","Mumbai to Kochi","Daman to Kannur","Gujarat coast to Kochi"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 169,
+question: "The 'Tungabhadra Dam' is a joint project of which two states?",
+options: ["Tamil Nadu and Andhra Pradesh","Karnataka and Andhra Pradesh","Karnataka and Tamil Nadu","Maharashtra and Karnataka"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 170,
+question: "The 'Luni River' in Rajasthan ultimately drains into?",
+options: ["Arabian Sea","Rann of Kutch","Sambhar Lake","Gujarat plains (lost in sand)"],
+answer: 3,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 171,
+question: "The 'Monsoon Trough' (ITCZ) during summer shifts?",
+options: ["Southward over India","Northward over the Himalayas","Eastward over Bay of Bengal","Westward"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 172,
+question: "The 'Anaimudi Peak' is the highest peak of?",
+options: ["Nilgiris","Western Ghats","Eastern Ghats","Vindhya Range"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 173,
+question: "The 'Kaziranga National Park' is primarily known for?",
+options: ["Bengal tiger","One-horned rhinoceros","Asiatic lion","Snow leopard"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 174,
+question: "The 'Geological Survey of India' was established in?",
+options: ["1851","1861","1871","1881"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 175,
+question: "India's 'Project Tiger' was launched in?",
+options: ["1970","1971","1972","1973"],
+answer: 3,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 176,
+question: "The 'Terai' region is characterized by?",
+options: ["Rocky terrain","Tall grasslands with marshy areas","Dense tropical forest","Arid scrubland"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 177,
+question: "The 'Aravalli Range' is among the world's oldest fold mountains and runs in which direction?",
+options: ["NE-SW","NW-SE","N-S","E-W"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 178,
+question: "'Mawsynram' in Meghalaya receives the world's highest rainfall due to?",
+options: ["Bay of Bengal monsoon hitting the plateau","Western disturbances","Orographic effect on southern slopes","Cyclonic activity"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 179,
+question: "The 'Dhaulagiri' peak is in?",
+options: ["India","Nepal","Tibet","Bhutan"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 180,
+question: "The 'Krishna-Godavari Basin' is significant for?",
+options: ["Coal reserves","Oil and natural gas reserves","Iron ore","Uranium"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 181,
+question: "The 'Thar Desert' is the world's most populated desert because?",
+options: ["It receives some monsoon rainfall","Underground water is available","Fertile soil","Canal irrigation from Indus"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 182,
+question: "The 'Coral reefs in India' are mainly found around?",
+options: ["Andaman & Nicobar, Lakshadweep, Gulf of Mannar","Mumbai coast","Kerala backwaters","Chilika Lake"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 183,
+question: "The 'Himalayan Rivers' are different from Peninsular Rivers because they are?",
+options: ["Rain-fed only","Snow-fed and perennial","Seasonal","Shorter"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 184,
+question: "The 'Sutlej River' enters India through which pass?",
+options: ["Shipkila Pass","Nathu La","Rohtang","Bara Lacha La"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 185,
+question: "The 'Banihal Pass' connects?",
+options: ["Leh to Manali","Jammu to Srinagar","Srinagar to Kargil","Manali to Leh"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 186,
+question: "The 'Mahi River' drains into?",
+options: ["Arabian Sea (Gulf of Khambhat)","Bay of Bengal","Rann of Kutch","Gujarat plains"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 187,
+question: "The 'Western Coastal Plains' of India are divided into?",
+options: ["Konkan, Goa coast, Malabar coast","Konkan, Karnataka, Malabar","Coromandel, Konkan, Malabar","Konkan, Goa, Karnataka, Kerala"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 188,
+question: "The 'Dibang River' is a tributary of?",
+options: ["Ganga","Brahmaputra","Mahanadi","Godavari"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 189,
+question: "'Social forestry' in India refers to?",
+options: ["Forest on private land","Forest management by local communities and government for social benefit","Afforestation by NGOs","Corporate forest management"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 190,
+question: "The 'Cauvery Water Dispute Tribunal' gave its final award in?",
+options: ["2005","2007","2008","2010"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 191,
+question: "The 'Kabini River' is a tributary of?",
+options: ["Cauvery","Krishna","Tungabhadra","Godavari"],
+answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 192,
-question: 'Which is the smallest ocean in the world?',
-options: ["Indian","Arctic","Atlantic","Southern"],
-answer: 1,
+question: "Which state has the maximum 'Scheduled Area' under the Fifth Schedule?",
+options: ["Madhya Pradesh","Maharashtra","Rajasthan","Jharkhand"],
+answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 193,
-question: 'The Great Barrier Reef is located in?',
-options: ["Indian Ocean","Coral Sea","Tasman Sea","Pacific Ocean"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 194,
-question: 'Which country has the longest coastline?',
-options: ["Australia","Russia","Norway","Canada"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 195,
-question: 'The Sahara Desert spans how many countries?',
-options: ["8","10","12","11"],
-answer: 3,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 196,
-question: 'Which mountain range separates Europe from Asia?',
-options: ["Alps","Carpathians","Ural Mountains","Caucasus"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 197,
-question: 'The Strait of Malacca separates which two landmasses?',
-options: ["Malaysia and Indonesia","India and Sri Lanka","Japan and Korea","Philippines and Borneo"],
+question: "The 'Doab' region between Ganga and Yamuna is called?",
+options: ["Ganga-Yamuna Doab","Bari Doab","Rechna Doab","Sindh Sagar Doab"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 194,
+question: "The 'Namdapha National Park' is in?",
+options: ["Nagaland","Arunachal Pradesh","Manipur","Mizoram"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 195,
+question: "India's 'Biosphere Reserves' were established under?",
+options: ["UNESCO Man and Biosphere Programme","CITES","Convention on Biological Diversity","National Forest Policy"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 196,
+question: "The 'Chilika Lake' is shared between Odisha and?",
+options: ["West Bengal","Andhra Pradesh","Jharkhand","Chhattisgarh"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 197,
+question: "The 'Western Ghats' are a UNESCO World Heritage Site primarily for?",
+options: ["Scenic beauty","Biodiversity hotspot","Archaeological sites","Historical monuments"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
 id: 198,
-question: 'Which is the deepest lake in the world?',
-options: ["Caspian Sea","Lake Superior","Lake Baikal","Lake Tanganyika"],
+question: "The 'Kangsabati (Kasai) River' flows through?",
+options: ["Bihar","Jharkhand","West Bengal","Odisha"],
 answer: 2,
 category: "Geography",
 difficulty: "hard"
@@ -1784,62 +1784,62 @@ difficulty: "hard"
 
 {
 id: 199,
-question: 'The Atacama Desert is located in?',
-options: ["Argentina","Brazil","Chile","Peru"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 200,
-question: 'Which river forms the boundary between India and Pakistan?',
-options: ["Indus","Jhelum","Ravi","Sutlej"],
+question: "The 'Desert National Park' in Rajasthan is famous for?",
+options: ["Great Indian Bustard","Snow Leopard","Indian Wild Ass","One-horned Rhino"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 201,
-question: 'The capital of Australia is?',
-options: ["Sydney","Melbourne","Brisbane","Canberra"],
-answer: 3,
+id: 200,
+question: "The 'Barren Island' (India's only active volcano) is in?",
+options: ["Lakshadweep","Andaman & Nicobar","Minicoy Island","Nicobar Islands"],
+answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 202,
-question: "Which country is called the 'Land of the Rising Sun'?",
-options: ["China","South Korea","Japan","Thailand"],
-answer: 2,
+id: 201,
+question: "The 'Hirakud Dam' on river Mahanadi is in?",
+options: ["Chhattisgarh","Odisha","Jharkhand","Andhra Pradesh"],
+answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 203,
-question: 'The Strait of Gibraltar separates?',
-options: ["Europe and Asia","Europe and Africa","Africa and Asia","Asia and Australia"],
+id: 202,
+question: "The 'Great Rann of Kutch' and 'Little Rann of Kutch' are separated by?",
+options: ["Banni grassland","Kori Creek","Runn River","Kathiawar Peninsula"],
 answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 203,
+question: "The 'Nameri National Park' is in?",
+options: ["Assam","Arunachal Pradesh","Manipur","Sikkim"],
+answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 204,
-question: "Which river is known as 'Sorrow of China'?",
-options: ["Yangtze","Yellow River","Pearl River","Mekong"],
-answer: 1,
+question: "The 'Godavari' river originates from?",
+options: ["Trimbakeshwar, Nashik district","Mahabaleshwar","Nasik hills","Satpura range"],
+answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 205,
-question: 'The Dead Sea is bordered by?',
-options: ["Jordan and Israel","Israel and Syria","Lebanon and Syria","Egypt and Israel"],
+question: "'Social forestry' programme was recommended by?",
+options: ["National Commission on Agriculture (1976)","Forest Policy 1952","Forest Conservation Act 1980","Environment Protection Act 1986"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
@@ -1847,35 +1847,35 @@ difficulty: "medium"
 
 {
 id: 206,
-question: 'Which is the highest plateau in the world?',
-options: ["Deccan Plateau","Iranian Plateau","Tibetan Plateau","Colorado Plateau"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 207,
-question: 'The Orinoco River is in?',
-options: ["Brazil","Venezuela","Colombia","Peru"],
-answer: 1,
+question: "The 'Tethys Sea' was converted to the Himalayas due to?",
+options: ["Collision of Indian and Eurasian plates","Volcanic activity","Glacial deposition","Sea-level changes"],
+answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 208,
-question: 'Which country has the most freshwater resources?',
-options: ["USA","Brazil","Canada","Russia"],
+id: 207,
+question: "The 'Delhi Ridge' is an extension of which mountain system?",
+options: ["Vindhyas","Aravallis","Satpuras","Himalayas"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 208,
+question: "The 'Patkai Hills' separate India from?",
+options: ["China","Bangladesh","Myanmar","Bhutan"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 209,
-question: 'The Tropic of Cancer passes through how many Indian states?',
-options: ["6","7","8","9"],
+question: "India's 'National Action Plan on Climate Change' (NAPCC) was launched in?",
+options: ["2006","2007","2008","2009"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
@@ -1883,8 +1883,8 @@ difficulty: "medium"
 
 {
 id: 210,
-question: 'Which sea is completely enclosed by land?',
-options: ["Caspian Sea","Red Sea","Black Sea","Aral Sea"],
+question: "The 'Kaveri River' originates from?",
+options: ["Brahmagiri Hills, Coorg","Nilgiris","Western Ghats in Kerala","Mysore Plateau"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
@@ -1892,8 +1892,8 @@ difficulty: "hard"
 
 {
 id: 211,
-question: 'The Suez Canal connects?',
-options: ["Red Sea and Mediterranean Sea","Black Sea and Caspian Sea","Persian Gulf and Red Sea","Mediterranean and Black Sea"],
+question: "The 'Cherrapunji' (Sohra) records extreme rainfall due to which factor primarily?",
+options: ["Funnel-shaped valley facing Bay of Bengal monsoon","Western Disturbances","Being near equator","Cyclonic rains"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
@@ -1901,35 +1901,35 @@ difficulty: "medium"
 
 {
 id: 212,
-question: 'Which country has the highest population density?',
-options: ["Bangladesh","South Korea","Singapore","Netherlands"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 213,
-question: "The Pantanal is the world's largest?",
-options: ["Desert","Wetland","Rainforest","Savanna"],
-answer: 1,
+question: "The 'CAMPA' funds in India are related to?",
+options: ["Compensatory Afforestation","Agricultural development","Water management","Marine conservation"],
+answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 214,
-question: 'Mount Etna is located in?',
-options: ["Greece","Italy","Spain","Portugal"],
+id: 213,
+question: "Which Indian state has both 'Western Ghats' and coastline facing both Arabian Sea and Bay of Bengal?",
+options: ["Kerala","Tamil Nadu","Karnataka","Goa"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 214,
+question: "The 'Tsomoriri Lake' is in?",
+options: ["Himachal Pradesh","Uttarakhand","Ladakh","Sikkim"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 215,
-question: 'The Nile River flows through how many countries?',
-options: ["9","10","11","12"],
+question: "The 'Ganga Action Plan' was launched in?",
+options: ["1982","1984","1985","1986"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
@@ -1937,17 +1937,17 @@ difficulty: "medium"
 
 {
 id: 216,
-question: 'Which island is the largest in the world?',
-options: ["Borneo","Greenland","New Guinea","Madagascar"],
-answer: 1,
+question: "The 'Indira Gandhi Canal' (Rajasthan Canal) draws water from?",
+options: ["Beas and Sutlej at Harike Barrage","Yamuna at Okhla","Chambal at Kota","Ghaggar river"],
+answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 217,
-question: 'The Gobi Desert is located in?',
-options: ["China and Mongolia","China and Russia","Mongolia and Kazakhstan","China and Kazakhstan"],
+question: "The 'Nilgiri Hills' are a meeting point of which three states?",
+options: ["Tamil Nadu, Kerala, Karnataka","Tamil Nadu, Kerala, Andhra Pradesh","Karnataka, Kerala, Goa","Tamil Nadu, Karnataka, Andhra Pradesh"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
@@ -1955,35 +1955,35 @@ difficulty: "medium"
 
 {
 id: 218,
-question: 'Which country has the most volcanoes?',
-options: ["Japan","Indonesia","Philippines","USA"],
+question: "The 'Port Blair' is located on which island?",
+options: ["North Andaman","South Andaman","Rutland Island","Middle Andaman"],
 answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 219,
-question: 'The Danube River flows into?',
-options: ["Black Sea","Caspian Sea","Mediterranean Sea","Adriatic Sea"],
-answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 220,
-question: 'Which ocean trench is the deepest?',
-options: ["Java Trench","Puerto Rico Trench","Mariana Trench","Tonga Trench"],
-answer: 2,
+id: 219,
+question: "'Cyclones' in Bay of Bengal are more frequent than in Arabian Sea because?",
+options: ["Warmer and larger water body","Presence of monsoon currents","Bangladesh and Myanmar coast","Low pressure systems"],
+answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 220,
+question: "India's 'total forest cover' according to State of Forest Report 2021 is approximately?",
+options: ["21%","24%","21.67%","25%"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 221,
-question: 'The country of Lesotho is completely surrounded by?',
-options: ["Mozambique","Zimbabwe","South Africa","Botswana"],
+question: "The 'Pichavaram Mangrove' forest is in?",
+options: ["Kerala","Andhra Pradesh","Tamil Nadu","Odisha"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
@@ -1991,8 +1991,8 @@ difficulty: "medium"
 
 {
 id: 222,
-question: 'Which Indian state has the longest coastline?',
-options: ["Tamil Nadu","Andhra Pradesh","Gujarat","Maharashtra"],
+question: "The 'NATMO' (National Atlas and Thematic Mapping Organisation) is under?",
+options: ["Ministry of Science","Ministry of Earth Sciences","Department of Science & Technology","Ministry of Home Affairs"],
 answer: 2,
 category: "Geography",
 difficulty: "hard"
@@ -2000,53 +2000,53 @@ difficulty: "hard"
 
 {
 id: 223,
-question: 'The Patagonia region is in?',
-options: ["Chile","Argentina","Bolivia","Uruguay"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 224,
-question: 'Which pass connects India and China in Sikkim?',
-options: ["Nathu La","Bum La","Rohtang Pass","Chang La"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 225,
-question: 'The Sahel region is a transition zone between?',
-options: ["Sahara and tropical forest","Mediterranean and Sahara","Tropical forest and savanna","Savanna and rainforest"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 226,
-question: "Which country is known as the 'Roof of the World'?",
-options: ["Nepal","Bhutan","Tibet","Afghanistan"],
+question: "The 'Mahanadi Delta' is one of the largest deltas in India, located in?",
+options: ["West Bengal","Andhra Pradesh","Odisha","Tamil Nadu"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 227,
-question: 'The Mekong River originates in?',
-options: ["Myanmar","China","Thailand","Laos"],
+id: 224,
+question: "The 'Indian Ocean Dipole' (IOD) affects?",
+options: ["Monsoon rainfall in India","Western disturbances","Arctic oscillation","ENSO pattern"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 225,
+question: "The 'Wular Lake' (largest freshwater lake in India) is in?",
+options: ["Himachal Pradesh","Uttarakhand","Jammu & Kashmir","Ladakh"],
+answer: 2,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 226,
+question: "The 'Zanskar River' is a tributary of?",
+options: ["Chenab","Indus","Jhelum","Ravi"],
 answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 227,
+question: "The 'Black Cotton Soil' (Regur) is most suitable for growing?",
+options: ["Rice","Wheat","Cotton","Jute"],
+answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 228,
-question: 'Which Indian state has the highest tribal population?',
-options: ["Jharkhand","Odisha","Madhya Pradesh","Chhattisgarh"],
+question: "The 'Koppen Classification' for tropical monsoon climate is?",
+options: ["Aw","Bw","Am","Cf"],
 answer: 2,
 category: "Geography",
 difficulty: "hard"
@@ -2054,8 +2054,8 @@ difficulty: "hard"
 
 {
 id: 229,
-question: "The world's largest coral island is?",
-options: ["Maldives","New Caledonia","Andaman Islands","Lakshadweep"],
+question: "The 'Pulicat Lake' is on the border of?",
+options: ["Tamil Nadu and Andhra Pradesh","Odisha and Andhra Pradesh","Tamil Nadu and Karnataka","Andhra Pradesh and Karnataka"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
@@ -2063,44 +2063,44 @@ difficulty: "medium"
 
 {
 id: 230,
-question: 'Which ocean current keeps Europe warm?',
-options: ["Canary Current","Gulf Stream","North Atlantic Drift","Labrador Current"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 231,
-question: 'The Tigris and Euphrates rivers are in?',
-options: ["Iran and Iraq","Turkey and Iraq","Iraq and Syria","Iraq only"],
-answer: 1,
+question: "The 'Eastern Himalayan Sub-region' is a?",
+options: ["Biodiversity hotspot","Carbon sink","Water tower","All of the above"],
+answer: 3,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 232,
-question: 'Which is the highest navigable lake in the world?',
-options: ["Lake Titicaca","Lake Baikal","Dal Lake","Pangong Lake"],
+id: 231,
+question: "The term 'Piedmont plain' refers to?",
+options: ["Plains formed by river alluvium at mountain foothills","Plains formed by glacial deposits","Rocky plains","Coastal plains"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 232,
+question: "The 'Jim Corbett National Park' was India's first national park, established in?",
+options: ["1935","1936","1937","1938"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 233,
-question: 'The Deccan Plateau is bounded on the east by?',
-options: ["Western Ghats","Eastern Ghats","Vindhya Range","Satpura Range"],
-answer: 1,
+question: "The 'Panna Tiger Reserve' is in?",
+options: ["Madhya Pradesh","Rajasthan","Maharashtra","Uttar Pradesh"],
+answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 234,
-question: 'Which country has the most lakes?',
-options: ["Russia","Canada","USA","Finland"],
+question: "India's 'Eastern Coast' is also called?",
+options: ["Malabar Coast","Coromandel Coast","Konkan Coast","Fishery Coast"],
 answer: 1,
 category: "Geography",
 difficulty: "hard"
@@ -2108,8 +2108,8 @@ difficulty: "hard"
 
 {
 id: 235,
-question: 'The Amazon Rainforest covers approximately what percentage of South America?',
-options: ["30%","40%","50%","60%"],
+question: "The 'Garh' (rocky outcrops) in Chhattisgarh and Jharkhand are part of?",
+options: ["Vindhya Range","Chota Nagpur Plateau","Deccan Trap","Satpura Range"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
@@ -2117,35 +2117,35 @@ difficulty: "medium"
 
 {
 id: 236,
-question: 'Which country is completely surrounded by Italy?',
-options: ["Monaco","Vatican City","San Marino","Andorra"],
+question: "The 'Subansiri River' is a tributary of?",
+options: ["Ganga","Brahmaputra","Barak","Mahanadi"],
 answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 237,
-question: 'The Ring of Fire is located around?',
-options: ["Atlantic Ocean","Indian Ocean","Pacific Ocean","Arctic Ocean"],
-answer: 2,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 238,
-question: "Which Indian river is called 'Dakshin Ganga'?",
-options: ["Krishna","Cauvery","Godavari","Mahanadi"],
-answer: 2,
+id: 237,
+question: "The 'Kosi River' is called the 'Sorrow of Bihar' because?",
+options: ["It causes severe floods","It has dried up","It is polluted","It changes course frequently causing floods"],
+answer: 3,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 238,
+question: "The 'NAVTEX' system in India is used for?",
+options: ["Navigation and weather warnings at sea","Satellite navigation","Air traffic control","Road navigation"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 239,
-question: 'The Cape of Good Hope is in?',
-options: ["Namibia","Mozambique","South Africa","Angola"],
+question: "India's highest peak 'Kangchenjunga' is in?",
+options: ["Himachal Pradesh","Uttarakhand","Sikkim","Arunachal Pradesh"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
@@ -2153,17 +2153,17 @@ difficulty: "medium"
 
 {
 id: 240,
-question: 'Which is the largest hot desert in the world?',
-options: ["Gobi","Arabian","Sahara","Kalahari"],
-answer: 2,
+question: "The 'Radcliffe Line' is the boundary between?",
+options: ["India and Nepal","India and Pakistan (1947)","India and China","India and Bangladesh"],
+answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 241,
-question: 'The Indira Point is the southernmost point of India, located in?',
-options: ["Lakshadweep","Andaman and Nicobar","Tamil Nadu","Kerala"],
+question: "The 'McMahon Line' is the boundary between?",
+options: ["India and Pakistan","India and China","India and Nepal","India and Bangladesh"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
@@ -2171,44 +2171,44 @@ difficulty: "medium"
 
 {
 id: 242,
-question: 'The Yellow River is also known as?',
-options: ["Chang Jiang","Huang He","Pearl River","Yangtze"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 243,
-question: 'Which country has both Atlantic and Pacific coasts?',
-options: ["Colombia","Ecuador","Peru","Venezuela"],
+question: "The 'Pangong Tso' lake extends into?",
+options: ["India and China","India and Nepal","India and Pakistan","India and Bhutan"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 244,
-question: 'The Karakoram Range is located in?',
-options: ["India-Pakistan-China border","Nepal-China border","India-Nepal border","Bhutan-China border"],
-answer: 0,
+id: 243,
+question: "The 'Sela Pass' is in?",
+options: ["Himachal Pradesh","Uttarakhand","Arunachal Pradesh","Sikkim"],
+answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 244,
+question: "India's 'Project Elephant' was launched in?",
+options: ["1990","1991","1992","1993"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 245,
-question: 'Which state in India has the smallest area?',
-options: ["Goa","Sikkim","Nagaland","Tripura"],
-answer: 0,
+question: "The 'Bhitarkanika Wildlife Sanctuary' is famous for?",
+options: ["Bengal tigers","Saltwater crocodiles","One-horned rhinos","Indian wild asses"],
+answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 246,
-question: 'The Palk Strait separates India from?',
-options: ["Maldives","Sri Lanka","Indonesia","Myanmar"],
+question: "The 'Gir National Park' is the only habitat in the world for?",
+options: ["Bengal tiger","Asiatic lion","Snow leopard","Indian bison"],
 answer: 1,
 category: "Geography",
 difficulty: "hard"
@@ -2216,8 +2216,8 @@ difficulty: "hard"
 
 {
 id: 247,
-question: 'The Dnieper River flows through which country?',
-options: ["Russia","Ukraine","Poland","Belarus"],
+question: "The 'Brahmaputra' River is called 'Jamuna' in?",
+options: ["India (West Bengal)","Bangladesh","Bhutan","Nepal"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
@@ -2225,700 +2225,4336 @@ difficulty: "medium"
 
 {
 id: 248,
-question: 'Which sea has no coastline?',
-options: ["Sargasso Sea","Caribbean Sea","Arabian Sea","Coral Sea"],
-answer: 0,
+question: "The 'National River' of India is?",
+options: ["Yamuna","Brahmaputra","Ganga","Saraswati"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 249,
+question: "India's largest 'coral atoll' is?",
+options: ["Lakshadweep","Minicoy Island","Andrott Island","Kavaratti"],
+answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 249,
-question: 'The Victoria Falls is on the border of?',
-options: ["Zimbabwe and Zambia","Zimbabwe and Mozambique","Zambia and Angola","Namibia and Botswana"],
+id: 250,
+question: "The 'Brahmaputra' originates as 'Angsi Glacier' in?",
+options: ["Tibet (China)","Bhutan","India (Arunachal Pradesh)","Nepal"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 250,
-question: 'The Sundarbans mangrove forest is located in?',
-options: ["India and Bangladesh","India and Myanmar","Bangladesh and Myanmar","India only"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
 id: 251,
-question: "Which country is known as the 'Land of a Thousand Lakes'?",
-options: ["Sweden","Norway","Finland","Canada"],
+question: "The 'Photoelectric Effect' was explained by?",
+options: ["Maxwell","Hertz","Einstein","Planck"],
 answer: 2,
-category: "Geography",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 252,
-question: 'The Sumatran Fault is in?',
-options: ["Philippines","Indonesia","Japan","Papua New Guinea"],
-answer: 1,
-category: "Geography",
+question: "The 'SONAR' system works on the principle of?",
+options: ["Ultrasonic wave reflection","Electromagnetic wave reflection","Infrared radiation","Radio waves"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 253,
-question: 'Which Indian state has the Chilika Lake?',
-options: ["Andhra Pradesh","West Bengal","Tamil Nadu","Odisha"],
-answer: 3,
-category: "Geography",
+question: "'Venturi Meter' is used to measure?",
+options: ["Flow rate of fluid","Pressure of fluid","Temperature of fluid","Viscosity of fluid"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 254,
-question: 'The Nullarbor Plain is in?',
-options: ["USA","Australia","Argentina","South Africa"],
+question: "The 'Tyndall Effect' is observed when light passes through?",
+options: ["Pure solution","Colloid","Crystalline solid","Gas mixture"],
 answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 255,
-question: 'Which river forms the Marble Canyon?',
-options: ["Missouri","Colorado","Snake","Columbia"],
-answer: 1,
-category: "Geography",
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 256,
-question: 'The Fertile Crescent region is in?',
-options: ["East Africa","Middle East","South Asia","Central Asia"],
+id: 255,
+question: "'Bimetallic strip' in a thermostat works on the principle of?",
+options: ["Different densities","Different thermal expansion coefficients","Different electrical conductivity","Different magnetic properties"],
 answer: 1,
-category: "Geography",
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 256,
+question: "The 'Doppler Effect' for light leads to?",
+options: ["Redshift and blueshift","Reflection","Diffraction","Polarization"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 257,
-question: 'Which is the saltiest sea in the world?',
-options: ["Red Sea","Caspian Sea","Dead Sea","Mediterranean Sea"],
+question: 'Which device converts mechanical energy to electrical energy?',
+options: ["Motor","Transformer","Generator/Dynamo","Battery"],
 answer: 2,
-category: "Geography",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 258,
-question: 'The Equator passes through how many African countries?',
-options: ["5","6","7","8"],
-answer: 2,
-category: "Geography",
+question: "The 'Reynolds Number' is used to predict?",
+options: ["Turbulent or laminar flow","Temperature of fluid","Viscosity","Surface tension"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 259,
-question: 'Which country has the highest number of UNESCO World Heritage Sites?',
-options: ["China","France","Italy","Spain"],
-answer: 2,
-category: "Geography",
+question: "'Piezoelectric effect' refers to?",
+options: ["Light producing electricity","Pressure producing electricity","Heat producing electricity","Magnetism producing electricity"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 260,
-question: 'The Himalayas were formed by the collision of which plates?',
-options: ["Indian and Eurasian","African and Eurasian","Arabian and Indian","Pacific and Asian"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 261,
-question: "Which river is called the 'Mississippi of India'?",
-options: ["Ganga","Brahmaputra","Godavari","Mahanadi"],
-answer: 2,
-category: "Geography",
+question: "The 'Mirage' phenomenon is caused by?",
+options: ["Reflection","Total internal reflection in hot air layers","Diffraction","Scattering"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 262,
-question: 'The Mariana Trench is located in?',
-options: ["Atlantic Ocean","Indian Ocean","Pacific Ocean","Arctic Ocean"],
-answer: 2,
-category: "Geography",
+id: 261,
+question: "The 'Lenz's Law' is a consequence of?",
+options: ["Newton's third law","Conservation of energy","Conservation of momentum","Coulomb's law"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
-id: 263,
-question: "Which country is called the 'Switzerland of Asia'?",
-options: ["Nepal","Bhutan","Kashmir","Switzerland (in Asia)"],
+id: 262,
+question: "The 'LASER' principle uses?",
+options: ["Spontaneous emission","Stimulated emission","Induced absorption","Thermal emission"],
 answer: 1,
-category: "Geography",
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 263,
+question: "'Cherenkov radiation' is produced when?",
+options: ["Particle travels faster than light in that medium","Nuclear fission occurs","Radioactive decay happens","X-rays hit matter"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 264,
-question: 'The Strait of Hormuz connects?',
-options: ["Red Sea and Arabian Sea","Persian Gulf and Gulf of Oman","Arabian Sea and Gulf of Aden","Black Sea and Mediterranean"],
+question: "The 'Hall Effect' in a conductor is used to measure?",
+options: ["Resistance","Magnetic field strength","Electric field","Temperature"],
 answer: 1,
-category: "Geography",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 265,
-question: "Which Indian city is called the 'Silicon Valley of India'?",
-options: ["Hyderabad","Chennai","Pune","Bengaluru"],
-answer: 3,
-category: "Geography",
+question: "The 'Bernoulli's Principle' is applied in?",
+options: ["Hydraulic press","Venturi tube and aircraft wings","Barometer","Thermometer"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 266,
-question: 'The Pennines mountain range is in?',
-options: ["Scotland","Wales","England","Ireland"],
+question: "The 'Haber Process' is used for industrial synthesis of?",
+options: ["Sulfuric acid","Nitric acid","Ammonia","Hydrochloric acid"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 267,
+question: "'Ziegler-Natta Catalyst' is used in polymerization of?",
+options: ["PVC","Polyethylene and polypropylene","Nylon","Rubber"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 268,
+question: "The 'Contact Process' is used to manufacture?",
+options: ["Ammonia","Sulfuric acid","Nitric acid","Hydrochloric acid"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 269,
+question: "'Baeyer's Reagent' (alkaline KMnO4) is used to test for?",
+options: ["Aldehydes","Unsaturated compounds","Alcohols","Carboxylic acids"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 270,
+question: "The 'Tollens' Reagent' (ammoniacal silver nitrate) distinguishes?",
+options: ["Aldehydes from ketones","Alcohols from ethers","Acids from bases","Primary from secondary amines"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 271,
+question: "'Freon' (chlorofluorocarbons) was used as?",
+options: ["Industrial solvent","Refrigerant that depletes ozone","Fuel additive","Water purifier"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 272,
+question: "The 'Solvay Process' is used to manufacture?",
+options: ["Sodium carbonate (washing soda)","Sodium hydroxide","Sodium chloride","Sodium bicarbonate only"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 273,
+question: "'Aqua Regia' is a mixture of?",
+options: ["HNO3 and H2SO4","HCl and HNO3 (3:1)","H2SO4 and HCl","HNO3 and H3PO4"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 274,
+question: "The 'Fehling's Solution' test is used to detect?",
+options: ["Starch","Reducing sugars","Proteins","Fats"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 275,
+question: "Which gas is produced in 'Thermite reaction'?",
+options: ["No gas is produced","CO2","SO2","H2"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 276,
+question: "'Dry Ice' is?",
+options: ["Solid water (ice)","Solid CO2","Liquid nitrogen","Solid SO2"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 277,
+question: "The 'Swarts Reaction' is used to prepare?",
+options: ["Alkyl fluorides","Alkyl chlorides","Alkyl bromides","Grignard reagent"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 278,
+question: "'Nessler's Reagent' is used to detect?",
+options: ["Chlorine","Ammonia","Carbon dioxide","Ozone"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 279,
+question: "The 'Kolbe's Reaction' involves?",
+options: ["Carboxylation of sodium phenoxide","Synthesis of aspirin","Preparation of ether","Friedel-Crafts reaction"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 280,
+question: "'Bakelite' is a polymer of?",
+options: ["Phenol and formaldehyde","Urea and formaldehyde","Vinyl chloride","Styrene"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 281,
+question: "The 'Lac operon' model of gene regulation was proposed by?",
+options: ["Watson and Crick","Jacob and Monod","Beadle and Tatum","Mendel and Morgan"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 282,
+question: "'Apoptosis' refers to?",
+options: ["Cell division","Programmed cell death","Cell differentiation","Cell mutation"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 283,
+question: "The 'Endosymbiotic Theory' of mitochondrial origin was proposed by?",
+options: ["Darwin","Lynn Margulis","Pasteur","Lamarck"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 284,
+question: "'Totipotency' in plants means?",
+options: ["Ability to reproduce vegetatively","Ability of a cell to develop into complete organism","Ability to photosynthesize","Resistance to disease"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 285,
+question: "The 'Krebs Cycle' produces how many ATP per glucose (directly)?",
+options: ["2","4","6","8"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 286,
+question: "'Transpiration Pull' theory of water ascent in plants was proposed by?",
+options: ["Dixon and Joly","Godlewski","Sachs","Strasburger"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 287,
+question: "The 'Sliding Filament Theory' of muscle contraction involves?",
+options: ["Actin and myosin","Collagen and elastin","Keratin and tubulin","Actin and keratin"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 288,
+question: "'Thalassemia' is caused by?",
+options: ["Deficiency of Vitamin B12","Defect in hemoglobin synthesis (beta globin)","Iron deficiency","Malaria infection"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 289,
+question: "The 'Philadelphia Chromosome' is associated with?",
+options: ["Down Syndrome","Chronic Myeloid Leukemia","Sickle Cell Anemia","Hemophilia"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 290,
+question: "'Mycorrhiza' is a symbiotic association between?",
+options: ["Fungi and algae","Fungi and plant roots","Bacteria and plant roots","Fungi and bacteria"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 291,
+question: "The 'Casparian Strip' in plants is found in?",
+options: ["Epidermis","Cortex","Endodermis","Pericycle"],
+answer: 2,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 292,
+question: "'Vernalization' in plants refers to?",
+options: ["Flowering induced by cold temperature exposure","Photosynthesis in cold","Cold storage","Winter dormancy"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 293,
+question: "The 'Hardy-Weinberg Equilibrium' describes?",
+options: ["Population genetics in absence of evolutionary forces","Rate of mutation","Speed of natural selection","Genetic drift"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 294,
+question: "'Chemiosmosis' in ATP synthesis involves?",
+options: ["Substrate-level phosphorylation","H+ gradient across membrane driving ATP synthase","Direct enzymatic reaction","Photophosphorylation only"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 295,
+question: "The 'Receptor Mediated Endocytosis' requires?",
+options: ["Clathrin coated pits","Smooth ER","Golgi apparatus","Lysosomes"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 296,
+question: "The 'CRISPR-Cas9' technology is used for?",
+options: ["DNA sequencing","Genome editing","Protein synthesis","Cell cloning"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 297,
+question: "'Bioremediation' refers to?",
+options: ["Using organisms to remove pollutants","Genetic modification of crops","Making biodegradable plastics","Composting"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 298,
+question: "The 'Montreal Protocol' (1987) deals with?",
+options: ["Climate change","Ozone depleting substances","Biodiversity","Marine pollution"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 299,
+question: "'Eutrophication' in water bodies is caused by?",
+options: ["Heavy metal pollution","Excess nutrients causing algal bloom","Oil spills","Radioactive waste"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 300,
+question: "The 'Bioaccumulation' of toxins like DDT occurs in?",
+options: ["Water","Soil","Fatty tissues of organisms","Air"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 301,
+question: "'GM crops' refers to crops with?",
+options: ["High yield variety through conventional breeding","Genetically modified DNA through biotechnology","Hybrid varieties","Organic varieties"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 302,
+question: "The 'Bt cotton' in India contains a gene from?",
+options: ["Virus","Bacteria (Bacillus thuringiensis)","Another plant","Fungi"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 303,
+question: "'Carbon Credits' system was established under?",
+options: ["Montreal Protocol","Kyoto Protocol","Paris Agreement","Rio Convention"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 304,
+question: "The 'Bonn Convention' (CMS) relates to?",
+options: ["Trade in endangered species","Migratory species conservation","Marine pollution","Climate change"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 305,
+question: "'Biomagnification' is the?",
+options: ["Increase in pollutant concentration up the food chain","Magnification in microscopy","Increase in biodiversity","Growth of microorganisms"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 306,
+question: "India's 'National Biodiversity Authority' was established under?",
+options: ["Wildlife Protection Act 1972","Environment Protection Act 1986","Biological Diversity Act 2002","Forest Conservation Act 1980"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 307,
+question: "The 'Ramsar Convention' deals with?",
+options: ["Wetlands conservation","Tropical forests","Marine conservation","Migratory birds"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 308,
+question: "'Phytoremediation' specifically uses?",
+options: ["Bacteria to clean pollutants","Plants to clean pollutants","Fungi to clean pollutants","Algae to clean pollutants"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 309,
+question: "The 'Convention on Biological Diversity' was signed at?",
+options: ["Stockholm (1972)","Rio de Janeiro (1992)","Johannesburg (2002)","Nagoya (2010)"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 310,
+question: "India's 'Biodiversity Hotspots' include?",
+options: ["Western Ghats and Himalayas (Indo-Burma region)","Deccan Plateau and Thar Desert","Gangetic Plains and Coromandel Coast","All of the above"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 311,
+question: "The 'BCG vaccine' provides protection against?",
+options: ["Polio","Tuberculosis","Smallpox","Typhoid"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 312,
+question: "'Vitamin B12' deficiency causes?",
+options: ["Rickets","Pernicious anemia","Scurvy","Night blindness"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 313,
+question: "The 'ELISA test' is used for detection of?",
+options: ["Blood group","Antibodies/antigens (e.g., HIV)","Malaria","Tuberculosis"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 314,
+question: "'Prions' are?",
+options: ["Virus-like RNA particles","Infectious misfolded proteins","Bacterial toxins","Defective DNA"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 315,
+question: "The 'Dengue virus' is transmitted by?",
+options: ["Anopheles mosquito","Aedes aegypti mosquito","Culex mosquito","Sandfly"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 316,
+question: "'CRISPR' stands for?",
+options: ["Clustered Regularly Interspaced Short Palindromic Repeats","Complementary RNA Interference Splicing Protein Reaction","Cellular Recombination in Specific Protein Regions","Chromosomal Rearrangement in Specific Protein Regions"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 317,
+question: "The 'Proton Pump Inhibitor' drugs are used to treat?",
+options: ["Hypertension","Gastric acid disorders","Diabetes","Arthritis"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 318,
+question: "'Hemophilia' is?",
+options: ["Autosomal dominant disorder","X-linked recessive bleeding disorder","Autosomal recessive disorder","X-linked dominant disorder"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 319,
+question: "The 'Sinoatrial Node' in the heart is called the?",
+options: ["AV node","Pacemaker","Bundle of His","Purkinje fibres"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 320,
+question: "'Myelin Sheath' around nerve fibres is produced by?",
+options: ["Astrocytes","Schwann cells (PNS) and oligodendrocytes (CNS)","Neurons","Microglia"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 321,
+question: "India's 'Mars Orbiter Mission' (Mangalyaan) was launched in?",
+options: ["2012","2013","2014","2015"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 322,
+question: "The 'Chandrayaan-3' mission successfully landed at?",
+options: ["Moon's North Pole","Moon's South Pole","Moon's equator","Mare Imbrium"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 323,
+question: "The 'GSLV Mark III' rocket is also called?",
+options: ["LVM3","Bahubali","Agni-V","PSLV-XL"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 324,
+question: "The 'NavIC' system is India's regional?",
+options: ["Space station","Navigation satellite system","Weather satellite","Communication system"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 325,
+question: "India's first satellite 'Aryabhata' was launched in?",
+options: ["1972","1974","1975","1977"],
+answer: 2,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 326,
+question: "The 'ISRO' was established in?",
+options: ["1962","1965","1969","1972"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 327,
+question: "The 'Square Kilometre Array' (SKA) telescope project has India as a partner. It is used for?",
+options: ["Weather forecasting","Radio astronomy","Climate monitoring","Remote sensing"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 328,
+question: "India's 'INS Vikrant' is?",
+options: ["Submarine","Fighter jet","Aircraft carrier","Frigate"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 329,
+question: "The 'Agni-V' missile has a range of approximately?",
+options: ["3000 km","4000 km","5000 km","More than 5000 km"],
+answer: 3,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 330,
+question: "The 'Gaganyaan' mission aims to send?",
+options: ["Satellite to Mars","Indian astronauts to space","Rover to Moon","Space telescope"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 331,
+question: "The 'Schwarzschild Radius' defines?",
+options: ["Orbital radius of planets","Event horizon of a black hole","Radius of neutron star","Minimum orbital radius"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 332,
+question: "'Dark Matter' is detected primarily through?",
+options: ["Electromagnetic radiation","Gravitational effects","Nuclear reactions","Chemical reactions"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 333,
+question: "The 'Higgs Boson' was discovered at?",
+options: ["Fermilab","CERN (LHC)","ISRO","NASA"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 334,
+question: "'Superconductivity' occurs at?",
+options: ["Very high temperatures","Very low temperatures (near absolute zero)","Room temperature","High pressure"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 335,
+question: "The 'Pauli Exclusion Principle' states that?",
+options: ["Two particles cannot have same quantum state","Mass-energy equivalence","Wave-particle duality","Uncertainty principle"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 336,
+question: "The 'Grignard Reagent' (RMgX) is used in?",
+options: ["Oxidation reactions","Addition to carbonyl compounds","Halogenation","Nitration"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 337,
+question: "'Isomerism' where compounds have same molecular formula but different structural formulas is?",
+options: ["Optical isomerism","Structural isomerism","Geometric isomerism","Tautomerism"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 338,
+question: "The 'Buffer Solution' resists change in?",
+options: ["Temperature","pH","Concentration","Colour"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 339,
+question: "'Osmotic Pressure' is related to concentration by?",
+options: ["Van't Hoff equation","Raoult's Law","Henry's Law","Boyle's Law"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 340,
+question: "The 'Cannizzaro Reaction' is shown by?",
+options: ["Aldehydes without alpha-H","All aldehydes","Ketones","Carboxylic acids"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 341,
+question: "The 'SOS Response' in bacteria is activated by?",
+options: ["DNA damage","Nutrient starvation","Temperature change","pH change"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 342,
+question: "'Plasmid' in bacteria are?",
+options: ["Chromosomal DNA fragments","Extrachromosomal circular DNA","RNA molecules","Protein structures"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 343,
+question: "The 'Calvin Cycle' occurs in which part of chloroplast?",
+options: ["Thylakoid membrane","Stroma","Grana","Outer membrane"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 344,
+question: "'Restriction Enzymes' (endonucleases) cut DNA at?",
+options: ["Random positions","Specific palindromic sequences","Only at start of genes","Promoter regions"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 345,
+question: "The 'Meselson-Stahl Experiment' (1958) proved?",
+options: ["Structure of DNA","Semi-conservative DNA replication","Genetic code","Protein synthesis"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 346,
+question: "'Tidal Energy' exploitation is best possible in India at?",
+options: ["Gujarat coast (Gulf of Kutch and Cambay)","Kerala backwaters","Andaman Islands","Mumbai coast"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 347,
+question: "The 'Thorium Reserves' of India are among world's largest, located mainly in?",
+options: ["Rajasthan and Gujarat","Kerala and Jharkhand","Tamil Nadu (monazite sand)","Bihar and Odisha"],
+answer: 2,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 348,
+question: "India's 'Nuclear Triad' refers to?",
+options: ["Three nuclear reactors","Land, sea and air-based nuclear delivery","Three nuclear tests","Three nuclear treaties"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 349,
+question: "The 'PSLV' stands for?",
+options: ["Polar Satellite Launch Vehicle","Propulsion Satellite Launching Vehicle","Payload Satellite Launch Vehicle","Polar Space Launch Vehicle"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 350,
+question: "'Geothermal energy' plants in India are best located at?",
+options: ["Himalayan regions and Deccan Trap","Coastal areas","Desert regions","River deltas"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 351,
+question: "The 'ITER' project is related to?",
+options: ["International Thermonuclear Experimental Reactor (fusion energy)","International Telescope for Exoplanet Research","Integrated Thermal Energy Reactor","International Technology for Energy Research"],
+answer: 0,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 352,
+question: "The 'Smart Cities Mission' in India uses which technology as its backbone?",
+options: ["IoT and data analytics","Nuclear energy","Space technology only","Biotechnology"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 353,
+question: "The 'PARAM' series are India's?",
+options: ["Satellite systems","Supercomputers","Missile systems","Nuclear reactors",""],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 354,
+question: "'Virtual Water' concept refers to?",
+options: ["Water used in digital cooling","Water embedded in production of goods","Desalinated water","Recycled wastewater"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 355,
+question: "The 'Methanol Economy' proposed for India would use methanol as?",
+options: ["Food supplement","Fuel and chemical feedstock","Water purifier","Fertilizer"],
+answer: 1,
+category: "Science",
+difficulty: "medium"
+},
+
+{
+id: 356,
+question: "The 'Doctrine of Colourable Legislation' in India means?",
+options: ["Parliament can pass any law","Legislature cannot do indirectly what it cannot do directly","President can veto any bill","Courts can strike any law"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 357,
+question: 'Article 356 of the Indian Constitution deals with?',
+options: ["Emergency due to war","President's Rule in states","Financial Emergency","Constitutional Emergency"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 358,
+question: "The 'Concurrent List' (List III) of Indian Constitution contains how many subjects?",
+options: ["47","52","66","97"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 359,
+question: "The 'Rajya Sabha' cannot be dissolved because?",
+options: ["It represents states","It is a permanent house","President does not have power","Convention forbids it"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 360,
+question: "The 'Zero Hour' in Indian Parliament is?",
+options: ["First hour of sitting","Time when unstarred questions are answered","Informal period after Question Hour for urgent matters","Last hour of sitting"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 361,
+question: "The '10th Schedule' of Indian Constitution deals with?",
+options: ["Anti-defection law","Scheduled Tribes","Official languages","Panchayati Raj"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 362,
+question: "'Financial Emergency' under Article 360 has been invoked?",
+options: ["Once (1975)","Twice","Thrice","Never"],
+answer: 3,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 363,
+question: "The 'National Human Rights Commission' was established under?",
+options: ["Constitution of India","Protection of Human Rights Act 1993","Fundamental Rights Act","UN mandate"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 364,
+question: "The 'Comptroller and Auditor General' of India is appointed by?",
+options: ["Parliament","Prime Minister","Chief Justice of India","President"],
+answer: 3,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 365,
+question: "The 'Panchayati Raj' was constitutionalized by which amendment?",
+options: ["72nd","73rd","74th","75th"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 366,
+question: "'Judicial Review' power of Indian courts is based on?",
+options: ["Article 13","Article 32","Article 226","All of the above"],
+answer: 3,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 367,
+question: "The 'Fundamental Duties' were added to the Constitution by?",
+options: ["42nd Amendment (1976)","44th Amendment","73rd Amendment","86th Amendment"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 368,
+question: 'Which Article of Indian Constitution abolishes Untouchability?',
+options: ["Article 14","Article 15","Article 17","Article 21"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 369,
+question: "The 'Basic Structure Doctrine' was established in?",
+options: ["Golaknath case","Kesavananda Bharati case","Minerva Mills case","Maneka Gandhi case"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 370,
+question: "The 'Finance Commission' in India is constituted every?",
+options: ["3 years","4 years","5 years","6 years"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 371,
+question: "India's 'Consolidated Fund of India' is governed by?",
+options: ["Article 266","Article 267","Article 280","Article 312"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 372,
+question: "The 'Election Commission of India' is a?",
+options: ["Statutory body","Constitutional body","Quasi-judicial body","Government department"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 373,
+question: "'Delegated Legislation' in India means?",
+options: ["Parliament delegates lawmaking to state legislatures","Parliament authorises executive to make regulations","Judiciary makes laws","President makes laws"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 374,
+question: "The 'Lok Sabha Speaker' is elected by?",
+options: ["President of India","All members of Parliament","Members of Lok Sabha","PM and Leader of Opposition jointly"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 375,
+question: 'Article 21A (Right to Education) was inserted by which amendment?',
+options: ["86th Amendment (2002)","73rd Amendment","74th Amendment","91st Amendment"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 376,
+question: "The 'Narasimham Committee' (1991) was related to?",
+options: ["Banking sector reforms","Agricultural reforms","Tax reforms","Industrial reforms"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 377,
+question: "'NABARD' was established on the recommendations of which committee?",
+options: ["Tandon Committee","Shivaraman Committee","Nayak Committee","Narasimham Committee"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 378,
+question: "The 'Statutory Liquidity Ratio' (SLR) requires banks to maintain a portion of deposits in?",
+options: ["Cash only","Liquid assets (cash, gold, govt securities)","Foreign currency","RBI bonds only"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 379,
+question: "'Fiscal Consolidation' means?",
+options: ["Reducing fiscal deficit over time","Increasing government spending","Merging public sector banks","Nationalizing private banks"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 380,
+question: "The 'Laffer Curve' illustrates?",
+options: ["Relationship between tax rates and tax revenue","Inflation and unemployment","Economic growth and inequality","Trade and tariff"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 381,
+question: "'Stagflation' refers to?",
+options: ["High growth with inflation","Stagnation with inflation simultaneously","Deflation with growth","Low growth without inflation"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 382,
+question: "The 'Gini Coefficient' measures?",
+options: ["GDP growth","Income inequality","Poverty rate","Unemployment"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 383,
+question: "India's 'Goods and Services Tax' was implemented on?",
+options: ["April 1, 2017","July 1, 2017","January 1, 2017","October 1, 2017"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 384,
+question: "The 'Marginal Standing Facility' (MSF) is a facility provided by?",
+options: ["NABARD to farmers","RBI to scheduled banks","SEBI to market makers","Finance Ministry to PSUs"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 385,
+question: "'Repo Rate' is the rate at which?",
+options: ["Banks lend to public","RBI lends to banks","Banks borrow from public","Government borrows from RBI"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 386,
+question: "The 'Human Development Index' (HDI) is published by?",
+options: ["World Bank","IMF","UNDP","UNESCO"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 387,
+question: "'Venture Capital' is typically provided to?",
+options: ["Large established companies","Start-ups and high-risk innovative companies","Government projects","Agricultural sector"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 388,
+question: "The 'SENSEX' is the benchmark index of?",
+options: ["NSE","BSE","SEBI","RBI"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 389,
+question: "India's 'Base Year' for current GDP calculation is?",
+options: ["2004-05","2010-11","2011-12","2014-15"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 390,
+question: "The 'Pradhan Mantri Jan Dhan Yojana' aims at?",
+options: ["Crop insurance","Financial inclusion/banking for all","Rural electrification","Housing for poor"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 391,
+question: "'Transfer Payments' in economics refer to?",
+options: ["Exports and imports","Government payments without receiving goods/services (pensions, subsidies)","FDI flows","Foreign remittances"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 392,
+question: "The 'NITI Aayog' replaced which body?",
+options: ["Finance Commission","Planning Commission","Economic Advisory Council","National Development Council"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 393,
+question: "'Participatory Notes' (P-Notes) are associated with?",
+options: ["Banking","Foreign portfolio investment in India","Government securities","Mutual funds"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 394,
+question: "The 'National Income' of India at factor cost minus indirect taxes plus subsidies gives?",
+options: ["GNP","GDP at market prices","NNP at market prices","GDP at factor cost"],
+answer: 3,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 395,
+question: "'Priority Sector Lending' (PSL) in India requires banks to lend what percentage to priority sectors?",
+options: ["30%","35%","40%","45%"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 396,
+question: "The 'Koodiyattam' (Kerala) is recognized by UNESCO as?",
+options: ["Intangible Cultural Heritage of Humanity","World Heritage Site","Cultural Festival","Documentary Heritage"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 397,
+question: "The 'Gita Govinda' was composed by?",
+options: ["Kalidasa","Jayadeva","Tulsidas","Kabir"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 398,
+question: "The 'Dhamekh Stupa' at Sarnath was built by?",
+options: ["Ashoka","Kanishka","Gupta rulers","Harsha"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 399,
+question: "'Thumri' is a form of?",
+options: ["Hindustani light classical music","Carnatic classical music","Folk music","Devotional music only"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 400,
+question: "The 'Madhubani Painting' belongs to?",
+options: ["Odisha","West Bengal","Bihar","Rajasthan"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 401,
+question: "The 'Natyashastra' (treatise on performing arts) was written by?",
+options: ["Panini","Bharata Muni","Kalidasa","Patanjali"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 402,
+question: "The 'Kangra School of Painting' flourished under patronage of?",
+options: ["Maharaja Ranjit Singh","Raja Sansar Chand","Akbar","Aurangzeb"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 403,
+question: "'Kalarippayattu' is a martial art from?",
+options: ["Tamil Nadu","Andhra Pradesh","Karnataka","Kerala"],
+answer: 3,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 404,
+question: "The 'Bihu' dance is associated with which festival?",
+options: ["Harvest festival of Assam","Spring festival of West Bengal","Harvest festival of Punjab","New Year of Manipur"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 405,
+question: "The 'Hampi' monuments are associated with which empire?",
+options: ["Mauryan","Gupta","Vijayanagara","Mughal"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 406,
+question: "'Warli Painting' is a tribal art from?",
+options: ["Madhya Pradesh","Rajasthan","Maharashtra","Gujarat"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 407,
+question: "The 'Dilwara Jain Temples' are in?",
+options: ["Gujarat","Rajasthan (Mount Abu)","Madhya Pradesh","Maharashtra"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 408,
+question: "'Bharatanatyam' originated in?",
+options: ["Kerala temples","Tamil Nadu temples (Devadasi tradition)","Andhra Pradesh","Karnataka"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 409,
+question: "The 'Khajuraho Temples' were built by?",
+options: ["Chandellas","Paramaras","Pratiharas","Chahamanas"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 410,
+question: "'Yakshagana' is a dance-drama form from?",
+options: ["Tamil Nadu","Andhra Pradesh","Karnataka","Kerala"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 411,
+question: "India's 'Unified Payments Interface' (UPI) is operated by?",
+options: ["RBI","NPCI (National Payments Corporation of India)","SBI","Finance Ministry"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 412,
+question: "The 'DigiLocker' initiative in India is under?",
+options: ["Ministry of Finance","Ministry of Electronics & IT","Ministry of Home Affairs","Ministry of Education"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 413,
+question: "'Blockchain Technology' is fundamentally a?",
+options: ["Centralized database","Distributed immutable ledger","Cloud storage system","Encryption algorithm"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 414,
+question: "India's first 'Semi-High Speed Railway' is?",
+options: ["Vande Bharat Express","Rajdhani Express","Shatabdi Express","Gatimaan Express"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 415,
+question: "The '5G' technology operates in which frequency band?",
+options: ["Below 1 GHz","1-6 GHz","Above 24 GHz (mmWave) and sub-6 GHz","Only above 100 GHz"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 416,
+question: "The 'Bharat Ratna' was first awarded in?",
+options: ["1950","1954","1956","1958"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 417,
+question: "The 'Sahitya Akademi Award' is given by?",
+options: ["Ministry of Culture","Sahitya Akademi (autonomous body)","Universities Grant Commission","MHRD"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 418,
+question: "The 'Pritzker Prize' is awarded for?",
+options: ["Architecture","Literature","Environmental work","Peace"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 419,
+question: 'India is a member of which of the following?',
+options: ["G7","ASEAN","G20 and SCO","NATO"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 420,
+question: "The 'Nuclear Suppliers Group' (NSG) deals with?",
+options: ["Nuclear weapons ban","Export controls on nuclear materials","Nuclear energy agreements","Nuclear disarmament"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 421,
+question: "'PMGSY' (Pradhan Mantri Gram Sadak Yojana) aims at?",
+options: ["Urban road construction","Rural road connectivity","Highway construction","Bridge construction"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 422,
+question: "The 'MGNREGS' guarantees how many days of employment per household per year?",
+options: ["90 days","100 days","120 days","150 days"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 423,
+question: "'Jal Jeevan Mission' aims to provide?",
+options: ["Drinking water to urban areas","Tap water connections to rural households","Irrigation water","Industrial water supply"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 424,
+question: "The 'PM-KISAN' scheme provides how much per year to farmers?",
+options: ["Rs 4000","Rs 6000","Rs 8000","Rs 10000"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 425,
+question: "'POSHAN Abhiyaan' aims to address?",
+options: ["Employment","Malnutrition in children and women","Housing","Education"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 426,
+question: "The 'National Health Mission' merged?",
+options: ["NRHM and NUHM","NRHM and NMHP","NRHM only","NUHM only"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 427,
+question: "'Stand Up India' scheme is for?",
+options: ["MSMEs","SC/ST and women entrepreneurs","Students","Startups only"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 428,
+question: "The 'Atal Innovation Mission' is under?",
+options: ["Ministry of MSME","NITI Aayog","Department of Science & Technology","Ministry of Commerce"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 429,
+question: "'Make in India' initiative was launched in?",
+options: ["2013","2014","2015","2016"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 430,
+question: "The 'UDAN' scheme promotes?",
+options: ["Urban development","Regional air connectivity","Defence manufacturing","Drone technology"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 431,
+question: "The 'Swachh Bharat Mission' (Gramin) was declared complete in?",
+options: ["2018","2019","2020","2021"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 432,
+question: "India's 'National Green Tribunal' was established under?",
+options: ["Environment Protection Act 1986","National Green Tribunal Act 2010","Wildlife Protection Act 1972","Forest Conservation Act 1980"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 433,
+question: "The 'Right to Information Act' was passed in?",
+options: ["2003","2004","2005","2006"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 434,
+question: "'PMAY' (Pradhan Mantri Awas Yojana) aims to provide?",
+options: ["Employment","Housing for all","Food security","Healthcare"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 435,
+question: "The 'Lokpal Act' was passed in?",
+options: ["2011","2012","2013","2014"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 436,
+question: "India's 'Motor Vehicles (Amendment) Act' increasing penalties was passed in?",
+options: ["2017","2018","2019","2020"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 437,
+question: "The 'Protection of Women from Domestic Violence Act' was passed in?",
+options: ["2003","2004","2005","2006"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 438,
+question: "The 'Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act' was passed in?",
+options: ["1989","1990","1991","1992"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 439,
+question: "India's 'POCSO Act' deals with protection of children from?",
+options: ["Poverty","Sexual offences","Labour exploitation","Trafficking"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 440,
+question: "The 'Consumer Protection Act 2019' establishes?",
+options: ["Consumer courts at district, state and national level","Only national consumer court","Mediating body only","Only arbitration mechanism"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 441,
+question: "The 'Wildlife Protection Act' of India was passed in?",
+options: ["1970","1972","1974","1976"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 442,
+question: "The 'Environment Protection Act' was passed in?",
+options: ["1980","1983","1986","1989"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 443,
+question: "The 'Forest Rights Act' (Scheduled Tribes and Other Forest Dwellers Act) was passed in?",
+options: ["2004","2005","2006","2007"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 444,
+question: "The 'National Food Security Act' was passed in?",
+options: ["2011","2012","2013","2014"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 445,
+question: "India's 'Competition Commission' was established under?",
+options: ["Competition Act 2002","MRTP Act","SEBI Act","Companies Act"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 446,
+question: "The 'Insolvency and Bankruptcy Code' was passed in?",
+options: ["2014","2015","2016","2017"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 447,
+question: "'GST Council' is a?",
+options: ["Constitutional body (Article 279A)","Statutory body","Advisory body","Executive body"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 448,
+question: "The 'MSME' sector in India contributes approximately what percentage to GDP?",
+options: ["15%","25%","30%","40%"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 449,
+question: "India's 'GIFT City' is India's first?",
+options: ["Smart City","International Financial Services Centre","IT hub","SEZ"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 450,
+question: "The 'Doubling Farmers Income' target was set for?",
+options: ["2020","2022","2024","2026"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 451,
+question: "The 'National Rural Livelihood Mission' was renamed as?",
+options: ["MGNREGS","Aajeevika","PMGSY","NRLM"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 452,
+question: "'IRDAI' regulates?",
+options: ["Banking sector","Capital markets","Insurance sector","Pension sector"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 453,
+question: "The 'SEBI' was established in?",
+options: ["1988 (statutory body in 1992)","1990","1994","1996"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 454,
+question: "The 'Pradhan Mantri Mudra Yojana' provides loans to?",
+options: ["Small/micro enterprises","Farmers","Students","Housing"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 455,
+question: "The 'Digital India' programme was launched in?",
+options: ["2013","2014","2015","2016"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 456,
+question: "India's 'Startup India' scheme was launched in?",
+options: ["2014","2015","2016","2017"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 457,
+question: "The 'PM-SVANidhi' scheme provides microcredit to?",
+options: ["Farmers","Street vendors","Women entrepreneurs","Tribal artisans"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 458,
+question: "'e-NAM' (National Agriculture Market) is related to?",
+options: ["Online agricultural trading platform","Electronic National Assessment Mission","Engineering National Assessment Module","None"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 459,
+question: "The 'AMRUT' scheme focuses on?",
+options: ["Rural development","Urban water and sanitation infrastructure","Agricultural reform","Manufacturing"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 460,
+question: "The 'Smart Cities Mission' targets how many cities?",
+options: ["50","75","100","150"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 461,
+question: "India's first 'Green Budget' concept was introduced by?",
+options: ["Interim Budget 2024","Budget 2020-21","Budget 2019-20","Budget 2021-22"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 462,
+question: "The 'NIPUN Bharat' initiative aims at?",
+options: ["Foundational literacy and numeracy by Grade 3","Nutrition for children","MSME promotion","Urban planning"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 463,
+question: "The 'NEP 2020' (National Education Policy) recommends what age of school education?",
+options: ["5+3+4 (3-18 years)","5+3+4+4 (3-18 years)","6+2+3+3 (3-18 years)","10+2 (6-18 years)"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 464,
+question: "'SATHEE' platform is for?",
+options: ["School dropouts","JEE/NEET exam preparation","Vocational training","Adult literacy"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 465,
+question: "The 'One Nation One Ration Card' scheme aims at?",
+options: ["Uniform food prices","Portability of food entitlements across India","Digital ration cards only","Abolishing PDS"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 466,
+question: "India's 'Pradhan Mantri Jeevan Jyoti Bima Yojana' (PMJJBY) provides?",
+options: ["Crop insurance","Life insurance for Rs 2 lakh","Pension","Health insurance"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 467,
+question: "The 'Ayushman Bharat' scheme covers hospital expenses up to?",
+options: ["Rs 2 lakh per year","Rs 3 lakh per year","Rs 5 lakh per year","Rs 10 lakh per year"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 468,
+question: "'PM-KUSUM' scheme is related to?",
+options: ["Solar pumps for farmers","Urban solar rooftops","Offshore wind energy","Nuclear energy"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 469,
+question: "India's 'National Hydrogen Mission' target is to produce green hydrogen by?",
+options: ["2025","2030","2035","2047"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 470,
+question: "The 'SVAMITVA' scheme provides?",
+options: ["Property rights mapping in rural areas using drones","Urban property registration","Agricultural land consolidation","Forest rights mapping"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 471,
+question: "'PRAGATI' platform is used by the?",
+options: ["PMO for monitoring government projects","NITI Aayog for planning","Finance Ministry for budgeting","Home Ministry for security"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 472,
+question: "The 'National Monetisation Pipeline' aims at?",
+options: ["Monetising government assets to fund infrastructure","Selling PSUs","Privatising public sector banks","Raising taxes"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 473,
+question: "India's 'Production Linked Incentive (PLI)' scheme covers how many sectors (as of 2021)?",
+options: ["10","12","14","16"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 474,
+question: 'If x² + y² = 25 and xy = 12, then (x+y)² is?',
+options: ["49","47","50","48"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 475,
+question: 'A man completes 3/8 of a job in 6 days. In how many days will he complete the remaining job?',
+options: ["10","12","14","16"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 476,
+question: 'If A can do a work in 10 days, B in 15 days, C in 20 days, all together in?',
+options: ["4 days","47/13 days","60/13 days","5 days"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 477,
+question: 'The average of 5 consecutive odd numbers is 55. The largest is?',
+options: ["59","61","63","57"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 478,
+question: 'A train crosses a 250m bridge in 30s and a pole in 10s. Length of train is?',
+options: ["100m","125m","150m","175m"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 479,
+question: 'If 3 men or 5 women can do a work in 12 days, 6 men and 5 women will do it in?',
+options: ["4 days","5 days","6 days","8 days"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 480,
+question: 'The sum of two numbers is 40 and their product is 375. Sum of reciprocals is?',
+options: ["8/75","40/375","2/15","1/9.375"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 481,
+question: 'A shopkeeper allows 20% discount and still gains 28%. Marked price is what % above cost?',
+options: ["50%","55%","60%","65%"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 482,
+question: 'If the radius of a sphere is increased by 50%, its volume increases by?',
+options: ["125%","150%","237.5%","337.5%"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 483,
+question: 'The ratio of ages of A and B is 3:5. After 10 years ratio is 5:7. Present age of B is?',
+options: ["20","25","30","35"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 484,
+question: 'A can beat B by 30m in a 300m race. B can beat C by 20m in 300m. A beats C by in 300m race?',
+options: ["46m","48m","50m","52m"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 485,
+question: 'Rs 800 becomes Rs 956 in 3 years at simple interest. Rate of interest is?',
+options: ["5.5%","6%","6.5%","7%"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 486,
+question: "The number of ways to arrange the letters of 'MISSISSIPPI' is?",
+options: ["34650","68300","36450","72600"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 487,
+question: 'Two pipes A and B can fill a tank in 24 and 32 hours. If both opened and A closed after 8 hours, B fills remaining in?',
+options: ["16 hours","18 hours","20 hours","22 hours"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 488,
+question: 'If sin θ + cos θ = √2, then tan θ + cot θ is?',
+options: ["1","2","√2","2√2"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 489,
+question: 'The compound interest on Rs 10000 at 10% per annum for 3 years (compounded annually) is?',
+options: ["Rs 3000","Rs 3100","Rs 3310","Rs 3300"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 490,
+question: 'If x = √(6 + √(6 + √6 +...∞)), then x is?',
+options: ["2","3","6","√6"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 491,
+question: 'A cistern has a leak. Pipe fills it in 3 hours. With leak it takes 3.5 hours. Leak empties full cistern in?',
+options: ["21 hours","18 hours","24 hours","15 hours"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 492,
+question: 'In triangle ABC, angle A = 60°, b = 5, c = 6. Area of triangle is?',
+options: ["15√3/2","15√3/4","15","15/2"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 493,
+question: 'If x + 1/x = 5, then x³ + 1/x³ is?',
+options: ["100","110","110","125"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 494,
+question: 'A boat takes 6 hours to go 60km upstream and returns in 4 hours. Speed of stream is?',
+options: ["2.5 km/h","3 km/h","4 km/h","2 km/h"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 495,
+question: 'The probability that A solves a problem is 2/3 and B solves it is 3/4. P(problem is solved) is?',
+options: ["5/12","11/12","1/2","7/12"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 496,
+question: 'If 15 men can build a wall in 48 hours, 21 men will build it in?',
+options: ["34.28 hours","36 hours","32 hours","40 hours"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 497,
+question: 'The area of a rhombus is 240 cm². One diagonal is 24 cm. Perimeter is?',
+options: ["60 cm","68 cm","72 cm","80 cm"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 498,
+question: 'A number when divided by 5 leaves remainder 3. When divided by 7 remainder is 4. Smallest such number is?',
+options: ["53","18","53","32"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 499,
+question: 'If logₐb = x and logbc = y, then logₐc is?',
+options: ["x + y","xy","x/y","y/x"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 500,
+question: 'In how many years Rs 2000 at 5% per annum SI will give same interest as Rs 1500 at 4% for 8 years?',
+options: ["4.8 years","6 years","4 years","5 years"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 501,
+question: 'The difference between compound and simple interest on Rs 5000 for 2 years at 8% is?',
+options: ["Rs 30","Rs 32","Rs 34","Rs 36"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 502,
+question: 'If a² + b² + c² = ab + bc + ca, then a:b:c is?',
+options: ["1:1:1","1:2:3","2:3:4","Cannot determine"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 503,
+question: 'A sum of money doubles in 10 years at compound interest. In how many years will it become 8 times?',
+options: ["20 years","25 years","30 years","40 years"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 504,
+question: 'The value of (1 + cot A – cosec A)(1 + tan A + sec A) is?',
+options: ["0","1","2","3"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 505,
+question: 'Speed of a train is 72 km/h. It crosses a platform in 30 sec. If platform is 200m, length of train is?',
+options: ["300m","360m","400m","440m"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 506,
+question: "The salary of A is 50% more than B and B's salary is 20% more than C. A's salary is what % more than C?",
+options: ["70%","75%","80%","90%"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 507,
+question: 'If p + q = 7 and pq = 12, then (1/p² + 1/q²) is?',
+options: ["25/144","49/144","25/144","1/12"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 508,
+question: 'Two numbers are in ratio 7:5. If 4 is subtracted from each, ratio becomes 3:2. Numbers are?',
+options: ["56 and 40","28 and 20","35 and 25","42 and 30"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 509,
+question: 'A can finish work in 24 days, B in 9 days, C in 12 days. B and C start but leave after 3 days. A finishes remaining in?',
+options: ["10 days","11 days","12 days","13 days"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 510,
+question: 'The circumference of two concentric circles are 132m and 88m. Width between circles is?',
+options: ["7m","8m","10m","14m"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 511,
+question: '15% of x = 20% of y. x:y is?',
+options: ["3:4","4:3","3:5","5:3"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 512,
+question: 'An article is sold at 10% profit. Had it been sold for Rs 40 more, profit would be 18%. Cost price is?',
+options: ["Rs 400","Rs 450","Rs 500","Rs 550"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 513,
+question: 'The angle of elevation of top of a tower from a point 40m from its base is 45°. Height of tower is?',
+options: ["30m","35m","40m","45m"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 514,
+question: 'If x = 3 + 2√2, then √x - 1/√x is?',
+options: ["2","2√2","√2","2+√2"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 515,
+question: 'In a class of 60, 45 like cricket, 30 like football and 20 like both. Students who like neither?',
+options: ["3","5","7","10"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 516,
+question: 'A alone takes 2 hours more than A+B together. B alone takes 8 hours more. A takes how many hours?',
+options: ["3","4","5","6"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 517,
+question: 'Volume of largest sphere inscribed in a cube of side 6 cm is?',
+options: ["36π cm³","27π cm³","18π cm³","12π cm³"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 518,
+question: 'If tan A = n tan B and sin A = m sin B, then cos²A is?',
+options: ["(m²-1)/(n²-1)","(n²-1)/(m²-1)","m/n","(m²+1)/(n²+1)"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 519,
+question: "A and B together earn Rs 300/day. A and C together earn Rs 400/day. B and C together earn Rs 350/day. A's daily earning?",
+options: ["Rs 175","Rs 200","Rs 150","Rs 225"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 520,
+question: 'The sum of first 20 terms of AP where first term is 1 and common difference is 3 is?',
+options: ["590","600","610","620"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 521,
+question: 'A metal cube of side 10cm is melted to form small spheres of radius 0.5cm. How many spheres?',
+options: ["3819","4000","4200","4800"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 522,
+question: 'If sin x + cosec x = 2, then sin¹⁰x + cosec¹⁰x is?',
+options: ["1","2","4","10"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 523,
+question: 'The LCM of two numbers is 2310. Their HCF is 30. If one number is 210, the other is?',
+options: ["330","210","330","390"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 524,
+question: 'A sphere and a cylinder have equal volumes and equal radii. Ratio of height of cylinder to diameter is?',
+options: ["2/3","3/2","4/3","1/1"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 525,
+question: 'If the roots of x² + px + q = 0 are in ratio 2:3, then 6p² = ?',
+options: ["25q","30q","25q","5q"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 526,
+question: 'The value of sin²5° + sin²10° + sin²15° + ... + sin²85° + sin²90° is?',
+options: ["8.5","9","9.5","10"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 527,
+question: "A's age is 3/4 of B's age. After 10 years A's age will be 5/6 of B's age. Present ages (A,B) are?",
+options: ["30,40","45,60","15,20","36,48"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 528,
+question: 'A cone and a hemisphere have equal base and equal volumes. Height of cone to radius ratio is?',
+options: ["2:1","1:2","3:2","2:3"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 529,
+question: 'Rs 4000 is divided into two parts. One at 3% and other at 5% SI. Interest after 3 years from both equals Rs 504. Parts are?',
+options: ["Rs 1800, Rs 2200","Rs 2000, Rs 2000","Rs 2400, Rs 1600","Rs 1600, Rs 2400"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 530,
+question: 'If 4^(x-1/2) = 2^(2x-1)/8, then x is?',
+options: ["1","1/2","2","0"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 531,
+question: 'The diagonal of a square is 12√2 cm. Its area is?',
+options: ["144 cm²","148 cm²","152 cm²","136 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 532,
+question: 'Three numbers are in GP. Their sum is 28 and product is 512. Numbers are?',
+options: ["4,8,16","2,8,18","2,4,8","8,16,32"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 533,
+question: 'If cosec A - sin A = m and sec A - cos A = n, then (m²n)^(2/3) + (mn²)^(2/3) is?',
+options: ["0","1","2","3"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 534,
+question: 'Price of commodity rises by 25%. By what % must consumption decrease to maintain same expenditure?',
+options: ["16%","20%","25%","17.5%"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 535,
+question: 'The perimeter of a right-angled triangle is 60 cm and its hypotenuse is 26 cm. Area is?',
+options: ["120 cm²","125 cm²","130 cm²","100 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 536,
+question: 'If x + y + z = 12, x² + y² + z² = 54, xy + yz + zx = ?',
+options: ["45","54","63","90"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 537,
+question: 'A train of length 300m passes a platform of 200m in 25 secs. Speed in km/h?',
+options: ["60 km/h","72 km/h","80 km/h","90 km/h"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 538,
+question: 'A man earns Rs 1200 in January, Rs 1500 in February...Rs 1200+300(n-1) in nth month. In which month does total exceed Rs 30000?',
+options: ["11","12","13","14"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 539,
+question: 'The HCF of (x³-1) and (x⁴+x²+1) is?',
+options: ["x-1","x²+x+1","x²-x+1","x+1"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 540,
+question: 'Two adjacent angles of parallelogram are (3x+10)° and (2x+30)°. Value of x is?',
+options: ["24","28","28","32"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 541,
+question: 'The average weight of a class of 30 students is 50 kg. If teacher (70 kg) is included, new average is?',
+options: ["50.65 kg","50.97 kg","51 kg","52 kg"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 542,
+question: 'If tan θ = (√3-1)/(√3+1), then θ is?',
+options: ["10°","15°","30°","45°"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 543,
+question: 'A sphere of radius 6 cm is melted and cast into small spheres of radius 1.5 cm. Number of small spheres?',
+options: ["32","48","64","16"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 544,
+question: 'The sum of all natural numbers between 300 and 600 divisible by 7 is?',
+options: ["19,668","20,168","19,168","20,668"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 545,
+question: 'If 2x = 3y = 6^(-z), then 1/x + 1/y + 1/z is?',
+options: ["0","1","-1","2"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 546,
+question: "A sells to B at 20% profit, B sells to C at 10% profit. C pays Rs 1320. A's cost price is?",
+options: ["Rs 800","Rs 900","Rs 1000","Rs 1100"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 547,
+question: 'The number of solutions of cos²x + sin x + 1 = 0 in [-π/2, π/2] is?',
+options: ["0","1","2","3"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 548,
+question: 'Area of triangle with vertices (1,2), (3,0), (4,5) is?',
+options: ["6.5 sq units","7 sq units","7.5 sq units","8 sq units"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 549,
+question: 'A sum fetches compound interest of Rs 4641 in 3 years at 10%. Sum is?',
+options: ["Rs 15000","Rs 14000","Rs 12000","Rs 13000"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 550,
+question: 'If α and β are roots of 2x² - 6x + 3 = 0, then α² + β² + αβ is?',
+options: ["27/4","15/4","21/4","33/4"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 551,
+question: 'The percentage increase in area of a rectangle if both length and breadth are increased by 20% is?',
+options: ["40%","44%","48%","50%"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 552,
+question: 'In how many ways can 6 boys and 4 girls be seated in a row so that no two girls are adjacent?',
+options: ["720×210","604800","17280","604800"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 553,
+question: 'A clock loses 2 minutes per day. It is set right at noon on Monday. What time will it show on Wednesday noon?',
+options: ["11:56 AM","12:04 PM","11:58 AM","12:00 PM"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 554,
+question: 'If x = 1 + √2 + √3, then x² - 2x - 4 is?',
+options: ["2√6","2√3","√6","2"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 555,
+question: 'The volume of largest right circular cone that can be cut from a cube of edge 7 cm is? (π=22/7)',
+options: ["88.83 cm³","89.83 cm³","90.83 cm³","91.83 cm³"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 556,
+question: 'Sum of the series: 1.2 + 2.3 + 3.4 + ... + n(n+1) is?',
+options: ["n(n+1)(n+2)/3","n(n+1)(n+2)/6","n(n+1)(2n+1)/6","n²(n+1)/2"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 557,
+question: 'If sin A + sin B = √3(cos B - cos A), then sin 3A + sin 3B is?',
+options: ["0","1","√3","2"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 558,
+question: 'The curved surface area of a right circular cylinder is 4400 cm² and circumference of base is 110 cm. Volume is?',
+options: ["38500 cm³","44000 cm³","48000 cm³","55000 cm³"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 559,
+question: 'A sum of Rs 1550 is lent partly at 5% and partly at 8% SI for 2 years, total interest Rs 196. Sum lent at 5% is?',
+options: ["Rs 700","Rs 750","Rs 800","Rs 900"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 560,
+question: 'If log₁₀ 2 = 0.3010, then number of digits in 2⁵⁰ is?',
+options: ["14","15","16","17"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 561,
+question: 'The value of tan 1° × tan 2° × tan 3°...× tan 89° is?',
+options: ["0","1","∞","√3"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 562,
+question: 'ABCD is a rhombus with ∠ABC = 60°. If AB = 6 cm, area of rhombus is?',
+options: ["18√3 cm²","24√3 cm²","18 cm²","36 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 563,
+question: 'If x + y = 10, x - y = 4, xy = 21, then x² + y² = ?',
+options: ["58","62","64","72"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 564,
+question: 'A man rows 18 km in 4 hours downstream and 12 km in 6 hours upstream. Speed of boat in still water is?',
+options: ["3 km/h","3.5 km/h","4 km/h","4.5 km/h"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 565,
+question: 'The number of integers between √7 and √77 is?',
+options: ["6","7","8","5"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 566,
+question: 'If p = 999, then p(p² + 3p + 3) is?',
+options: ["999³ - 1","1000³ - 1","999³","1000³"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 567,
+question: 'In a mixture of 60L, milk and water are in ratio 2:1. How much water must be added to make ratio 1:2?',
+options: ["30L","35L","40L","60L"],
+answer: 3,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 568,
+question: 'If (2x + 3y):(3x + 5y) = 18:29, then x:y is?',
+options: ["2:3","3:4","4:5","3:5"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 569,
+question: 'The value of 1/(1×2) + 1/(2×3) + 1/(3×4) + ... + 1/(n(n+1)) is?',
+options: ["n/(n+1)","1 - 1/(n+1)","(n+1)/n","Both A and B"],
+answer: 3,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 570,
+question: 'A room is 8m × 6m × 5m. Maximum length of rod that fits in room is?',
+options: ["√125 m","5√5 m","√(125)","5√5 m"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 571,
+question: 'The speed of a boat in still water is 15 km/h. It takes twice as long to go upstream as downstream. Speed of current is?',
+options: ["3 km/h","4 km/h","5 km/h","6 km/h"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 572,
+question: 'For what value of k is (k-3)x² + (k+3)x + k = 0 having equal roots?',
+options: ["3 only","k=3 and k=-3","k=-3 only","k=3 or k=1"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 573,
+question: 'A merchant has 1000 kg of sugar, sells some at 8% profit and rest at 18% profit, overall gain is 14%. Quantity sold at 18% is?',
+options: ["500","600","700","400"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 574,
+question: 'In a GP, 5th term is 48 and 8th term is 384. Common ratio is?',
+options: ["1","2","3","4"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 575,
+question: 'If A=30°, then sin²A + cos²A - tanA/(1+tan²A) + sinA cosA = ?',
+options: ["1 - sin30°/2","1 - sin30°/2","3/4","5/4"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 576,
+question: 'The area bounded by curve y = x², x-axis, x=1 and x=2 is?',
+options: ["7/3","8/3","7/4","5/3"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 577,
+question: 'Two trains start from cities P and Q (600km apart) toward each other at 80 and 100 km/h. They meet after?',
+options: ["8/3 hours","3 hours","10/3 hours","4 hours"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 578,
+question: 'If x + y + z = 0, then (x² + y² + z²)/(xy + yz + zx) is?',
+options: ["-2","2","-1","1"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 579,
+question: 'A cone has base radius 8 cm and height 6 cm. Its slant height and total surface area are?',
+options: ["10 cm, 480.57 cm²","12 cm, 500 cm²","10 cm, 452.57 cm²","8 cm, 400 cm²"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 580,
+question: 'If log(x-5) + log(x+4) = log 10, then x is?',
+options: ["6","7","8","9"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 581,
+question: 'The product of HCF and LCM of 15, 25 and 30 is?',
+options: ["11250","5625","22500","3750"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 582,
+question: 'In a parallelogram ABCD, diagonals AC and BD bisect each other. If AC=10 and BD=24, area of ABCD is?',
+options: ["60","100","120","240"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 583,
+question: 'The value of tan²30° + tan²45° + tan²60° is?',
+options: ["4.33","13/3","4.5","5"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 584,
+question: 'Pipes A, B, C fill tank in 6, 8, 12 hours. All opened but C works only first 2 hours. Time to fill tank from start?',
+options: ["4.5 hours","5 hours","5.5 hours","6 hours"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 585,
+question: 'If xy + yz + zx = 1, then x/(1+x²) + y/(1+y²) + z/(1+z²) = ?',
+options: ["1","xyz/(1+x²)(1+y²)(1+z²)","4xyz/(1+x²)(1+y²)(1+z²)","Cannot determine"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 586,
+question: 'A and B can do a work in 12 days, B and C in 15 days, C and A in 20 days. All three together do it in?',
+options: ["10 days","8 days","10 days","12 days"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 587,
+question: 'If a, b, c are in AP and b, c, d are in GP, then (c-a)/(c-b) is?',
+options: ["d/b","c/b","b/a","d/c"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 588,
+question: 'A square inscribed in a circle of radius 5 cm has area?',
+options: ["25 cm²","50 cm²","100 cm²","75 cm²"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 589,
+question: 'The value of cos²20° + cos²70° + sin²50° + sin²40° is?',
+options: ["1","2","3","4"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 590,
+question: 'If x varies directly as y² and x=9 when y=3, then x when y=5 is?',
+options: ["20","25","30","35"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 591,
+question: 'The rate of interest on a sum is 5%. If rate increases to 7%, interest increases by Rs 80 per year. The sum is?',
+options: ["Rs 3000","Rs 4000","Rs 5000","Rs 6000"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 592,
+question: 'The number 0.252525... in fraction form is?',
+options: ["25/99","25/100","252/1000","5/20"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 593,
+question: 'ΔABC ~ ΔPQR. AB=6, PQ=4, area of ΔABC=36 cm². Area of ΔPQR is?',
+options: ["16 cm²","24 cm²","20 cm²","18 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 594,
+question: 'In a right-angled triangle, if the hypotenuse is 2√13 cm and legs are in ratio 2:3, area is?',
+options: ["24 cm²","12 cm²","18 cm²","36 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 595,
+question: 'The remainder when 4¹⁰ is divided by 6 is?',
+options: ["2","4","1","0"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 596,
+question: 'If the mean of a, b, c, d, e is M, then mean of (a+k), (b+k), (c+k), (d+k), (e+k) is?',
+options: ["M","M+k","M+5k","5M+k"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 597,
+question: 'Two circles of radii 5 and 3 cm have centres 8 cm apart. Length of common external tangent is?',
+options: ["√48 cm","4√3 cm","√40 cm","2√15 cm"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 598,
+question: 'In an arithmetic progression, if Sn = 3n² + 4n, then 10th term is?',
+options: ["61","63","65","67"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 599,
+question: 'The value of ⁸P₃ is?',
+options: ["56","168","336","512"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 600,
+question: 'A clock shows 9:00. The angle between hands is?',
+options: ["90°","270°","180°","45°"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 601,
+question: 'If x + y = 5 and x - y = 3, then 2xy is?',
+options: ["16","8","4","2"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 602,
+question: 'The area of a sector of angle 120° in a circle of radius 21 cm is?',
+options: ["462 cm²","432 cm²","452 cm²","422 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 603,
+question: 'If sec θ + tan θ = p, then sin θ is?',
+options: ["(p+1)/(p-1)","(p²-1)/(p²+1)","(p-1)/(p+1)","p/(p²+1)"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 604,
+question: 'The number of ways to distribute 4 different books among 3 students such that each gets at least one is?',
+options: ["36","48","72","24"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 605,
+question: 'A does 1/4 work in 3 days, B does 1/3 in 5 days. Who is faster?',
+options: ["A","B","Equal","Cannot determine"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 606,
+question: 'Volume of cube equals volume of cylinder of height 8 cm. If r = h/2, side of cube is?',
+options: ["approximately 4.4 cm","approximately 5 cm","approximately 4.61 cm","approximately 5.2 cm"],
+answer: 2,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 607,
+question: "The 'Ghadr Party' newspaper was published in which language initially?",
+options: ["Urdu","Hindi","Punjabi","English"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 608,
+question: "Who is known as 'Frontier Gandhi'?",
+options: ["Khan Abdul Ghaffar Khan","Muhammad Ali Jinnah","Maulana Azad","Fazlul Haq"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 609,
+question: "The 'Kakori Conspiracy Case' (1925) resulted in how many death sentences?",
+options: ["2","3","4","5"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 610,
+question: "Who presided the INC session that adopted 'Purna Swaraj' as its goal?",
+options: ["Nehru","Gandhi","Bose","Patel"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 611,
+question: "The 'Chapekar Brothers' were hanged for?",
+options: ["Partition agitation","Murder of Rand and Ayerst in Pune","Kakori robbery","Armoury raid"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 612,
+question: "The 'Kheda Satyagraha' (1918) was Gandhi's campaign against?",
+options: ["British salt tax","Land revenue during drought","Indigo cultivation","Cattle tax"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 613,
+question: "Who established the 'Dar-ul-Uloom' seminary at Deoband?",
+options: ["Maulana Qasim Nanotvi","Syed Ahmad Khan","Shah Waliullah","Maulana Hussain Ahmad Madani"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 614,
+question: "The 'Theosophical Society' was co-founded by Madame Blavatsky and?",
+options: ["Annie Besant","Henry Steel Olcott","A.O. Hume","Allan Octavian Hume"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 615,
+question: "The 'Nagpur Session' (1920) of INC accepted Gandhi's programme of?",
+options: ["Swadeshi","Non-Cooperation","Civil Disobedience","Quit India"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 616,
+question: "'Bal Gangadhar Tilak' started which two festivals to build mass consciousness?",
+options: ["Diwali and Holi","Ganesh Chaturthi and Shivaji Jayanti","Durga Puja and Kali Puja","Ram Navami and Krishna Janmashtami"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 617,
+question: "The 'Communal Award' (1932) was announced by British PM?",
+options: ["Lloyd George","Ramsay MacDonald","Stanley Baldwin","Neville Chamberlain"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 618,
+question: "'Anushilan Samiti' was founded in Calcutta in 1902 by?",
+options: ["Bipin Chandra Pal","Sarala Devi Chaudhurani","P. Mitter and Satish Chandra Bose","Aurobindo Ghosh"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 619,
+question: "The 'Moderates' in INC believed in?",
+options: ["Constitutional agitation and petitions","Revolutionary methods","Armed struggle","Complete independence only"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 620,
+question: "The 'Lucknow Session' of INC (1899) saw the entry of which important leader?",
+options: ["Bal Gangadhar Tilak","Gopal Krishna Gokhale","Dadabhai Naoroji","Bipin Chandra Pal"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 621,
+question: "Who wrote 'Unhappy India' as a reply to Katherine Mayo's 'Mother India'?",
+options: ["Lala Lajpat Rai","Gandhi","Tilak","Nehru"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 622,
+question: "The 'Alipore Bomb Case' (1908) was related to which revolutionary group?",
+options: ["HSRA","Anushilan Samiti and Aurobindo Ghosh","Yugantar","Abhinav Bharat"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 623,
+question: 'Which Sikh Guru compiled the first version of the Adi Granth (Kartarpur Bir)?',
+options: ["Guru Nanak","Guru Ram Das","Guru Arjan Dev","Guru Gobind Singh"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 624,
+question: "The 'Treaty of Amritsar' (1846) ended which Anglo-Sikh war?",
+options: ["First Anglo-Sikh War","Second Anglo-Sikh War","Third Anglo-Sikh War","It was after Ranjit Singh's death only"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 625,
+question: "'Swarajya Party' was founded in 1922 by?",
+options: ["Gandhi and Nehru","Motilal Nehru and C.R. Das","Tilak and Jinnah","Bose and Patel"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 626,
+question: "The 'Simla Deputation' of 1906 was led by?",
+options: ["Syed Ahmad Khan","Aga Khan III","Muhammad Ali Jinnah","Nawab Salimullah"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 627,
+question: "Who wrote 'The Indian Struggle' (autobiography of the independence movement)?",
+options: ["Nehru","Subhas Chandra Bose","Gandhi","Lajpat Rai"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 628,
+question: "The 'Santhal Rebellion' of 1855-56 was against?",
+options: ["British land revenue","Zamindars and moneylenders","Indigo planters","Missionary activities"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 629,
+question: "'Bipin Chandra Pal' is associated with which radical approach?",
+options: ["Constitutional agitation","Revolutionary terrorism","Passive resistance","Armed revolt"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 630,
+question: "The 'Permanent Settlement' was implemented first in?",
+options: ["Bengal (1793)","Bombay","Madras","All at once"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 631,
+question: "'Tebhaga Movement' (1946) of Bengal demanded share-croppers receive?",
+options: ["1/2 of produce","2/3 of produce","3/4 of produce","All produce after tax"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 632,
+question: "The 'Ryotwari System' was introduced in Madras by?",
+options: ["Thomas Munro","Lord Cornwallis","John Shore","Lord Wellesley"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 633,
+question: "The 'Mahalwari System' of land settlement was introduced by?",
+options: ["Holt Mackenzie","Lord Bentinck","Cornwallis","Metcalfe"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 634,
+question: "The 'Deccan Riots' (1875) were against?",
+options: ["British collectors","Moneylenders","Indigo planters","Salt agents"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 635,
+question: "The 'Swadeshi Movement' mainly emphasized?",
+options: ["Complete independence","Boycott of British goods and promotion of Indian industry","Violence","Constitutional reforms"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 636,
+question: 'Who was the political guru of Mahatma Gandhi?',
+options: ["Bal Gangadhar Tilak","Dadabhai Naoroji","Gopal Krishna Gokhale","Pherozeshah Mehta"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 637,
+question: "The '14 Points' of Jinnah (1929) were in response to?",
+options: ["Simon Commission","Nehru Report","Montford Reforms","Lucknow Pact"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 638,
+question: "'Dayananda Saraswati' founded which reform organisation?",
+options: ["Brahmo Samaj","Arya Samaj","Prarthana Samaj","Ramakrishna Mission"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 639,
+question: "The 'Sarda Act' (1929) fixed minimum age of marriage for boys at?",
+options: ["14","16","18","21"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 640,
+question: "Who started the newspaper 'Kesari'?",
+options: ["Gopal Krishna Gokhale","Bal Gangadhar Tilak","Lala Lajpat Rai","Bipin Chandra Pal"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 641,
+question: "The 'Asiatic Society of Bengal' was founded by?",
+options: ["William Jones","Warren Hastings","Charles Wilkins","H.T. Colebrooke"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 642,
+question: "'Vande Mataram' was originally a part of which novel?",
+options: ["Durgesh Nandini","Anandamath","Sitaram","Rajmohan's Wife"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 643,
+question: "The 'Sanyasi and Fakir Rebellions' (18th century) inspired which famous novel?",
+options: ["Durgesh Nandini","Anandamath","Rajmohan's Wife","Bishabriksha"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 644,
+question: "Who founded the 'Ramakrishna Mission'?",
+options: ["Ramakrishna Paramahamsa","Swami Vivekananda","Sister Nivedita","Keshab Sen"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 645,
+question: "The 'Indian National Congress' at its founding session was presided over by?",
+options: ["A.O. Hume","W.C. Bonnerjee","Dadabhai Naoroji","Surendranath Banerjee"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 646,
+question: "The 'Nehru-Liaquat Pact' (April 1950) was primarily to address?",
+options: ["Kashmir issue","Minority rights in India and Pakistan","Trade relations","Water disputes"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 647,
+question: "The 'Balban's Blood and Iron Policy' was directed primarily against?",
+options: ["Delhi Sultanate nobles and Turkan-i-Chehalgani","Hindus","Mongols","Rajputs"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 648,
+question: "The 'Inquisition' in Goa was introduced by?",
+options: ["Vasco da Gama","Francis Xavier","Portuguese authorities","Dutch East India Company"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 649,
+question: "The 'Champaran Satyagraha' (1917) was Gandhi's first Satyagraha in India against?",
+options: ["Zamindars","Tinkathia system of indigo cultivation","British salt tax","Land revenue"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 650,
+question: "'Lala Lajpat Rai' died due to police lathi charge during protest against?",
+options: ["Rowlatt Act","Simon Commission","Non-Cooperation Movement","Salt March"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 651,
+question: "Who wrote the patriotic song 'Sarfaroshi ki Tamanna'?",
+options: ["Bhagat Singh","Ram Prasad Bismil","Ashfaqullah Khan","Chandrashekhar Azad"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 652,
+question: "The 'Partition of Bengal' (1905) was annulled due to?",
+options: ["Swadeshi Movement pressure","World War I","Delhi Durbar 1911","Gandhi's return from South Africa"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 653,
+question: "The 'Santhal Parganas' region is in present-day?",
+options: ["West Bengal","Bihar and Jharkhand","Odisha","Chhattisgarh"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 654,
+question: "The 'Permanent Settlement' fixed land revenue?",
+options: ["At variable rates annually","In perpetuity (permanently)","For 30-year periods","Based on crop yield"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 655,
+question: "The 'Bengal Renaissance' is associated with which century?",
+options: ["17th century","18th century","19th century","20th century"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 656,
+question: "'Ishwar Chandra Vidyasagar' is noted for his contribution to?",
+options: ["Women's education and widow remarriage","Caste reform","Political freedom","Religious reform"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 657,
+question: "The 'Indian Association' (1876) was founded by?",
+options: ["Surendranath Banerjee","Dadabhai Naoroji","Gopal Krishna Gokhale","Pherozeshah Mehta"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 658,
+question: "The 'Press Act of 1910' was designed to?",
+options: ["Promote Indian press","Curb nationalist publications","Tax newspaper imports","Regulate foreign press"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 659,
+question: "The 'Morley-Minto Reforms' were opposed by INC because?",
+options: ["They increased executive powers","They introduced separate communal electorates","They reduced provincial powers","They abolished legislative councils"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 660,
+question: "'Jatin Das' died during the freedom struggle due to?",
+options: ["Police encounter","Hanging","63-day hunger strike in jail","Torture"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 661,
+question: "The 'Sind Separation' from Bombay Presidency occurred in?",
+options: ["1932","1933","1935","1936"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 662,
+question: "The 'Barindra Kumar Ghosh' was the brother of which famous nationalist?",
+options: ["Bipin Chandra Pal","Aurobindo Ghosh","Lala Lajpat Rai","Bal Gangadhar Tilak"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 663,
+question: "The 'Deccan Education Society' was founded by Bal Gangadhar Tilak along with?",
+options: ["Gopal Krishna Gokhale and Agarkar","Vishnu Shastri Chiplunkar","Both","Neither"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 664,
+question: "The 'Junagarh', 'Hyderabad', and 'Kashmir' were the three princely states that posed challenges at the time of?",
+options: ["Partition in 1947","Independence in 1948","Integration into Indian Union","All of the above"],
+answer: 2,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 665,
+question: 'Who was the first President of the Indian National Congress?',
+options: ["A.O. Hume","Dadabhai Naoroji","W.C. Bonnerjee","Surendranath Banerjee"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 666,
+question: "'Dum Dum' near Calcutta was significant in 1857 because?",
+options: ["First mutiny occurred there","Dum Dum cartridge controversy started there","Major British garrison was there","Strategic railway junction"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 667,
+question: "The 'Age of Consent Act' (1891) raised the age of consent for girls from 10 to?",
+options: ["12","13","14","16"],
+answer: 0,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 668,
+question: "Who led the 'Champaran Inquiry' with Gandhi during 1917?",
+options: ["Nehru","Rajendra Prasad","Patel","J.B. Kripalani"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 669,
+question: "The 'Wavell Plan' (1945) specifically proposed for the formation of a?",
+options: ["New Constitution","Executive Council with equal Hindu-Muslim representation","Federal Legislature","Partition scheme"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 670,
+question: "'Begar' was a system of?",
+options: ["Forced unpaid labour","Tenant-at-will system","Revenue collection","Moneylending"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 671,
+question: "The 'Servants of India Society' worked primarily for?",
+options: ["Political independence","Social and economic upliftment of masses","Religious reform","Industrial development"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 672,
+question: "The 'Central Hindu School' at Varanasi was established by?",
+options: ["Madan Mohan Malaviya","Annie Besant","Dayanand Saraswati","Swami Vivekananda"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 673,
+question: "Who was called the 'Father of Indian Nationalism'?",
+options: ["Bal Gangadhar Tilak","Dadabhai Naoroji","Surendranath Banerjee","Gopal Krishna Gokhale"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 674,
+question: "'Lal-Bal-Pal' referred to which trio of Indian nationalists?",
+options: ["Lajpat Rai-Tilak-Bipin Chandra Pal","Lajpat Rai-Tilak-Patel","Lajpat Rai-Bose-Pal","Nehru-Tilak-Gandhi"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 675,
+question: "The 'Chauri Chaura' incident (1922) led Gandhi to?",
+options: ["Launch Civil Disobedience","Suspend Non-Cooperation Movement","Start Quit India","Start Dandi March"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 676,
+question: "The 'Komagata Maru' incident (1914) involved?",
+options: ["Indians denied entry to Canada being forced back","Ship seized by British","Deportation from South Africa","Anti-recruitment riot"],
+answer: 0,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 677,
+question: "The 'Indian Factory Act' of 1881 was concerned with?",
+options: ["Minimum wages","Working conditions of women and children in factories","Nationalization","Labour unions"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 678,
+question: "The 'Simon Commission' was appointed to review the working of?",
+options: ["Government of India Act 1909","Government of India Act 1919","Montagu-Chelmsford Reforms","Morley-Minto Reforms"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 679,
+question: "Who established the 'Banaras Hindu University'?",
+options: ["Swami Vivekananda","Annie Besant","Madan Mohan Malaviya","Dayananda Saraswati"],
+answer: 2,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 680,
+question: "The 'Neel Darpan' (1858-59) was a play that depicted?",
+options: ["Peasant revolts against British","Plight of indigo cultivators","Bengal partition","Zamindari system"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 681,
+question: "'Vereshchakova' describes Indian freedom movement of which period in her travelogue?",
+options: ["1857","1900s","1920s","1940s"],
+answer: 1,
+category: "History",
+difficulty: "medium"
+},
+
+{
+id: 682,
+question: "The 'Second Round Table Conference' (1931) failed primarily because?",
+options: ["Gandhi's disagreement with Jinnah","Communal disagreements and deadlock","British withdrawal","Congress boycott"],
+answer: 1,
+category: "History",
+difficulty: "hard"
+},
+
+{
+id: 683,
+question: "The 'Agehananda Bharati' concept of 'pizza effect' in Indian geography refers to?",
+options: ["Cultural ideas returning home after changes abroad","Distribution of tourism","Urban sprawl pattern","Demographic transition"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 684,
+question: "'NDVI' (Normalized Difference Vegetation Index) used in remote sensing measures?",
+options: ["Night sky brightness","Vegetation health/density","Soil moisture","Urban heat"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 685,
+question: "The 'Andaman Trunk Road' (ATR) passes through which islands?",
+options: ["All Andaman Islands","Only North Andaman","Baratang Island (affecting Jarawa tribe)","Only South Andaman"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 267,
-question: 'Which is the longest mountain range in the world?',
-options: ["Himalayas","Rocky Mountains","Andes","Alps"],
+id: 686,
+question: "The 'Ganga-Brahmaputra Basin' covers what percentage of India's total area?",
+options: ["25%","33%","40%","45%"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 687,
+question: "The 'Coriolis Effect' causes winds to deflect in India?",
+options: ["Eastward in northern hemisphere","To the right in northern hemisphere","Westward only","No deflection in tropics"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 688,
+question: "'Jharkhand' state was carved out of Bihar in?",
+options: ["1999","2000","2001","2002"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 689,
+question: "The 'Dachigam National Park' near Srinagar is home to?",
+options: ["Snow Leopard","Hangul (Kashmir Stag)","One-horned Rhino","Wild Yak"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 690,
+question: "The 'Rajiv Gandhi Khel Ratna Award' (now Khel Ratna) is India's highest sports honour. Which minister's portfolio covers sports?",
+options: ["MoSPI","Ministry of Youth Affairs and Sports","Ministry of Culture","Ministry of Education"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 691,
+question: "The 'Koyna earthquake' (1967) in Maharashtra was caused by?",
+options: ["Tectonic plate movement","Reservoir-induced seismicity (Koyna Dam)","Volcanic activity","Mining operations"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 692,
+question: "The 'Aravalli Range' is the remnant of which ancient mountain system?",
+options: ["Gondwana","Pre-Cambrian fold mountains","Tethys","Himalayas precursor"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 693,
+question: "The 'Teesta River' primarily drains which states before entering Bangladesh?",
+options: ["Assam only","West Bengal and Sikkim","Bhutan and Assam","Sikkim only"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 694,
+question: "The 'Sundarbans' is a UNESCO World Heritage Site shared by India and?",
+options: ["Myanmar","Nepal","Bangladesh","Bhutan"],
 answer: 2,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 268,
-question: 'The river Volga flows into?',
-options: ["Black Sea","Baltic Sea","Caspian Sea","Arctic Ocean"],
+id: 695,
+question: "'Biosphere Reserve' concept was launched under UNESCO in?",
+options: ["1971","1974","1976","1982"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 696,
+question: "The 'Chambal River' passes through which states?",
+options: ["Madhya Pradesh, Rajasthan, Uttar Pradesh","Only Madhya Pradesh and Rajasthan","Only Rajasthan and Uttar Pradesh","Madhya Pradesh, Rajasthan, Gujarat"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 697,
+question: "India's 'National Action Plan for Climate Change' has how many missions?",
+options: ["6","7","8","9"],
 answer: 2,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 269,
-question: 'Which desert has the most biodiversity?',
-options: ["Gobi","Namib","Sahara","Sonoran"],
+id: 698,
+question: "The 'Mandovi' and 'Zuari' rivers are in?",
+options: ["Kerala","Karnataka","Goa","Maharashtra"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 699,
+question: "The 'Great Indian Bustard' (critically endangered) is mainly found in?",
+options: ["Gujarat and Rajasthan","Punjab and Haryana","Madhya Pradesh and Maharashtra","Uttar Pradesh"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 700,
+question: "The 'Six Degree Channel' separates which islands?",
+options: ["Andaman and Nicobar","Little Andaman and Car Nicobar","Car Nicobar and Nancowry","Sri Lanka and India"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 701,
+question: "'Mahanadi' originates from?",
+options: ["Sihawa in Chhattisgarh","Amarkantak","Satpura Range","Chota Nagpur Plateau"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 702,
+question: "The 'Hot Springs' at Manikaran in Himachal Pradesh are used for?",
+options: ["Thermal power","Geothermal heating and cooking (langar)","Mineral water bottling","Only tourism"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 703,
+question: "The 'Malabar Special Police' incident and 'Mappila Rebellion' (1921) occurred in?",
+options: ["Kerala's Malabar region","Tamil Nadu","Mysore","Andhra Pradesh"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 704,
+question: "India's 'Biosphere Reserves' that are part of UNESCO World Network include?",
+options: ["Nilgiri, Gulf of Mannar, Sundarbans, Nanda Devi (among others)","Only Nilgiri","Only Sundarbans","Only Western Ghats"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 705,
+question: "The 'Periyar River' in Kerala flows through?",
+options: ["Idukki district","Palakkad district","Wayanad district","Ernakulam only"],
+answer: 0,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 706,
+question: "'Bhimbetka Rock Shelters' (prehistoric cave paintings) are in?",
+options: ["Rajasthan","Madhya Pradesh","Chhattisgarh","Odisha"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 707,
+question: "The 'Kambala' buffalo race is a traditional sport of?",
+options: ["Tamil Nadu","Karnataka (Tulu Nadu coast)","Kerala","Andhra Pradesh"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 708,
+question: "The 'North-East Monsoon' (retreating monsoon) mainly brings rainfall to?",
+options: ["West Bengal","Tamil Nadu coast","Kerala","Maharashtra"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 709,
+question: "India's 'Special Economic Zones' (SEZ) policy was enacted in?",
+options: ["2002","2003","2005","2006"],
 answer: 3,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 270,
-question: 'The Gulf of Mannar is between?',
-options: ["India and Maldives","India and Sri Lanka","India and Myanmar","India and Pakistan"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 271,
-question: 'Which country has the maximum number of natural lakes?',
-options: ["Canada","Russia","USA","Sweden"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 272,
-question: 'The Transantarctic Mountains divide Antarctica into?',
-options: ["East and West","North and South","Central and Coastal","Inner and Outer"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 273,
-question: 'Which Indian river originates from Amarkantak?',
-options: ["Son","Narmada","Mahanadi","Tapti"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 274,
-question: 'The Rann of Kutch is a seasonal?',
-options: ["Lake","Desert","Wetland/Salt marsh","Forest"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 275,
-question: 'Which country shares the longest border with India?',
-options: ["China","Pakistan","Bangladesh","Nepal"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 276,
-question: 'The Great Rift Valley runs through?',
-options: ["West Africa","East Africa","Southern Africa","North Africa"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 277,
-question: "Which sea is also known as the 'Inland Sea of Japan'?",
-options: ["Sea of Japan","Seto Inland Sea","Philippine Sea","East China Sea"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 278,
-question: 'The Tropic of Capricorn passes through how many continents?',
-options: ["2","3","4","5"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 279,
-question: 'The Canary Islands belong to?',
-options: ["Portugal","Spain","France","Morocco"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 280,
-question: 'Which is the largest country in Africa?',
-options: ["Sudan","Libya","Algeria","Democratic Republic of Congo"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 281,
-question: 'The Malabar Coast is on the?',
-options: ["Eastern coast of India","Western coast of India","Northern coast of India","Southern tip of India"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 282,
-question: 'Which country has the most rivers?',
-options: ["Brazil","Russia","Canada","China"],
+id: 710,
+question: "The 'Majuli Island' in Assam faces threats primarily from?",
+options: ["Flooding and erosion by Brahmaputra","Deforestation","Mining","Urban encroachment"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 283,
-question: 'The Eurasian and North American plates diverge at?',
-options: ["Iceland","Azores","Hawaii","Canary Islands"],
-answer: 0,
+id: 711,
+question: "The 'Deccan Plateau' is drained by which rivers flowing eastward?",
+options: ["Narmada and Tapti","Krishna, Godavari, Mahanadi","Only Godavari","Cauvery only"],
+answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 284,
-question: 'The Indus Waters Treaty (1960) was between?',
-options: ["India and Pakistan","India and China","India and Afghanistan","India and Nepal"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 285,
-question: 'Which Indian city is located on the banks of Sabarmati River?',
-options: ["Surat","Baroda","Ahmedabad","Rajkot"],
+id: 712,
+question: "The 'Kanchenjunga Biosphere Reserve' is in?",
+options: ["Nepal","Bhutan","Sikkim","Arunachal Pradesh"],
 answer: 2,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 286,
-question: 'The Circum-Pacific Belt is also known as?',
-options: ["Tethys Belt","Ring of Fire","Alpine Belt","Mid-Atlantic Ridge"],
+id: 713,
+question: "The 'Satpura Range' runs in a?",
+options: ["North-South direction","East-West direction","NE-SW direction","NW-SE direction"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 287,
-question: 'Borneo Island is shared by how many countries?',
-options: ["2","3","4","5"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 288,
-question: 'The Great Indian Bustard is found in?',
-options: ["Rajasthan","Gujarat","Maharashtra","Madhya Pradesh"],
+id: 714,
+question: "The 'Andaman Islands' are separated from Myanmar (Coco Islands) by?",
+options: ["Preparis Channel (North Channel)","Great Channel","Ten Degree Channel","Duncan Passage"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 289,
-question: 'Which lake is the largest in Africa?',
-options: ["Lake Tanganyika","Lake Malawi","Lake Victoria","Lake Chad"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 290,
-question: 'The Mangrove forests in India are mainly in?',
-options: ["Gujarat coast","Andaman Islands","Sundarbans","Konkan coast"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 291,
-question: 'Which country is located at the junction of Europe and Asia?',
-options: ["Turkey","Russia","Kazakhstan","Iran"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 292,
-question: 'The Cauvery River dispute is between?',
-options: ["Kerala and Tamil Nadu","Tamil Nadu and Karnataka","Karnataka and Andhra Pradesh","Tamil Nadu and Andhra Pradesh"],
+id: 715,
+question: "The 'Krishna-Godavari Basin' lies primarily in?",
+options: ["Maharashtra and Karnataka","Telangana and Andhra Pradesh","Odisha and Chhattisgarh","Madhya Pradesh and Maharashtra"],
 answer: 1,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 293,
-question: 'Which is the second longest river in Africa?',
-options: ["Niger","Congo","Nile","Zambezi"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 294,
-question: 'The Kra Isthmus is in?',
-options: ["Malaysia","Thailand","Myanmar","Cambodia"],
+id: 716,
+question: "The 'Western Ghats' stretch from Gujarat-Maharashtra border to?",
+options: ["Kerala-Tamil Nadu tip","Kanyakumari","Cape Comorin","Nilgiris"],
 answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 295,
-question: 'Which city is located at the highest altitude?',
-options: ["Quito","La Paz","Bogotá","Mexico City"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 296,
-question: "The world's largest delta is?",
-options: ["Mekong Delta","Mississippi Delta","Ganges-Brahmaputra Delta","Nile Delta"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 297,
-question: 'Which country has the most glaciers?',
-options: ["Norway","Canada","Pakistan","Greenland"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 298,
-question: 'The Lena River flows through?',
-options: ["Russia","Canada","China","Mongolia"],
+id: 717,
+question: "The 'National Waterway-2' (NW-2) is on river?",
+options: ["Brahmaputra (Dhubri to Sadiya)","Ganga (Allahabad to Haldia)","Barak","Mahanadi"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 299,
-question: 'Which Indian state has the highest per capita income?',
-options: ["Maharashtra","Delhi","Goa","Haryana"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 300,
-question: 'The Agulhas Current flows along the coast of?',
-options: ["West Africa","East Africa","South Africa","North Africa"],
-answer: 2,
+id: 718,
+question: "India's 'Critical Tiger Habitats' (CTH) were notified under?",
+options: ["Wildlife Protection Act 1972","Forest Rights Act 2006","Project Tiger 1973","Forest Conservation Act 1980"],
+answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 301,
-question: 'The Andaman Sea is part of?',
-options: ["Pacific Ocean","Indian Ocean","Bay of Bengal","Arabian Sea"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 302,
-question: "Which country is known as the 'Emerald Isle'?",
-options: ["New Zealand","Ireland","Jamaica","Sri Lanka"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 303,
-question: 'The Tibetan Plateau has an average elevation of?',
-options: ["3000m","4000m","4500m","5000m"],
+id: 719,
+question: "The 'Pir Panjal Range' is part of which mountain system?",
+options: ["Great Himalayas","Outer Himalayas","Middle Himalayas (Himachal)","Karakoram"],
 answer: 2,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 720,
+question: "The 'Ganga River' enters the plains at?",
+options: ["Rishikesh","Haridwar","Allahabad","Banaras"],
+answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 304,
-question: 'Which is the largest national park in India?',
-options: ["Sundarbans","Hemis","Namdapha","Gir"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 305,
-question: 'The Equatorial Counter Current flows in?',
-options: ["Eastward direction","Westward direction","Northward direction","Southward direction"],
+id: 721,
+question: "India's 'solar energy potential' is highest in?",
+options: ["Rajasthan and Gujarat","Ladakh","Northeast India","Tamil Nadu"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 306,
-question: 'The Kaveri river originates from?',
-options: ["Western Ghats in Karnataka","Eastern Ghats in Tamil Nadu","Brahmagiri Hills","Nandi Hills"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 307,
-question: 'Which ocean has the most islands?',
-options: ["Atlantic","Indian","Pacific","Arctic"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 308,
-question: 'The Steppe climate is also known as?',
-options: ["Mediterranean climate","Semi-arid climate","Monsoon climate","Continental climate"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 309,
-question: "Which river in India is also called 'Vriddha Ganga'?",
-options: ["Godavari","Mahanadi","Kaveri","Krishna"],
+id: 722,
+question: "The 'Vembanad Lake' (Kuttanad) is known as?",
+options: ["Rice bowl of Kerala","Tea garden of Kerala","Spice bowl of Kerala","Fishery center only"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 310,
-question: 'The Labrador Current originates from?',
-options: ["North Atlantic","Arctic Ocean","North Pacific","Greenland"],
-answer: 1,
+id: 723,
+question: "'Slash and burn' agriculture in India is known as?",
+options: ["Jhum in Northeast India","Podu in Andhra Pradesh","Bewar in Madhya Pradesh","All of the above have different local names"],
+answer: 3,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 311,
-question: "Which country is known as the 'Land of Midnight Sun'?",
-options: ["Iceland","Finland","Norway","Sweden"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 312,
-question: 'The Hindu Kush mountain range is in?',
-options: ["India and Pakistan","Pakistan and Afghanistan","Afghanistan and Iran","Iran and Turkey"],
+id: 724,
+question: "The 'Cherrapunji' records highest rainfall but faces water scarcity due to?",
+options: ["Soil type","Steep terrain causing rapid runoff","Dense population","Deforestation"],
 answer: 1,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 313,
-question: 'The Cherrapunji receives heavy rainfall due to?',
-options: ["Western disturbances","Bay of Bengal branch of monsoon","Arabian Sea branch of monsoon","Cyclones"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 314,
-question: 'Which country has no official capital?',
-options: ["Nauru","Palau","Tuvalu","Vatican City"],
+id: 725,
+question: "The 'Mangrove' forests of India are under threat from?",
+options: ["Aquaculture/shrimp farming and coastal development","Mining only","Only tourism","Industrial pollution only"],
 answer: 0,
 category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 315,
-question: 'The largest freshwater lake by surface area is?',
-options: ["Lake Superior","Lake Baikal","Lake Huron","Lake Michigan"],
+id: 726,
+question: "The 'Garo, Khasi, and Jaintia Hills' are in?",
+options: ["Assam","Manipur","Meghalaya","Nagaland"],
+answer: 2,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 727,
+question: "The 'State of Forest Report' in India is published by?",
+options: ["Ministry of Environment","Forest Survey of India (FSI)","Wildlife Institute of India","ISRO"],
+answer: 1,
+category: "Geography",
+difficulty: "medium"
+},
+
+{
+id: 728,
+question: "The 'Namdapha' National Park is the only park with?",
+options: ["Four big cats (Tiger, Leopard, Snow Leopard, Clouded Leopard)","Three species of deer","Two types of elephants","Bears and leopards"],
 answer: 0,
 category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 316,
-question: 'The Kunlun Mountains are in?',
-options: ["India","Nepal","China","Mongolia"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 317,
-question: 'Which strait connects the Atlantic and Pacific Oceans?',
-options: ["Drake Passage","Bering Strait","Strait of Magellan","Panama Canal"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 318,
-question: 'The Indian Ocean is bounded on the north by?',
-options: ["Asia","Africa","Australia","Antarctica"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 319,
-question: 'Which country has the most natural UNESCO World Heritage Sites?',
-options: ["China","USA","Australia","Brazil"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 320,
-question: 'The Brahmaputra River in Tibet is known as?',
-options: ["Jamuna","Yarlung Tsangpo","Tsangpo","Dibang"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 321,
-question: 'Which sea is between Italy and Croatia?',
-options: ["Ionian Sea","Adriatic Sea","Tyrrhenian Sea","Ligurian Sea"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 322,
-question: 'The Loess Plateau is in?',
-options: ["India","China","USA","Argentina"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 323,
-question: 'Which country shares borders with the most other countries?',
-options: ["Russia","China","Brazil","Germany"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 324,
-question: 'The Western Ghats are also known as?',
-options: ["Sahyadri Mountains","Vindhya Range","Satpura Range","Aravalli Range"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 325,
-question: 'The Pangong Lake is located in?',
+id: 729,
+question: "The 'Hemis National Park' (largest in India) is in?",
 options: ["Himachal Pradesh","Uttarakhand","Ladakh","Sikkim"],
 answer: 2,
 category: "Geography",
@@ -2926,4706 +6562,1853 @@ difficulty: "medium"
 },
 
 {
-id: 326,
-question: 'Which river is the longest in Europe?',
-options: ["Rhine","Danube","Volga","Loire"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 327,
-question: 'The Malacca Strait has strategic importance because?',
-options: ["Oil tanker routes","Freshwater source","Fishing grounds","Military base"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 328,
-question: "Which country is known as the 'Granary of Europe'?",
-options: ["France","Ukraine","Poland","Hungary"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 329,
-question: 'The Chilika Lake is a?',
-options: ["Freshwater lake","Saltwater lake","Lagoon","Reservoir"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 330,
-question: 'The Great Plains of USA and Canada are also known as?',
-options: ["Prairie","Pampas","Steppes","Savanna"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 331,
-question: 'Which Indian state has both the Western and Eastern Ghats?',
-options: ["Tamil Nadu","Kerala","Karnataka","Andhra Pradesh"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 332,
-question: 'The Bab-el-Mandeb strait connects?',
-options: ["Red Sea and Indian Ocean","Persian Gulf and Arabian Sea","Gulf of Aden and Red Sea","Arabian Sea and Bay of Bengal"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 333,
-question: 'The Pamir Knot is the meeting point of?',
-options: ["Himalaya, Hindukush, Karakoram","Himalaya, Hindukush, Tien Shan","Hindukush, Karakoram, Tien Shan","Himalaya, Karakoram, Tien Shan"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 334,
-question: 'Which country has the most coastline after Canada?',
-options: ["Australia","Russia","Indonesia","Norway"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 335,
-question: 'The Westerlies blow from?',
-options: ["Sub-tropical high to sub-polar low","Polar high to sub-polar low","Equatorial low to sub-tropical high","Sub-polar low to polar high"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 336,
-question: 'The Volta River is in?',
-options: ["Nigeria","Ghana","Senegal","Ivory Coast"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 337,
-question: 'Which is the smallest country in South America?',
-options: ["Uruguay","Paraguay","Suriname","Guyana"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 338,
-question: 'The Mississippi River drains into?',
-options: ["Atlantic Ocean","Gulf of Mexico","Pacific Ocean","Caribbean Sea"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 339,
-question: "Which plateau is called the 'Roof of South America'?",
-options: ["Altiplano","Patagonia","Mato Grosso","Brazilian Highlands"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 340,
-question: 'The International Date Line is at?',
-options: ["0° longitude","90° E longitude","180° longitude","90° W longitude"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 341,
-question: 'Which Indian state is the largest producer of tea?',
-options: ["Darjeeling","Assam","Nilgiris","Kerala"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 342,
-question: 'The Bering Sea separates?',
-options: ["USA and Canada","Russia and USA","Russia and Japan","Japan and USA"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 343,
-question: "Which river is called the 'Rhine of South America'?",
-options: ["Parana","Orinoco","Amazon","Uruguay"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 344,
-question: 'The Kalahari Desert is in?',
-options: ["Namibia and South Africa","Botswana and Namibia","South Africa and Mozambique","Botswana and South Africa"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 345,
-question: 'Which Indian state has the maximum forest area?',
-options: ["Madhya Pradesh","Arunachal Pradesh","Chhattisgarh","Maharashtra"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 346,
-question: 'The Strait of Dover is the narrowest point of?',
-options: ["English Channel","North Sea","Irish Sea","Celtic Sea"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 347,
-question: 'The Cordillera system is mainly in?',
-options: ["Asia","Europe","Americas","Africa"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 348,
-question: 'Which ocean has the Bermuda Triangle?',
-options: ["Indian","Atlantic","Pacific","Arctic"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 349,
-question: 'The Namib Desert is in?',
-options: ["South Africa","Botswana","Namibia","Angola"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 350,
-question: 'Which Indian state has the most borders with other states?',
-options: ["Uttar Pradesh","Madhya Pradesh","Rajasthan","Maharashtra"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 351,
-question: 'The El Niño phenomenon occurs in?',
-options: ["Indian Ocean","Atlantic Ocean","Pacific Ocean","Arctic Ocean"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 352,
-question: 'The Sahel region is prone to?',
-options: ["Desertification","Flooding","Earthquakes","Volcanic activity"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 353,
-question: 'Which is the longest river in India?',
-options: ["Brahmaputra","Indus","Ganga","Godavari"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 354,
-question: 'The Tropic of Cancer passes through?',
-options: ["Odisha","Bihar","West Bengal","Tripura"],
-answer: 3,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 355,
-question: 'Which country has both Sahara Desert and Mediterranean coast?',
-options: ["Tunisia","Morocco","Algeria","Libya"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 356,
-question: 'The Ganges-Brahmaputra delta is the largest because?',
-options: ["Largest river system discharge","Rocky terrain","Tidal actions","Both A and C"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 357,
-question: 'The Great Sandy Desert is in?',
-options: ["Australia","Saudi Arabia","USA","China"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 358,
-question: 'Which Indian state has the longest international boundary?',
-options: ["Arunachal Pradesh","West Bengal","Rajasthan","Jammu & Kashmir"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 359,
-question: 'The Irawaddy River flows through?',
-options: ["Thailand","Cambodia","Myanmar","Laos"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 360,
-question: 'The deepest point in the Indian Ocean is?',
-options: ["Java Trench","Diama Deep","Ob Trench","Murray Ridge"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 361,
-question: 'Which country is the largest producer of rubber?',
-options: ["Malaysia","Indonesia","Thailand","Vietnam"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 362,
-question: 'The Strait of Florida separates?',
-options: ["Florida and Cuba","Florida and Bahamas","Cuba and Bahamas","USA and Mexico"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 363,
-question: 'Which mountain pass connects Leh with Manali?',
-options: ["Rohtang Pass","Baralacha Pass","Tanglang La","Zoji La"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 364,
-question: 'The Huang He River carries a large amount of?',
-options: ["Sand","Silt/Loess","Gravel","Clay"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 365,
-question: 'The Horn of Africa includes?',
-options: ["Somalia, Ethiopia, Eritrea","Kenya, Tanzania, Uganda","Sudan, Chad, Niger","Djibouti, Eritrea, Ethiopia"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 366,
-question: 'The Coral Triangle is in?',
-options: ["Indian Ocean","Caribbean Sea","Western Pacific","Eastern Pacific"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 367,
-question: 'Which country has the most border crossings?',
-options: ["USA","China","Germany","Russia"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 368,
-question: 'The Tropic of Cancer passes through which Indian city?',
-options: ["Agra","Jabalpur","Ranchi","Jaipur"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 369,
-question: 'The Tengger Desert is in?',
-options: ["China","Mongolia","Kazakhstan","Russia"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 370,
-question: 'Which sea is the warmest?',
-options: ["Caribbean Sea","Red Sea","Arabian Sea","Persian Gulf"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 371,
-question: 'The Kaveri water dispute is between which states?',
-options: ["Karnataka, Tamil Nadu","Tamil Nadu, Kerala","Karnataka, Andhra Pradesh","Tamil Nadu, Andhra Pradesh"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 372,
-question: 'The Lakshadweep Islands are of what type?',
-options: ["Volcanic","Coral","Continental shelf","Glacial"],
-answer: 1,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 373,
-question: 'The Isthmus of Panama connects?',
-options: ["North and South America","Central America and South America","North and Central America","Caribbean islands"],
-answer: 0,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 374,
-question: 'The Great Dividing Range runs along the coast of?',
-options: ["Western Australia","Eastern Australia","Northern Australia","Southern Australia"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 375,
-question: 'Which Indian city is the nearest to the Tropic of Cancer?',
-options: ["Kolkata","Patna","Ahmedabad","Bhopal"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 376,
-question: 'What is the atomic number of Carbon?',
-options: ["4","6","8","12"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 377,
-question: "Which organelle is called the 'powerhouse of the cell'?",
-options: ["Nucleus","Ribosome","Mitochondria","Golgi body"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 378,
-question: 'What is the speed of sound in air at 20°C?',
-options: ["330 m/s","343 m/s","360 m/s","380 m/s"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 379,
-question: "Which gas makes up about 78% of Earth's atmosphere?",
-options: ["Oxygen","Argon","Nitrogen","Carbon Dioxide"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 380,
-question: 'What is the chemical formula of sulfuric acid?',
-options: ["HCl","H2SO3","H2SO4","H2S"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 381,
-question: 'Which particle has no electric charge?',
-options: ["Proton","Electron","Neutron","Positron"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 382,
-question: 'What is the SI unit of electric current?',
-options: ["Volt","Ohm","Ampere","Watt"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 383,
-question: 'Which phenomenon explains the bending of light around corners?',
-options: ["Refraction","Reflection","Diffraction","Polarization"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 384,
-question: 'DNA stands for?',
-options: ["Deoxyribonucleic Acid","Diribonucleic Acid","Deoxyribonitric Acid","Dinitro Nucleic Acid"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 385,
-question: "What is the value of Avogadro's number?",
-options: ["6.022×10²²","6.022×10²³","6.022×10²⁴","6.022×10²⁵"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 386,
-question: "Which element has the symbol 'Fe'?",
-options: ["Fluorine","Fermium","Iron","Francium"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 387,
-question: 'The unit of frequency is?',
-options: ["Pascal","Hertz","Newton","Joule"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 388,
-question: 'Which type of radiation has the shortest wavelength?',
-options: ["Radio waves","Infrared","X-rays","Gamma rays"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 389,
-question: 'What is the chemical name of common salt?',
-options: ["Sodium Carbonate","Sodium Chloride","Sodium Bicarbonate","Sodium Sulfate"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 390,
-question: "Which blood group is called the 'universal donor'?",
-options: ["A","AB","B","O"],
-answer: 3,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 391,
-question: "What is Newton's First Law of Motion?",
-options: ["F=ma","Law of Inertia","Law of Gravitation","Action-Reaction"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 392,
-question: 'Which vitamin deficiency causes Scurvy?',
-options: ["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 393,
-question: 'The nucleus of an atom contains?',
-options: ["Protons and electrons","Protons and neutrons","Neutrons and electrons","Only protons"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 394,
-question: "Which element is the most abundant in Earth's crust?",
-options: ["Silicon","Iron","Aluminum","Oxygen"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 395,
-question: 'What is the process by which plants make food?',
-options: ["Respiration","Photosynthesis","Transpiration","Digestion"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 396,
-question: 'The pH of a neutral solution is?',
-options: ["0","7","14","10"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 397,
-question: 'Which gas is released during photosynthesis?',
-options: ["Carbon Dioxide","Hydrogen","Nitrogen","Oxygen"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 398,
-question: 'What is the unit of electrical resistance?',
-options: ["Volt","Ampere","Ohm","Watt"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 399,
-question: 'Which part of the brain controls balance?',
-options: ["Cerebrum","Medulla","Cerebellum","Hypothalamus"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 400,
-question: 'What is the speed of light in vacuum?',
-options: ["2×10⁸ m/s","3×10⁸ m/s","4×10⁸ m/s","5×10⁸ m/s"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 401,
-question: 'Which acid is present in vinegar?',
-options: ["Citric acid","Acetic acid","Tartaric acid","Lactic acid"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 402,
-question: 'The number of chromosomes in a human cell is?',
-options: ["23","44","46","48"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 403,
-question: 'What is the chemical formula of water?',
-options: ["HO","H2O","H3O","H2O2"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 404,
-question: 'Which element is liquid at room temperature (besides mercury)?',
-options: ["Gallium","Bromine","Cesium","Francium"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 405,
-question: 'What is the process of converting solid to gas directly?',
-options: ["Evaporation","Condensation","Sublimation","Deposition"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 406,
-question: 'Which part of the cell contains genetic information?',
-options: ["Cell wall","Cell membrane","Cytoplasm","Nucleus"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 407,
-question: "What is Ohm's Law?",
-options: ["V = IR","F = ma","E = mc²","P = mv"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 408,
-question: 'The half-life of Carbon-14 is approximately?',
-options: ["570 years","5700 years","57000 years","5.7 million years"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 409,
-question: 'Which enzyme breaks down starch in saliva?',
-options: ["Pepsin","Amylase","Lipase","Trypsin"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 410,
-question: 'What is the name of the force that holds atomic nuclei together?',
-options: ["Gravitational force","Electromagnetic force","Strong nuclear force","Weak nuclear force"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 411,
-question: 'Which hormone regulates blood sugar levels?',
-options: ["Adrenaline","Insulin","Thyroxine","Cortisol"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 412,
-question: 'The chemical formula of glucose is?',
-options: ["C6H12O6","C12H22O11","C6H6","CH4"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 413,
-question: 'Which law states that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules?',
-options: ["Boyle's Law","Charles' Law","Avogadro's Law","Gay-Lussac's Law"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 414,
-question: 'What is the atomic mass of Carbon?',
-options: ["6","10","12","14"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 415,
-question: 'Which organ produces bile?',
-options: ["Pancreas","Stomach","Liver","Kidney"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 416,
-question: 'The phenomenon of total internal reflection is used in?',
-options: ["Microscopes","Optical fibres","Telescopes","Periscopes"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 417,
-question: 'What is the SI unit of force?',
-options: ["Pascal","Joule","Newton","Watt"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 418,
-question: 'Which metal is the best conductor of electricity?',
-options: ["Copper","Aluminum","Iron","Silver"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 419,
-question: 'What is the process by which DNA makes a copy of itself?',
-options: ["Transcription","Translation","Replication","Mutation"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 420,
-question: 'The ozone layer is found in which layer of atmosphere?',
-options: ["Troposphere","Stratosphere","Mesosphere","Thermosphere"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 421,
-question: 'Which disease is caused by the deficiency of Vitamin D?',
-options: ["Scurvy","Rickets","Pellagra","Beriberi"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 422,
-question: 'What is the chemical symbol for Potassium?',
-options: ["P","Pt","Po","K"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 423,
-question: 'Which force causes tides on Earth?',
-options: ["Gravitational force of Sun","Gravitational force of Moon","Gravitational force of both Sun and Moon","Centrifugal force of Earth"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 424,
-question: 'The unit of power is?',
-options: ["Joule","Newton","Watt","Pascal"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 425,
-question: 'Which type of bond involves sharing of electrons?',
-options: ["Ionic bond","Covalent bond","Metallic bond","Hydrogen bond"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 426,
-question: 'What is the chemical name of rust?',
-options: ["Iron oxide","Iron carbonate","Iron sulfate","Iron chloride"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 427,
-question: 'Which blood cells are responsible for immunity?',
-options: ["Red blood cells","Platelets","White blood cells","Plasma"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 428,
-question: 'The critical angle for total internal reflection depends on?',
-options: ["Wavelength of light","Refractive index","Intensity of light","Frequency"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 429,
-question: 'What is the formula for kinetic energy?',
-options: ["mgh","½mv²","mv","½mgh"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 430,
-question: 'Which element is used in making semiconductors?',
-options: ["Germanium","Tungsten","Platinum","Titanium"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 431,
-question: 'The Hardy-Weinberg principle describes?',
-options: ["Genetic drift","Population genetics equilibrium","Natural selection","Mutation rate"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 432,
-question: 'What is the unit of measurement for luminous intensity?',
-options: ["Lux","Candela","Lumen","Watt"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 433,
-question: 'Which gas is responsible for the greenhouse effect primarily?',
-options: ["Oxygen","Nitrogen","Carbon Dioxide","Ozone"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 434,
-question: 'What is the process of fusion in nuclear physics?',
-options: ["Splitting heavy nuclei","Combining light nuclei","Radioactive decay","Fission of atoms"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 435,
-question: 'Which organ in the human body produces insulin?',
-options: ["Liver","Kidney","Pancreas","Spleen"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 436,
-question: 'What is absolute zero temperature?',
-options: ["-273°C","-173°C","-373°C","-473°C"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 437,
-question: 'Which type of mirror is used in vehicle rear-view mirrors?',
-options: ["Concave","Plane","Convex","Parabolic"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 438,
-question: 'The process of electrolysis was discovered by?',
-options: ["Volta","Faraday","Ohm","Ampere"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 439,
-question: 'What is the chemical formula of methane?',
-options: ["CH2","CH4","C2H4","C2H6"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 440,
-question: 'Which layer of Earth is liquid?',
-options: ["Inner core","Outer core","Mantle","Crust"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 441,
-question: 'DNA replication is called semiconservative because?',
-options: ["Each new DNA has one old and one new strand","Both strands are new","Both strands are old","DNA is destroyed after replication"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 442,
-question: 'The device used to measure atmospheric pressure is?',
-options: ["Thermometer","Hydrometer","Barometer","Manometer"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 443,
-question: 'Which planet has the most moons?',
-options: ["Jupiter","Saturn","Uranus","Neptune"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 444,
-question: 'What is the chemical formula of ammonia?',
-options: ["NH","NH2","NH3","NH4"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 445,
-question: 'The principle of conservation of momentum states?',
-options: ["Momentum can be created","Momentum is always lost","Total momentum in a closed system is constant","Momentum equals force"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 446,
-question: 'Which microorganism was first observed by Leeuwenhoek?',
-options: ["Virus","Bacteria","Fungi","Protozoa"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 447,
-question: 'What is the name of the process where a caterpillar becomes a butterfly?',
-options: ["Hibernation","Metamorphosis","Migration","Moulting"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 448,
-question: 'The formula for calculating pressure is?',
-options: ["Force/Area","Mass/Volume","Force×Area","Mass×Acceleration"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 449,
-question: 'Which vitamin helps in blood clotting?',
-options: ["Vitamin A","Vitamin C","Vitamin D","Vitamin K"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 450,
-question: 'What is the primary function of the kidneys?',
-options: ["Produce insulin","Filter blood and produce urine","Digest food","Pump blood"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 451,
-question: 'The phenomenon of electromagnetic induction was discovered by?',
-options: ["Maxwell","Faraday","Edison","Tesla"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 452,
-question: 'Which element has the highest melting point?',
-options: ["Iron","Tungsten","Carbon","Platinum"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 453,
-question: 'What is the approximate age of the universe?',
-options: ["10 billion years","13.8 billion years","15 billion years","20 billion years"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 454,
-question: 'The process of nuclear fission releases energy according to?',
-options: ["Newton's laws","Einstein's E=mc²","Ohm's law","Faraday's law"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 455,
-question: 'Which organ is affected by jaundice?',
-options: ["Kidney","Heart","Liver","Lung"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 456,
-question: 'What is the chemical name of bleaching powder?',
-options: ["Calcium chloride","Calcium hypochlorite","Calcium carbonate","Calcium sulfate"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 457,
-question: 'The vaccine for smallpox was discovered by?',
-options: ["Pasteur","Fleming","Jenner","Koch"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 458,
-question: 'Which planet is closest in size to Earth?',
-options: ["Mars","Venus","Mercury","Neptune"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 459,
-question: 'What is the unit of electrical charge?',
-options: ["Volt","Ampere","Coulomb","Farad"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 460,
-question: 'The largest organ in the human body is?',
-options: ["Liver","Brain","Skin","Lungs"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 461,
-question: 'Which process converts ADP to ATP in cells?',
-options: ["Glycolysis","Oxidative phosphorylation","Fermentation","Photolysis"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 462,
-question: 'The Doppler effect is related to?',
-options: ["Color of light","Frequency change due to motion","Refraction of waves","Amplitude of sound"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 463,
-question: 'Which gas is used in electric bulbs?',
-options: ["Oxygen","Nitrogen","Argon","Neon"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 464,
-question: 'What is the chemical formula of table sugar (sucrose)?',
-options: ["C6H12O6","C12H22O11","C11H22O11","C12H24O12"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 465,
-question: 'The phenomenon of light bending when passing through a medium is called?',
-options: ["Reflection","Refraction","Diffraction","Polarization"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 466,
-question: "Which planet is known as the 'Evening Star'?",
-options: ["Mars","Mercury","Saturn","Venus"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 467,
-question: 'What is the chemical formula of carbon dioxide?',
-options: ["CO","CO2","C2O","CO3"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 468,
-question: 'The SI unit of temperature is?',
-options: ["Celsius","Fahrenheit","Kelvin","Rankine"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 469,
-question: 'Which disease is caused by the deficiency of iodine?',
-options: ["Anemia","Goiter","Rickets","Pellagra"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 470,
-question: 'What is the acceleration due to gravity on Earth?',
-options: ["8.9 m/s²","9.8 m/s²","10.8 m/s²","7.8 m/s²"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 471,
-question: 'The periodic table was developed by?',
-options: ["Dalton","Rutherford","Mendeleev","Bohr"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 472,
-question: 'Which type of electromagnetic radiation is used in MRI?',
-options: ["X-rays","Gamma rays","Radio waves","Microwaves"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 473,
-question: 'What is the chemical formula of ozone?',
-options: ["O","O2","O3","O4"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 474,
-question: 'Which part of the brain controls hunger and thirst?',
-options: ["Cerebrum","Hippocampus","Hypothalamus","Amygdala"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 475,
-question: 'The process by which plants lose water through leaves is?',
-options: ["Transpiration","Evaporation","Respiration","Absorption"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 476,
-question: 'What is the unit of magnetic field strength?',
-options: ["Gauss","Tesla","Weber","Henry"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 477,
-question: 'The element with highest atomic number that exists naturally is?',
-options: ["Uranium","Plutonium","Radium","Thorium"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 478,
-question: 'Which scientist proposed the theory of evolution?',
-options: ["Lamarck","Mendel","Darwin","Wallace"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 479,
-question: 'What is the formula for potential energy?',
-options: ["½mv²","mgh","mv","Fd"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 480,
-question: 'The center of mass of Earth and Moon lies?',
-options: ["Inside the Earth","At the Moon's surface","Between them but closer to Earth","Between them at midpoint"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 481,
-question: 'Which substance is the hardest naturally occurring mineral?',
-options: ["Quartz","Topaz","Corundum","Diamond"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 482,
-question: 'What is the chemical formula of hydrochloric acid?',
-options: ["H2S","HCl","H2SO4","HNO3"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 483,
-question: 'Bioluminescence is the ability of living organisms to?',
-options: ["Produce light","Absorb UV radiation","Reflect light","Store heat"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 484,
-question: 'What is the smallest unit of matter?',
-options: ["Atom","Molecule","Ion","Quark"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 485,
-question: 'Which planet takes the longest to orbit the Sun?',
-options: ["Saturn","Uranus","Neptune","Jupiter"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 486,
-question: 'The chemical symbol for Gold is?',
-options: ["Gd","Go","Au","Ag"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 487,
-question: 'What is the half-life of Uranium-238?',
-options: ["4.5 million years","4.5 billion years","45 million years","450 million years"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 488,
-question: 'The process of conversion of liquid to solid is called?',
-options: ["Freezing","Melting","Evaporation","Condensation"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 489,
-question: 'Which organ in the human body produces red blood cells in adults?',
-options: ["Spleen","Liver","Bone marrow","Lymph nodes"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 490,
-question: 'What is the chemical formula of ethanol?',
-options: ["CH3OH","C2H5OH","C3H7OH","C4H9OH"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 491,
-question: "Newton's law of universal gravitation states that the gravitational force is?",
-options: ["Proportional to the sum of masses","Proportional to the product of masses","Inversely proportional to the sum of masses","Proportional to the square of masses"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 492,
-question: 'Which element is the most abundant in the human body?',
-options: ["Carbon","Hydrogen","Oxygen","Nitrogen"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 493,
-question: 'What is the study of fungi called?',
-options: ["Botany","Mycology","Phycology","Bacteriology"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 494,
-question: 'The process by which green plants trap sunlight energy is?',
-options: ["Chemosynthesis","Photosynthesis","Fermentation","Glycolysis"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 495,
-question: 'Which type of radiation is used in cancer treatment?',
-options: ["Alpha radiation","Beta radiation","Gamma radiation","X-rays"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 496,
-question: 'What is the unit of measurement for radioactivity?',
-options: ["Becquerel","Curie","Roentgen","Rem"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 497,
-question: 'The speed of light is approximately?',
-options: ["300,000 km/h","300,000 km/s","30,000 km/s","3,000,000 km/s"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 498,
-question: 'Which gas is produced when acids react with metals?',
-options: ["Oxygen","Carbon dioxide","Hydrogen","Nitrogen"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 499,
-question: 'What is the process of converting solid iron ore to iron?',
-options: ["Smelting","Electrolysis","Roasting","Calcination"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 500,
-question: 'The four fundamental forces in nature are?',
-options: ["Gravity, Electromagnetic, Strong nuclear, Weak nuclear","Gravity, Friction, Tension, Normal","Gravity, Magnetism, Nuclear, Chemical","Gravity, Electric, Magnetic, Centrifugal"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 501,
-question: 'Which planet has a day longer than its year?',
-options: ["Mercury","Venus","Mars","Pluto"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 502,
-question: 'What is the chemical formula of limestone?',
-options: ["CaSO4","CaCO3","Ca(OH)2","CaCl2"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 503,
-question: 'The process by which organisms maintain a stable internal environment is?',
-options: ["Evolution","Homeostasis","Metabolism","Symbiosis"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 504,
-question: 'Which type of bond exists between water molecules?',
-options: ["Covalent bond","Ionic bond","Hydrogen bond","Van der Waals forces"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 505,
-question: "What is Bernoulli's principle about?",
-options: ["Conservation of energy in fluids","Pressure in solids","Heat transfer","Wave motion"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 506,
-question: 'The chemical formula of baking soda is?',
-options: ["Na2CO3","NaHCO3","NaOH","NaCl"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 507,
-question: 'Which process is used to separate crude oil into fractions?',
-options: ["Distillation","Filtration","Chromatography","Crystallization"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 508,
-question: 'The SI unit of energy is?',
-options: ["Watt","Newton","Joule","Pascal"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 509,
-question: 'Which scientist first described the structure of DNA?',
-options: ["Watson and Crick","Rosalind Franklin","Linus Pauling","Erwin Chargaff"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 510,
-question: 'What is the chemical formula of nitric acid?',
-options: ["HCl","H2SO4","HNO3","H3PO4"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 511,
-question: "The term 'ecology' was coined by?",
-options: ["Darwin","Haeckel","Linnaeus","Lamarck"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 512,
-question: 'Which subatomic particle was discovered by Thomson?',
-options: ["Proton","Neutron","Electron","Positron"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 513,
-question: 'The speed of electromagnetic waves in vacuum is?',
-options: ["Depends on frequency","Depends on wavelength","Same for all","Different for each type"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 514,
-question: 'What is the function of ribosomes in cells?',
-options: ["Energy production","Protein synthesis","DNA replication","Cell division"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 515,
-question: 'Which isotope is used in carbon dating?',
-options: ["Carbon-12","Carbon-13","Carbon-14","Carbon-15"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 516,
-question: 'The Chandrasekhar Limit is related to?',
-options: ["Black holes","White dwarfs","Neutron stars","Pulsars"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 517,
-question: 'What is the chemical formula of glucose?',
-options: ["C6H12O6","C12H22O11","C6H10O5","C5H10O5"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 518,
-question: 'Which process produces ATP without oxygen?',
-options: ["Aerobic respiration","Anaerobic respiration","Photosynthesis","Fermentation only"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 519,
-question: "The 'Big Bang Theory' explains?",
-options: ["Evolution of species","Origin of the universe","Formation of black holes","Motion of planets"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 520,
-question: 'What is the chemical symbol for Sodium?',
-options: ["So","Sd","Na","Nm"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 521,
-question: 'Which law relates gas pressure and volume at constant temperature?',
-options: ["Charles' Law","Boyle's Law","Gay-Lussac's Law","Avogadro's Law"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 522,
-question: 'The phenomenon of change in frequency of waves due to relative motion is?',
-options: ["Doppler effect","Interference","Diffraction","Resonance"],
-answer: 0,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 523,
-question: 'Which acid is found in the stomach?',
-options: ["Sulfuric acid","Hydrochloric acid","Nitric acid","Acetic acid"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 524,
-question: 'What is the formula for gravitational potential energy?',
-options: ["½mv²","mgh","mv²","Fd"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 525,
-question: 'Which element is used in nuclear reactors as fuel?',
-options: ["Radium","Thorium","Uranium","Plutonium"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 526,
-question: 'The genetic code consists of how many base triplets (codons)?',
-options: ["20","32","64","128"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 527,
-question: 'What is the unit of wavelength?',
-options: ["Hertz","Meter","Second","Candela"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 528,
-question: 'Which part of the eye controls the amount of light entering?',
-options: ["Retina","Cornea","Iris","Lens"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 529,
-question: 'The chemical formula of calcium carbonate is?',
-options: ["CaCl2","Ca(OH)2","CaCO3","CaSO4"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 530,
-question: 'What is the process of breaking down food molecules in cells to release energy?',
-options: ["Anabolism","Catabolism","Respiration","Digestion"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 531,
-question: 'Which fundamental particle carries the electromagnetic force?',
-options: ["Gluon","Graviton","Photon","Boson"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 532,
-question: "The immune system's first line of defense includes?",
-options: ["Antibodies","Skin and mucus membranes","T-cells","B-cells"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 533,
-question: 'What is the chemical formula of carbon monoxide?',
-options: ["CO2","CO","C2O","CO3"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 534,
-question: 'Which type of radiation can penetrate the most material?',
-options: ["Alpha","Beta","Gamma","X-ray"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 535,
-question: 'The Doppler shift of light from distant galaxies tells us they are?',
-options: ["Moving toward us","Moving away from us","Stationary","Rotating"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 536,
-question: "Which gland is called the 'master gland' of the endocrine system?",
-options: ["Thyroid","Adrenal","Pituitary","Pineal"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 537,
-question: 'What is the process of a gas changing to liquid called?',
-options: ["Solidification","Evaporation","Condensation","Sublimation"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 538,
-question: 'The chemical formula of hydrofluoric acid is?',
-options: ["HCl","HBr","HI","HF"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 539,
-question: 'Which principle states that the position and momentum of a particle cannot both be precisely measured?',
-options: ["Pauli Exclusion Principle","Heisenberg Uncertainty Principle","Schrödinger's Principle","Bohr's Principle"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 540,
-question: 'What is the chemical formula of ethylene?',
-options: ["CH4","C2H4","C2H6","C3H6"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 541,
-question: 'Which cell organelle is responsible for photosynthesis?',
-options: ["Mitochondria","Chloroplast","Nucleus","Ribosome"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 542,
-question: 'The SI base unit of amount of substance is?',
-options: ["Gram","Mole","Kilogram","Dalton"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 543,
-question: 'What is the chemical formula of phosphoric acid?',
-options: ["H2SO4","HNO3","H3PO4","HPO3"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 544,
-question: 'Which force is responsible for keeping electrons in orbit around the nucleus?',
-options: ["Gravitational","Nuclear","Electromagnetic","Centrifugal"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 545,
-question: 'The process of nuclear fusion occurs in?',
-options: ["Nuclear reactors","Atom bombs","Stars","Radioactive decay"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 546,
-question: 'What is the unit of luminous flux?',
-options: ["Candela","Lux","Lumen","Watt"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 547,
-question: 'Which gas turns lime water milky?',
-options: ["Oxygen","Hydrogen","Carbon dioxide","Nitrogen"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 548,
-question: 'The equation E = mc² was proposed by?',
-options: ["Newton","Planck","Bohr","Einstein"],
-answer: 3,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 549,
-question: 'Which element is in group 18 (noble gases)?',
-options: ["Chlorine","Nitrogen","Argon","Fluorine"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 550,
-question: 'What is the chemical formula of acetic acid?',
-options: ["CH3COOH","CH2COOH","CHCOOH","C2H5COOH"],
-answer: 0,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 551,
-question: 'The phenomenon of light splitting into colors is called?',
-options: ["Refraction","Dispersion","Diffraction","Reflection"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 552,
-question: 'Which planet has the Great Red Spot?',
-options: ["Saturn","Mars","Jupiter","Neptune"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 553,
-question: "Who wrote 'War and Peace'?",
-options: ["Dostoyevsky","Turgenev","Tolstoy","Chekhov"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 554,
-question: 'The United Nations was founded in?',
-options: ["1944","1945","1946","1947"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 555,
-question: 'Which is the largest religion in the world?',
-options: ["Islam","Hinduism","Buddhism","Christianity"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 556,
-question: 'Who invented the World Wide Web?',
-options: ["Bill Gates","Tim Berners-Lee","Steve Jobs","Vint Cerf"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 557,
-question: 'The Nobel Prize is awarded in how many categories?',
-options: ["4","5","6","7"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 558,
-question: 'Which country is the largest producer of coffee?',
-options: ["Colombia","Vietnam","Ethiopia","Brazil"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 559,
-question: 'The headquarters of the United Nations is in?',
-options: ["Geneva","Washington DC","New York","London"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 560,
-question: "Who wrote 'Romeo and Juliet'?",
-options: ["Chaucer","Marlowe","Shakespeare","Jonson"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 561,
-question: 'The International Court of Justice is located in?',
-options: ["Brussels","Geneva","The Hague","Strasbourg"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 562,
-question: 'Which country has the oldest written constitution?',
-options: ["UK","India","France","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 563,
-question: 'The Pulitzer Prize is awarded in?',
-options: ["Science","Literature and Journalism","Sports","Medicine"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 564,
-question: 'Who invented the telephone?',
-options: ["Edison","Bell","Marconi","Tesla"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 565,
-question: 'The headquarters of UNESCO is in?',
-options: ["New York","Geneva","Paris","Vienna"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 566,
-question: "Which is the world's oldest democracy?",
-options: ["USA","UK","Greece","India"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 567,
-question: 'Who was the first person to walk on the Moon?',
-options: ["Yuri Gagarin","Buzz Aldrin","Neil Armstrong","Michael Collins"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 568,
-question: 'The International Olympic Committee (IOC) is headquartered in?',
-options: ["Paris","Geneva","Lausanne","Zurich"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 569,
-question: 'Which country produces the most wine?',
-options: ["France","Italy","Spain","Australia"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 570,
-question: "Who wrote 'Pride and Prejudice'?",
-options: ["Charlotte Brontë","George Eliot","Jane Austen","Virginia Woolf"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 571,
-question: "The world's largest library is?",
-options: ["British Library","Library of Congress","Bodleian Library","Harvard Library"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 572,
-question: 'Which country has the most billionaires?',
-options: ["China","India","Germany","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 573,
-question: 'The headquarters of INTERPOL is in?',
-options: ["Paris","Lyon","Brussels","London"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 574,
-question: 'Who invented the airplane?',
-options: ["Glenn Curtiss","Samuel Langley","Wright Brothers","Leonardo da Vinci"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 575,
-question: 'The World Bank is headquartered in?',
-options: ["New York","London","Washington DC","Geneva"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 576,
-question: 'Which author wrote the Harry Potter series?',
-options: ["Suzanne Collins","J.K. Rowling","Philip Pullman","Tolkien"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 577,
-question: 'The Oscars are officially called?',
-options: ["Golden Globe Awards","BAFTA Awards","Academy Awards","Screen Actors Guild Awards"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 578,
-question: 'Who invented the steam engine?',
-options: ["James Watt","George Stephenson","Richard Trevithick","Thomas Newcomen"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 579,
-question: 'The International Monetary Fund (IMF) was established in?',
-options: ["1942","1944","1945","1946"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 580,
-question: 'Which country has the highest Human Development Index?',
-options: ["USA","Norway","Switzerland","Germany"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 581,
-question: "Who wrote '1984'?",
-options: ["Aldous Huxley","George Orwell","Ray Bradbury","H.G. Wells"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 582,
-question: 'The FIFA World Cup is held every?',
-options: ["2 years","3 years","4 years","5 years"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 583,
-question: 'Which is the most spoken language in the world?',
-options: ["English","Spanish","Mandarin Chinese","Hindi"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 584,
-question: 'The Red Cross was founded by?',
-options: ["Albert Schweitzer","Henry Dunant","Florence Nightingale","Louis Pasteur"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 585,
-question: "Who wrote 'The Alchemist'?",
-options: ["Gabriel García Márquez","Mario Vargas Llosa","Paulo Coelho","Jorge Amado"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 586,
-question: 'Which country has the most UNESCO World Heritage Sites?',
-options: ["France","China","Italy","Spain"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 587,
-question: 'The World Trade Organization (WTO) was established in?',
-options: ["1990","1992","1993","1995"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 588,
-question: 'Who painted the Sistine Chapel ceiling?',
-options: ["Leonardo da Vinci","Raphael","Donatello","Michelangelo"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 589,
-question: 'The BRICS countries include?',
-options: ["Brazil, Russia, India, China, South Africa","Brazil, Romania, India, China, Saudi Arabia","Bulgaria, Russia, Indonesia, China, South Africa","Brazil, Russia, Iran, China, South Africa"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 590,
-question: "Who wrote 'The Great Gatsby'?",
-options: ["Ernest Hemingway","F. Scott Fitzgerald","William Faulkner","John Steinbeck"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 591,
-question: 'The Olympics were revived in modern form in?',
-options: ["1892","1896","1900","1904"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 592,
-question: 'Which country has the most Olympic gold medals overall?',
-options: ["China","USSR/Russia","Germany","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 593,
-question: 'Who composed the Fifth Symphony?',
-options: ["Mozart","Bach","Beethoven","Brahms"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 594,
-question: 'The headquarters of the World Health Organization is in?',
-options: ["New York","Geneva","Vienna","Brussels"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 595,
-question: 'Which river is the longest in Europe?',
-options: ["Rhine","Danube","Volga","Thames"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 596,
-question: "Who wrote 'Don Quixote'?",
-options: ["Lope de Vega","Miguel de Cervantes","Federico García Lorca","Pablo Neruda"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 597,
-question: 'The United Nations has how many official languages?',
-options: ["4","5","6","7"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 598,
-question: 'Which country is the largest producer of oil?',
-options: ["Russia","Iraq","Saudi Arabia","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 599,
-question: 'Who invented the internet (as a protocol)?',
-options: ["Tim Berners-Lee","Vint Cerf","Bill Gates","Steve Jobs"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 600,
-question: 'The International Space Station was launched in?',
-options: ["1996","1998","2000","2002"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 601,
-question: 'Which is the largest stock exchange by market capitalization?',
-options: ["London Stock Exchange","Tokyo Stock Exchange","Shanghai Stock Exchange","New York Stock Exchange"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 602,
-question: "Who wrote 'Les Misérables'?",
-options: ["Alexandre Dumas","Gustave Flaubert","Victor Hugo","Honoré de Balzac"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 603,
-question: 'The Kyoto Protocol deals with?',
-options: ["Nuclear disarmament","Climate change and greenhouse gases","Biodiversity","Free trade"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 604,
-question: 'Which country has the most spoken dialects?',
-options: ["China","India","Nigeria","Papua New Guinea"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 605,
-question: 'Who invented the radio?',
-options: ["Edison","Marconi","Tesla","Bell"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 606,
-question: 'The headquarters of NATO is in?',
-options: ["London","Paris","Brussels","The Hague"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 607,
-question: "Which is the world's largest democracy?",
-options: ["USA","India","China","Brazil"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 608,
-question: "Who wrote 'Crime and Punishment'?",
-options: ["Tolstoy","Gogol","Turgenev","Dostoevsky"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 609,
-question: 'The Human Genome Project was completed in?',
-options: ["1998","2000","2003","2005"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 610,
-question: 'Which country has the most nuclear weapons?',
-options: ["USA","France","China","Russia"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 611,
-question: 'The Booker Prize is awarded for?',
-options: ["Science","Fiction in English","Non-fiction","Drama"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 612,
-question: 'Who invented the microscope?',
-options: ["Galileo","Leeuwenhoek","Hooke","Newton"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 613,
-question: 'The Antarctic Treaty was signed in?',
-options: ["1955","1957","1959","1961"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 614,
-question: 'Which country has the most hospitals?',
-options: ["USA","India","China","Russia"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 615,
-question: "Who wrote 'Hamlet'?",
-options: ["Marlowe","Webster","Jonson","Shakespeare"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 616,
-question: 'The headquarters of the African Union is in?',
-options: ["Nairobi","Cairo","Lagos","Addis Ababa"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 617,
-question: 'Which country has won the most FIFA World Cups?',
-options: ["Germany","Argentina","Italy","Brazil"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 618,
-question: "Who wrote 'Anna Karenina'?",
-options: ["Dostoevsky","Chekhov","Tolstoy","Turgenev"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 619,
-question: 'The European Union was formally established by the Maastricht Treaty in?',
-options: ["1990","1991","1992","1993"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 620,
-question: 'Which is the oldest university in the world?',
-options: ["Oxford","Cambridge","Bologna","Harvard"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 621,
-question: "The 'Golden Gate' bridge is in?",
-options: ["Los Angeles","Las Vegas","San Francisco","Seattle"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 622,
-question: 'Who invented the electric light bulb?',
-options: ["Tesla","Faraday","Edison","Bell"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 623,
-question: 'Which country has the most internet users?',
-options: ["India","USA","China","Indonesia"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 624,
-question: 'The International Criminal Court is located in?',
-options: ["Brussels","Strasbourg","Geneva","The Hague"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 625,
-question: "Who wrote 'Brave New World'?",
-options: ["George Orwell","Aldous Huxley","H.G. Wells","Ray Bradbury"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 626,
-question: 'The ASEAN was founded in?',
-options: ["1965","1966","1967","1968"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 627,
-question: 'Which is the most widely read book in history?',
-options: ["Quran","Harry Potter","Bible","Don Quixote"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 628,
-question: 'Who invented penicillin?',
-options: ["Pasteur","Koch","Fleming","Lister"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 629,
-question: 'The Commonwealth of Nations has how many members?',
-options: ["45","54","56","63"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 630,
-question: "Which country has the world's oldest parliament (Althing)?",
-options: ["Denmark","Norway","Iceland","Sweden"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 631,
-question: "Who wrote 'The Lord of the Rings'?",
-options: ["C.S. Lewis","J.R.R. Tolkien","Philip Pullman","Terry Pratchett"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 632,
-question: "The first artificial satellite 'Sputnik' was launched by?",
-options: ["USA","USSR","UK","France"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 633,
-question: 'Which country has the most medals in the Winter Olympics?',
-options: ["Germany","Norway","Canada","USA"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 634,
-question: 'Who invented the television?',
-options: ["Edison","Marconi","Baird","Tesla"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 635,
-question: 'The International Labour Organization (ILO) is headquartered in?',
-options: ["New York","Vienna","Geneva","Brussels"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 636,
-question: 'Which country produces the most diamonds?',
-options: ["South Africa","Botswana","Russia","Australia"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 637,
-question: "Who wrote 'One Hundred Years of Solitude'?",
-options: ["Pablo Neruda","Mario Vargas Llosa","Gabriel García Márquez","Jorge Luis Borges"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 638,
-question: "The 'Silicon Valley' is located in?",
-options: ["Seattle, Washington","Austin, Texas","Boston, Massachusetts","San Jose, California"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 639,
-question: 'Which country has the highest literacy rate?',
-options: ["South Korea","Japan","Finland","Norway"],
-answer: 0,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 640,
-question: 'Who invented X-rays?',
-options: ["Marie Curie","Wilhelm Röntgen","Henri Becquerel","Max Planck"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 641,
-question: 'The headquarters of OPEC is in?',
-options: ["Riyadh","Dubai","Vienna","Baghdad"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 642,
-question: "Which is the world's longest suspension bridge?",
-options: ["Golden Gate","Akashi Kaikyō","Øresund","Brooklyn Bridge"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 643,
-question: "Who painted 'The Starry Night'?",
-options: ["Monet","Renoir","Van Gogh","Cézanne"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 644,
-question: 'The Non-Aligned Movement was founded in?',
-options: ["1955","1957","1961","1965"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 645,
-question: 'Which country is the largest exporter of goods?',
-options: ["USA","Germany","Japan","China"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 646,
-question: "Who wrote 'Fahrenheit 451'?",
-options: ["Aldous Huxley","George Orwell","Ray Bradbury","H.G. Wells"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 647,
-question: "The 'Wall Street' is a symbol of?",
-options: ["US government","US military","US stock market","US media"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 648,
-question: 'Which country has won the most Nobel Prizes?',
-options: ["Germany","UK","France","USA"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 649,
-question: 'Who invented the calculator?',
-options: ["Charles Babbage","Blaise Pascal","Leibniz","Alan Turing"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 650,
-question: 'The headquarters of the World Bank is in?',
-options: ["New York","London","Washington DC","Geneva"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 651,
-question: 'Which artist painted the Mona Lisa?',
-options: ["Raphael","Michelangelo","Leonardo da Vinci","Botticelli"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 652,
-question: "The 'Silicon Savannah' refers to the tech hub in?",
-options: ["South Africa","Nigeria","Kenya","Ethiopia"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 653,
-question: 'Who was the first woman to win a Nobel Prize?',
-options: ["Rosalind Franklin","Lise Meitner","Marie Curie","Dorothy Hodgkin"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 654,
-question: 'The G7 group currently consists of?',
-options: ["USA, UK, France, Germany, Italy, Canada, Japan","USA, UK, France, Germany, Italy, Canada, Australia","USA, UK, France, Germany, Italy, Canada, Russia","USA, UK, France, Germany, Italy, Spain, Japan"],
-answer: 0,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 655,
-question: 'Which country has the most natural gas reserves?',
-options: ["Iran","Qatar","Russia","USA"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 656,
-question: "Who wrote 'The Art of War'?",
-options: ["Confucius","Sun Tzu","Lao Tzu","Mao Tse-tung"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 657,
-question: 'The headquarters of the WTO is in?',
-options: ["New York","Vienna","Geneva","Brussels"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 658,
-question: 'Which country is the largest producer of wheat?',
-options: ["India","Russia","USA","China"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 659,
-question: 'Who invented the transistor?',
-options: ["Shockley, Bardeen and Brattain","Edison","Tesla","De Forest"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 660,
-question: "The 'Hollywood' film industry is named after a district in?",
-options: ["New York","Chicago","Los Angeles","San Francisco"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 661,
-question: 'Which international organization deals with nuclear matters?',
-options: ["IAEA","UNCTAD","UNESCO","UNCHR"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 662,
-question: "Who composed 'The Four Seasons'?",
-options: ["Bach","Handel","Vivaldi","Pachelbel"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 663,
-question: 'The Schengen Agreement allows?',
-options: ["Free trade","Free movement of people","Common currency","Common army"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 664,
-question: 'Which country has the most spoken languages?',
-options: ["China","India","Nigeria","Papua New Guinea"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 665,
-question: "Who wrote 'The Wealth of Nations'?",
-options: ["David Ricardo","Karl Marx","John Maynard Keynes","Adam Smith"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 666,
-question: 'The International Court of Justice was established in?',
-options: ["1944","1945","1946","1947"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 667,
-question: 'Which country has hosted the most Olympics?',
-options: ["Germany","France","UK","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 668,
-question: 'Who invented the steam locomotive?',
-options: ["James Watt","George Stephenson","Richard Trevithick","Robert Fulton"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 669,
-question: 'The headquarters of Amnesty International is in?',
-options: ["Geneva","New York","Brussels","London"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 670,
-question: 'Which language has the most words?',
-options: ["Mandarin","Spanish","English","German"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 671,
-question: "Who composed the opera 'The Magic Flute'?",
-options: ["Beethoven","Bach","Mozart","Handel"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 672,
-question: 'The Rio Earth Summit on environment was held in?',
-options: ["1990","1992","1994","1996"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 673,
-question: 'Which country has the most coastline in the world?',
-options: ["Russia","Norway","Australia","Canada"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 674,
-question: 'Who invented the laser?',
-options: ["Theodore Maiman","Charles Townes","Gordon Gould","Arthur Schawlow"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 675,
-question: 'The first Nobel Prize was awarded in?',
-options: ["1899","1900","1901","1902"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 676,
-question: 'Which country has the most psychiatric beds per capita?',
-options: ["USA","Germany","Japan","Switzerland"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 677,
-question: "Who wrote 'The Communist Manifesto'?",
-options: ["Lenin and Stalin","Marx and Engels","Trotsky and Lenin","Marx and Lenin"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 678,
-question: 'The headquarters of the European Central Bank is in?',
-options: ["Brussels","Frankfurt","Paris","Zurich"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 679,
-question: 'Which country has the most golf courses?',
-options: ["Scotland","Japan","Australia","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 680,
-question: 'Who invented the diesel engine?',
-options: ["Benz","Daimler","Otto","Diesel"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 681,
-question: 'The MERCOSUR trade bloc is in?',
-options: ["Southeast Asia","Africa","South America","Eastern Europe"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 682,
-question: 'Which country has the most languages in its constitution?',
-options: ["Switzerland","Belgium","South Africa","Canada"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 683,
-question: "Who wrote 'The Origin of Species'?",
-options: ["Lamarck","Wallace","Darwin","Mendel"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 684,
-question: 'The first World War ended in?',
-options: ["1917","1918","1919","1920"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 685,
-question: 'Which country has the most registered patents?',
-options: ["Germany","Japan","South Korea","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 686,
-question: "Who painted 'Girl with a Pearl Earring'?",
-options: ["Rembrandt","Vermeer","Hals","Rubens"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 687,
-question: 'The World Meteorological Organization is headquartered in?',
-options: ["New York","Vienna","Geneva","Brussels"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 688,
-question: 'Which country has the most active volcanoes?',
-options: ["Japan","Philippines","Iceland","Indonesia"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 689,
-question: "Who wrote 'The Trial'?",
-options: ["Thomas Mann","Franz Kafka","Herman Hesse","Stefan Zweig"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 690,
-question: "The 'Silicon Roundabout' refers to the tech hub in?",
-options: ["Dublin","Amsterdam","London","Berlin"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 691,
-question: 'Which country is the largest producer of cocoa?',
-options: ["Ghana","Nigeria","Ecuador","Ivory Coast"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 692,
-question: 'Who invented the fax machine?',
-options: ["Graham Bell","Thomas Edison","Alexander Bain","Samuel Morse"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 693,
-question: 'The headquarters of the Red Cross is in?',
-options: ["Paris","Brussels","Geneva","Zurich"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 694,
-question: 'Which country has the most scientific publications?',
-options: ["Germany","UK","Japan","China"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 695,
-question: "Who wrote 'The Jungle Book'?",
-options: ["Rudyard Kipling","H.G. Wells","Arthur Conan Doyle","R.L. Stevenson"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 696,
-question: 'The International Atomic Energy Agency is headquartered in?',
-options: ["Geneva","Brussels","Vienna","New York"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 697,
-question: "Which country is the world's largest democracy by population?",
-options: ["USA","Indonesia","Pakistan","India"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 698,
-question: "Who painted 'The Last Supper'?",
-options: ["Raphael","Michelangelo","Leonardo da Vinci","Botticelli"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 699,
-question: 'The first email was sent by?',
-options: ["Tim Berners-Lee","Vint Cerf","Ray Tomlinson","Bill Gates"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 700,
-question: 'Which country has the most airports?',
-options: ["Russia","China","India","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 701,
-question: "Who wrote 'Gulliver's Travels'?",
-options: ["Daniel Defoe","Henry Fielding","Jonathan Swift","Samuel Richardson"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 702,
-question: 'The International Space Station orbits at an altitude of approximately?',
-options: ["200 km","400 km","600 km","800 km"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 703,
-question: 'Which country has the most stars on its flag?',
-options: ["USA","Brazil","China","Australia"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 704,
-question: 'Who invented the first programmable computer?',
-options: ["John von Neumann","Alan Turing","Konrad Zuse","Charles Babbage"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 705,
-question: 'The headquarters of the Food and Agriculture Organization is in?',
-options: ["Geneva","New York","Paris","Rome"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 706,
-question: 'Which country has the highest minimum wage?',
-options: ["USA","Germany","Switzerland","Luxembourg"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 707,
-question: "Who wrote 'The Count of Monte Cristo'?",
-options: ["Victor Hugo","Alexandre Dumas","Stendhal","Gustave Flaubert"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 708,
-question: 'The United Nations Security Council has how many permanent members?',
-options: ["3","4","5","6"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 709,
-question: 'Which country has the most engineers per capita?',
-options: ["South Korea","Germany","Russia","Japan"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 710,
-question: "Who composed the opera 'Carmen'?",
-options: ["Verdi","Puccini","Bizet","Wagner"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 711,
-question: "The 'Green Revolution' in India was associated with?",
-options: ["MS Swaminathan","Norman Borlaug","Verghese Kurien","BR Ambedkar"],
-answer: 0,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 712,
-question: 'Which country invented chess?',
-options: ["Persia","China","India","Arabia"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 713,
-question: "Who wrote 'The Odyssey'?",
-options: ["Virgil","Sophocles","Homer","Euripides"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 714,
-question: 'The headquarters of the OECD is in?',
-options: ["Brussels","Geneva","London","Paris"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 715,
-question: 'Which country has the most daily newspaper readers per capita?',
-options: ["UK","Germany","Japan","USA"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 716,
-question: 'Who invented the contact lens?',
-options: ["Adolf Fick","Nikolai Tesla","Otto Wichterle","Kevin Tuohy"],
-answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 717,
-question: "The 'Venice of the North' refers to?",
-options: ["Stockholm","Amsterdam","Bruges","Copenhagen"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 718,
-question: 'Which country has the most football (soccer) World Cup wins?',
-options: ["Italy","Germany","Argentina","Brazil"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 719,
-question: "Who wrote 'Moby Dick'?",
-options: ["Nathaniel Hawthorne","Herman Melville","Mark Twain","Edgar Allan Poe"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 720,
-question: "The 'Davos Forum' is formally known as?",
-options: ["G20","World Economic Forum","Bilderberg Group","Trilateral Commission"],
-answer: 1,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 721,
-question: "Which country is the world's largest arms exporter?",
-options: ["Russia","UK","France","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 722,
-question: "Who painted 'Guernica'?",
-options: ["Dalí","Miró","Picasso","Gris"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 723,
-question: 'The International Finance Corporation is part of?',
-options: ["IMF","United Nations","World Bank Group","WTO"],
-answer: 2,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 724,
-question: 'Which country has the most Internet bandwidth?',
-options: ["China","USA","South Korea","Japan"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 725,
-question: "Who wrote 'The Hitchhiker's Guide to the Galaxy'?",
-options: ["Terry Pratchett","Douglas Adams","Isaac Asimov","Arthur C. Clarke"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 726,
-question: 'The most widely used writing system in the world is?',
-options: ["Latin script","Arabic script","Chinese characters","Cyrillic script"],
-answer: 0,
-category: "GK",
-difficulty: "hard"
-},
-
-{
-id: 727,
-question: 'Which country has the most tax revenue as a percentage of GDP?',
-options: ["Germany","Sweden","Denmark","France"],
-answer: 2,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 728,
-question: 'Who invented bifocal glasses?',
-options: ["Isaac Newton","Benjamin Franklin","Thomas Jefferson","Galileo"],
-answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 729,
-question: "The 'City of Light' refers to?",
-options: ["Rome","London","Vienna","Paris"],
-answer: 3,
-category: "GK",
-difficulty: "hard"
-},
-
-{
 id: 730,
-question: 'Which country has the most Fortune 500 companies?',
-options: ["China","Japan","UK","USA"],
-answer: 3,
-category: "GK",
-difficulty: "medium"
+question: "The 'Orang National Park' in Assam is known for?",
+options: ["Tigers and one-horned rhinos","Snow leopards","Wild water buffaloes","Asian elephants"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
 },
 
 {
 id: 731,
-question: "Who wrote 'The Iliad'?",
-options: ["Virgil","Sophocles","Euripides","Homer"],
-answer: 3,
-category: "GK",
+question: "The 'Dooars' region lies at the foothills of?",
+options: ["Western Himalayas","Eastern Himalayas (West Bengal-Bhutan border)","Northeastern Himalayas","Arunachal Himalayas"],
+answer: 1,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 732,
-question: 'The G20 group was established in?',
-options: ["1997","1998","1999","2000"],
-answer: 2,
-category: "GK",
+question: "The 'Chenab River' originates from?",
+options: ["Bara Lacha Pass, Himachal Pradesh","Rohtang Pass","Kullu Valley","Lahaul and Spiti"],
+answer: 0,
+category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 733,
-question: 'Which country has the most natural wonders?',
-options: ["Australia","China","USA","Brazil"],
-answer: 2,
-category: "GK",
+question: "India's largest solar power park is located in?",
+options: ["Rajasthan (Bhadla)","Gujarat","Tamil Nadu","Karnataka"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 734,
-question: 'Who invented the submarine?',
-options: ["David Bushnell","John Holland","Robert Fulton","Simon Lake"],
+question: "The 'AMPA cyclone' (2020) and frequent Bay of Bengal cyclones affect which Indian state most?",
+options: ["Kerala","West Bengal and Odisha","Tamil Nadu only","Andhra Pradesh only"],
 answer: 1,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 735,
-question: "The 'Land of the Long White Cloud' refers to?",
-options: ["Iceland","Ireland","New Zealand","Norway"],
-answer: 2,
-category: "GK",
+category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 736,
-question: 'Which country consumes the most energy per capita?',
-options: ["UAE","Canada","Qatar","USA"],
-answer: 2,
-category: "GK",
+id: 735,
+question: "India's 'first coastal regulation zone' notification was in?",
+options: ["1986","1991","1996","2001"],
+answer: 1,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 736,
+question: "The 'NITI Aayog Composite Water Management Index' ranked which state first?",
+options: ["Gujarat","Maharashtra","Madhya Pradesh","Punjab"],
+answer: 0,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 737,
-question: "Who wrote 'In Search of Lost Time'?",
-options: ["Flaubert","Zola","Proust","Sartre"],
-answer: 2,
-category: "GK",
+question: "The 'Talchir Coalfields' are in?",
+options: ["Jharkhand","Odisha","West Bengal","Chhattisgarh"],
+answer: 1,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 738,
-question: 'The first test tube baby was born in?',
-options: ["1975","1976","1977","1978"],
-answer: 3,
-category: "GK",
+question: "The 'Kutch District' in Gujarat is known for?",
+options: ["White Rann salt desert and Indian Wild Ass Sanctuary","Gir Forest only","Mangrove forests","Oil reserves"],
+answer: 0,
+category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 739,
-question: 'Which country has the most museums?',
-options: ["France","UK","Germany","USA"],
-answer: 3,
-category: "GK",
+question: "The 'Eastern Coastal Plains' are also called?",
+options: ["Coromandel Coast (southern part)","Malabar Coast","Konkan Coast","Karnataka Coast"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 740,
-question: 'Who invented vulcanized rubber?',
-options: ["Charles Goodyear","John Dunlop","Harvey Firestone","André Michelin"],
+question: "'Ocean Thermal Energy Conversion' (OTEC) plants in India are planned mainly at?",
+options: ["Andaman & Nicobar Islands and Lakshadweep","Mumbai offshore","Kochi","Chennai coast"],
 answer: 0,
-category: "GK",
-difficulty: "medium"
-},
-
-{
-id: 741,
-question: 'What is the value of π (pi) to 4 decimal places?',
-options: ["3.1415","3.1416","3.1417","3.1418"],
-answer: 1,
-category: "Maths",
+category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 742,
-question: 'What is the square root of 225?',
-options: ["13","14","15","16"],
-answer: 2,
-category: "Maths",
+id: 741,
+question: "The 'Vindhya Range' separates?",
+options: ["Northern India from Peninsular India","Rajasthan from Madhya Pradesh","Maharashtra from Gujarat","Chhattisgarh from Odisha"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
+id: 742,
+question: "The 'Tawa River' is a tributary of?",
+options: ["Godavari","Narmada","Mahanadi","Betwa"],
+answer: 1,
+category: "Geography",
+difficulty: "hard"
+},
+
+{
 id: 743,
-question: 'If a triangle has angles 30° and 60°, what is the third angle?',
-options: ["80°","85°","90°","95°"],
-answer: 2,
-category: "Maths",
+question: "The 'Palaeozoic Rocks' in India are best represented in?",
+options: ["Spiti Valley and Kashmir Valley","Deccan Plateau","Gangetic Plains","Coastal regions"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 744,
-question: 'What is 17 × 18?',
-options: ["296","304","306","316"],
-answer: 2,
-category: "Maths",
+question: "The 'Mahananda River' flows through?",
+options: ["West Bengal, Bihar, Sikkim","West Bengal and Bihar","Bihar and Nepal","Nepal and West Bengal"],
+answer: 0,
+category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 745,
-question: 'The sum of first 50 natural numbers is?',
-options: ["1225","1250","1275","1300"],
-answer: 2,
-category: "Maths",
+question: "India's largest mangrove reserve outside Sundarbans is?",
+options: ["Bhitarkanika (Odisha)","Pichavaram (Tamil Nadu)","Coringa (Andhra Pradesh)","Mahanadi delta"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 746,
-question: 'What is 2⁸?',
-options: ["128","256","512","1024"],
+question: "The 'NATMO' (National Atlas) shows India's geographical data at what scale (standard)?",
+options: ["1:10,000","1:1,000,000","1:50,000","1:250,000"],
 answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 747,
-question: 'If x² - 5x + 6 = 0, what are the roots?',
-options: ["2 and 3","1 and 6","2 and 4","3 and 4"],
-answer: 0,
-category: "Maths",
+category: "Geography",
 difficulty: "hard"
 },
 
 {
-id: 748,
-question: 'What is the LCM of 12 and 18?',
-options: ["24","36","48","54"],
-answer: 1,
-category: "Maths",
+id: 747,
+question: "The 'Bhopal Gas Tragedy' (1984) involved leak of?",
+options: ["Methyl isocyanate (MIC)","Chlorine gas","Sulfur dioxide","Ammonia"],
+answer: 0,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
-id: 749,
-question: 'A circle has radius 7cm. Its area is? (π = 22/7)',
-options: ["144cm²","154cm²","164cm²","174cm²"],
+id: 748,
+question: "'Social capital' in geography refers to?",
+options: ["Financial investment in society","Networks, norms, and trust facilitating cooperation","Physical infrastructure","Natural resources"],
 answer: 1,
-category: "Maths",
+category: "Geography",
+difficulty: "hard"
+},
+
+{
+id: 749,
+question: "The 'Project Snow Leopard' was launched in?",
+options: ["2007","2008","2009","2010"],
+answer: 1,
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 750,
-question: 'What is 15% of 560?',
-options: ["72","78","84","90"],
-answer: 2,
-category: "Maths",
+question: "The 'Gulf of Mannar Biosphere Reserve' extends along coast of?",
+options: ["Kerala and Tamil Nadu","Only Tamil Nadu","Tamil Nadu and Sri Lanka","Andhra Pradesh and Tamil Nadu"],
+answer: 1,
+category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 751,
-question: 'If a:b = 3:4 and b:c = 6:7, then a:c is?',
-options: ["9:14","18:28","9:28","7:14"],
+question: "The 'POSCO project' controversy in Odisha was related to?",
+options: ["Steel plant and displacement of tribal communities","Oil refinery","Nuclear power plant","SEZ for IT"],
 answer: 0,
-category: "Maths",
+category: "Geography",
 difficulty: "medium"
 },
 
 {
 id: 752,
-question: 'The HCF of 36 and 48 is?',
-options: ["6","8","12","18"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 753,
-question: 'What is the value of √(144 + 25)?',
-options: ["13","15","17","19"],
-answer: 0,
-category: "Maths",
+question: "The 'Doppler Effect' in astronomy leads to 'redshift' meaning?",
+options: ["Galaxy moving toward us","Galaxy moving away from us","Increase in star temperature","Star formation"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 754,
-question: 'If 3x + 4y = 10 and 2x - 3y = 1, the value of x is?',
-options: ["2","3","4","5"],
-answer: 0,
-category: "Maths",
+id: 753,
+question: "'CRISPR-Cas9' acts like molecular scissors cutting DNA at?",
+options: ["Any location","Specific sequences guided by sgRNA","Only gene promoters","Only defective genes"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 754,
+question: "The 'Quantum Entanglement' phenomenon means?",
+options: ["Particles share quantum state regardless of distance","Particles collide","Energy quantization","Wave-particle duality"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 755,
-question: 'A train 120m long passes a pole in 12 seconds. Its speed is?',
-options: ["8 m/s","10 m/s","12 m/s","15 m/s"],
+question: "'Graphene' is an allotrope of carbon with which structure?",
+options: ["3D tetrahedral","2D single layer hexagonal lattice","Fullerene cage","Nanotube"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 756,
-question: 'What is the cube of 12?',
-options: ["1228","1628","1728","1828"],
-answer: 2,
-category: "Maths",
+question: "The 'ITER' (International Thermonuclear Experimental Reactor) uses which fusion fuel?",
+options: ["Hydrogen-1","Deuterium-Tritium","Uranium","Plutonium"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 757,
-question: 'In how many ways can 5 books be arranged on a shelf?',
-options: ["60","80","100","120"],
-answer: 3,
-category: "Maths",
+question: "'mRNA vaccines' (like Pfizer COVID-19) work by?",
+options: ["Introducing weakened virus","Delivering mRNA that codes for antigen protein","Introducing inactivated virus","Using viral vector"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 758,
-question: 'The simple interest on Rs 1000 at 10% per year for 2 years is?',
-options: ["Rs 100","Rs 150","Rs 200","Rs 250"],
+question: "The 'Standard Model' of particle physics does NOT include?",
+options: ["Quarks","Leptons","Gravity (graviton)","Bosons"],
 answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 759,
-question: 'What is the probability of getting a head when tossing two coins?',
-options: ["1/4","1/2","3/4","1"],
-answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 760,
-question: 'A cylinder has radius 3.5cm and height 10cm. Its volume is? (π=22/7)',
-options: ["385 cm³","385 cm³","392 cm³","400 cm³"],
+id: 759,
+question: "'Thermoelectric Effect' (Seebeck effect) converts?",
+options: ["Heat to electricity","Electricity to light","Light to electricity","Sound to electricity"],
 answer: 0,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 760,
+question: "The 'Hall-Heroult Process' is used for industrial production of?",
+options: ["Copper","Aluminum","Zinc","Steel"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 761,
-question: 'What is the sum of angles in a hexagon?',
-options: ["540°","600°","720°","800°"],
-answer: 2,
-category: "Maths",
+question: "'Electronegativity' is highest for which element?",
+options: ["Oxygen","Chlorine","Nitrogen","Fluorine"],
+answer: 3,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 762,
-question: 'If log 2 = 0.3010, what is log 8?',
-options: ["0.6020","0.7210","0.9030","1.2040"],
-answer: 2,
-category: "Maths",
+question: "The 'CRISPR' technology was pioneered by?",
+options: ["Jennifer Doudna and Emmanuelle Charpentier","Watson and Crick","Craig Venter","Frederick Sanger"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 763,
-question: 'The area of a trapezium with parallel sides 5cm and 9cm and height 4cm is?',
-options: ["24 cm²","28 cm²","30 cm²","32 cm²"],
-answer: 1,
-category: "Maths",
+question: "The 'Chandrayaan-1' (2008) made which major discovery?",
+options: ["Water ice at lunar poles","Dark side of moon","Lunar magnetic field","Helium-3 deposits"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 764,
-question: 'How many prime numbers are there between 1 and 30?',
-options: ["8","9","10","11"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 765,
-question: 'What is 35% of 240?',
-options: ["72","80","84","96"],
-answer: 2,
-category: "Maths",
+question: "'Epigenetics' studies?",
+options: ["Changes in DNA sequence","Heritable changes in gene expression without DNA sequence changes","Genetic mutations","Gene therapy"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 766,
-question: 'If the perimeter of a square is 48cm, its area is?',
-options: ["100 cm²","121 cm²","144 cm²","169 cm²"],
-answer: 2,
-category: "Maths",
+id: 765,
+question: "The 'Endoplasmic Reticulum' in cells is of two types based on presence/absence of?",
+options: ["Nucleus","Ribosomes (Rough ER and Smooth ER)","Mitochondria","Golgi body"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
-id: 767,
-question: 'The compound interest on Rs 2000 at 10% for 2 years is?',
-options: ["Rs 400","Rs 420","Rs 440","Rs 460"],
+id: 766,
+question: "'Stem Cells' are unique because they can?",
+options: ["Reproduce sexually","Self-renew and differentiate into various cell types","Only divide once","Photosynthesize"],
 answer: 1,
-category: "Maths",
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 767,
+question: "The 'Piezoelectric Effect' is used in?",
+options: ["Solar cells","Electric lighters, sensors, and ultrasound devices","LED lights","Nuclear reactors"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 768,
-question: 'What is the value of sin 45°?',
-options: ["1/2","√2/2","√3/2","1"],
-answer: 1,
-category: "Maths",
+question: "The 'Raman Effect' (discovered by C.V. Raman) involves?",
+options: ["Change in frequency of scattered light","Total internal reflection","Doppler shift","Photoelectric effect"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 769,
-question: 'How many diagonals does a pentagon have?',
-options: ["4","5","6","7"],
-answer: 1,
-category: "Maths",
+question: "The 'NAVIC' satellites operate in which orbit?",
+options: ["LEO (Low Earth Orbit)","MEO (Medium Earth Orbit)","GSO (Geostationary Orbit) and GTO","Polar Orbit"],
+answer: 2,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 770,
-question: 'If a number is increased by 25% and then decreased by 20%, the net change is?',
-options: ["0%","2%","5%","10%"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 771,
-question: 'What is 3⁴ + 4³?',
-options: ["144","145","146","147"],
+question: "The 'Ozone' molecule has how many oxygen atoms?",
+options: ["2","3","4","1"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 772,
-question: 'The median of 3, 7, 5, 9, 1, 11, 8 is?',
-options: ["5","7","8","9"],
-answer: 1,
-category: "Maths",
+id: 771,
+question: "'ISRO's ReusableLaunch Vehicle' (RLV-TD) technology is similar to?",
+options: ["SpaceX Falcon 9","NASA Space Shuttle","Boeing Starship","Blue Origin New Shepard"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 772,
+question: "The 'Bernoulli Effect' explains why?",
+options: ["Heavier objects fall faster","Airplane wings generate lift","Objects sink in water","Light bends in medium"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 773,
-question: 'Two numbers are in ratio 4:5. Their sum is 81. The larger number is?',
-options: ["36","40","45","50"],
-answer: 2,
-category: "Maths",
+question: "'Catalytic Converter' in vehicles converts harmful gases like CO and NOx into?",
+options: ["O2, N2, CO2 (harmless)","H2O only","SO2","NO2"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 774,
-question: 'What is the cube root of 1331?',
-options: ["9","10","11","12"],
-answer: 2,
-category: "Maths",
+question: "The 'Nernst Equation' in electrochemistry relates?",
+options: ["Cell potential to concentration","Rate of reaction to temperature","Entropy to enthalpy","Pressure to volume"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 775,
-question: 'A man walks 4km East and then 3km North. His distance from start is?',
-options: ["5km","6km","7km","8km"],
+question: "India's 'Thorium Reactor' program under DAE uses?",
+options: ["Thorium-232 to breed Uranium-233","Only Uranium-235","Plutonium","Heavy water only"],
 answer: 0,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 776,
-question: 'If the selling price is 120% of cost price, the profit percentage is?',
-options: ["12%","15%","20%","25%"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 777,
-question: 'What is the number of zeros at the end of 100!?',
-options: ["20","22","24","26"],
-answer: 2,
-category: "Maths",
+question: "The 'SEM' (Scanning Electron Microscope) uses?",
+options: ["Light photons","Focused beam of electrons","X-rays","Neutrons"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 778,
-question: 'The AM of two numbers is 25 and GM is 20. The numbers are?',
-options: ["10 and 40","16 and 34","20 and 30","15 and 35"],
+id: 777,
+question: "'Bioluminescence' is common in marine organisms and is produced by reaction involving?",
+options: ["Luciferin and luciferase enzyme","Chlorophyll","Hemoglobin","Melanin"],
 answer: 0,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
-id: 779,
-question: 'If tan θ = 3/4, then sin θ is?',
-options: ["3/4","3/5","4/5","4/3"],
+id: 778,
+question: "The 'Whipple Shield' technology is used to protect?",
+options: ["Nuclear reactors","Spacecraft from micrometeorites","Submarines","Aircraft from birds"],
 answer: 1,
-category: "Maths",
+category: "Science",
+difficulty: "hard"
+},
+
+{
+id: 779,
+question: "India's '3-stage nuclear power program' (developed by Homi Bhabha) uses which fuels in stages?",
+options: ["Uranium → Plutonium → Thorium","Coal → Oil → Gas","Uranium → Thorium → Fusion","Natural Uranium → Thorium only"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 780,
-question: 'What is the area of equilateral triangle with side 6cm?',
-options: ["9√3 cm²","12√3 cm²","15√3 cm²","18√3 cm²"],
-answer: 0,
-category: "Maths",
+question: "The 'Doppler RADAR' used in weather forecasting measures?",
+options: ["Temperature","Wind speed and direction using microwave return","Humidity","Air pressure"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 781,
-question: 'A sum doubles itself in 5 years at simple interest. The rate is?',
-options: ["10%","15%","20%","25%"],
-answer: 2,
-category: "Maths",
+question: "'Pharmacogenomics' studies?",
+options: ["Drug manufacturing","How genes affect drug response","Drug addiction","Pharmaceutical marketing"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 782,
-question: 'How many positive integers less than 100 are divisible by both 4 and 6?',
-options: ["6","8","10","12"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 783,
-question: 'If f(x) = x² - 3x + 2, then f(0) + f(1) + f(2) =?',
-options: ["0","1","2","3"],
-answer: 3,
-category: "Maths",
+question: "The 'Greenhouse Effect' on Venus causes surface temperature of approximately?",
+options: ["100°C","200°C","465°C","1000°C"],
+answer: 2,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 784,
-question: 'The perimeter of a semicircle with diameter 14cm is? (π=22/7)',
-options: ["36cm","44cm","50cm","56cm"],
+id: 783,
+question: "The 'SOAR' telescope in Chile is co-managed by?",
+options: ["India and USA","NOAO and Brazil (among others), not India","ESA","China"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 784,
+question: "India's 'AstroSat' (2015) is?",
+options: ["Weather satellite","India's first dedicated multi-wavelength astronomy satellite","Communication satellite","Navigation satellite"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 785,
-question: 'What is 2/3 of 3/4 of 4/5 of 1000?',
-options: ["300","400","500","600"],
-answer: 2,
-category: "Maths",
+question: "The 'LIGO' experiment detected?",
+options: ["Higgs boson","Gravitational waves","Dark matter","Dark energy"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 786,
-question: 'A shopkeeper marks price 30% above cost. He gives 10% discount. Profit %?',
-options: ["15%","16%","17%","18%"],
-answer: 2,
-category: "Maths",
+question: "'Hybridoma Technology' is used to produce?",
+options: ["Vaccines","Monoclonal antibodies","Recombinant proteins","Gene therapy vectors"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 787,
-question: 'The number of ways to select 3 from 8 is?',
-options: ["36","48","56","64"],
-answer: 2,
-category: "Maths",
+question: "The 'Principal Quantum Number' (n) in atomic theory defines?",
+options: ["Shape of orbital","Size/energy level of orbital","Orientation of orbital","Spin of electron"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 788,
-question: 'If x + y = 10 and x² + y² = 58, then xy is?',
-options: ["16","18","20","22"],
+question: "'Surface Tension' is due to?",
+options: ["Gravity acting on liquid surface","Cohesive forces between molecules at surface","Viscosity","Pressure difference"],
 answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 789,
-question: 'What is √(0.0625)?',
-options: ["0.025","0.25","0.5","2.5"],
-answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 790,
-question: "If the ratio of ages of A and B is 3:5 and sum is 80, A's age is?",
-options: ["24","28","30","32"],
-answer: 2,
-category: "Maths",
+id: 789,
+question: "The 'Venturi Effect' is used in?",
+options: ["Carburettors in engines","Nuclear reactors","Telescopes","Sonar systems"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 790,
+question: "India's 'SAGE Initiative' (Scheme for Ageing) focuses on?",
+options: ["Senior citizens' welfare and technology","Space age exploration","Science and green energy","Strategic and geopolitical evaluation"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 791,
-question: 'A train runs at 60 km/h. In 15 minutes it covers?',
-options: ["12km","15km","16km","20km"],
-answer: 1,
-category: "Maths",
+question: "The 'Mössbauer Effect' involves?",
+options: ["Recoil-free nuclear resonance absorption of gamma rays","Radioactive decay","Nuclear fission","Magnetic resonance"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 792,
-question: 'What is the sum of first n natural numbers?',
-options: ["n(n+1)","n(n+1)/2","n(n-1)/2","n²"],
+question: "The 'Aakash Tablet' program in India aimed at?",
+options: ["Defence communication","Affordable tablets for students","e-Governance","Tourism"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 793,
-question: 'If 2^x = 32, what is x?',
-options: ["4","5","6","7"],
-answer: 1,
-category: "Maths",
+question: "'Reverse Osmosis' uses pressure to push water through semipermeable membrane to remove?",
+options: ["Dissolved salts and impurities","Organic matter only","Only bacteria","Color and odor only"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 794,
-question: 'The diagonal of a rectangle with length 12cm and width 5cm is?',
-options: ["13cm","14cm","15cm","16cm"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 795,
-question: 'What is the value of cos 60°?',
-options: ["0","1/2","√3/2","1"],
-answer: 1,
-category: "Maths",
+question: "The 'Deep Ocean Mission' of India aims to explore depth of?",
+options: ["1000m","3000m","6000m","10,000m"],
+answer: 2,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 796,
-question: 'A pipe fills a tank in 6 hours and another in 12 hours. Together they fill in?',
-options: ["3 hours","4 hours","5 hours","6 hours"],
-answer: 1,
-category: "Maths",
+id: 795,
+question: "The 'Chandrayaan-3' lander is named?",
+options: ["Pragyan","Vikram","Pragyaan (rover)","Both Vikram (lander) and Pragyan (rover)"],
+answer: 3,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 796,
+question: "'GAGAN' (GPS Aided Geo Augmented Navigation) in India enhances?",
+options: ["Navigation for civil aviation","Missile guidance","Satellite communication","Weather forecasting"],
+answer: 0,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 797,
-question: 'What is 17² - 13²?',
-options: ["100","120","120","180"],
-answer: 2,
-category: "Maths",
+question: "The 'Lac operon' is an example of?",
+options: ["Positive gene regulation","Negative gene regulation (repressor system)","Post-translational modification","Epigenetic modification"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 798,
-question: 'If 5 men can do a work in 8 days, 4 men will do it in?',
-options: ["8","9","10","11"],
-answer: 2,
-category: "Maths",
+question: "India's 'Geosynchronous Satellite Launch Vehicle' (GSLV) uses cryogenic engines burning?",
+options: ["Solid fuel","Liquid hydrogen and liquid oxygen","Nitrogen tetroxide and UDMH","Kerosene and LOX"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 799,
-question: 'The number of factors of 72 is?',
-options: ["9","10","11","12"],
-answer: 3,
-category: "Maths",
+question: "The 'Carnot Efficiency' of a heat engine depends on?",
+options: ["Type of fuel","Temperatures of hot and cold reservoirs","Size of engine","Pressure only"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 800,
-question: 'What is the value of tan 30°?',
-options: ["1","√3","1/√3","√3/2"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 801,
-question: 'A and B together can do work in 12 days. A alone in 20 days. B alone in?',
-options: ["24","28","30","32"],
-answer: 2,
-category: "Maths",
+question: "'Somatic Cell Nuclear Transfer' (SCNT) was used in?",
+options: ["Dolly the sheep cloning","COVID vaccine","Gene therapy","Cancer treatment"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 802,
-question: 'What is the remainder when 2^100 is divided by 3?',
-options: ["0","1","2","3"],
-answer: 1,
-category: "Maths",
+id: 801,
+question: "The 'Integrated Guided Missile Development Programme' (IGMDP) was conceptualized by?",
+options: ["Homi Bhabha","Vikram Sarabhai","A.P.J. Abdul Kalam","K. Radhakrishnan"],
+answer: 2,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 802,
+question: "India's 'PARAM Siddhi' supercomputer uses?",
+options: ["Traditional CPU only","AI-capable hybrid infrastructure with NVIDIA GPUs","Quantum computing","Only domestic chips"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 803,
-question: 'The surface area of a cube with side 4cm is?',
-options: ["64 cm²","80 cm²","96 cm²","112 cm²"],
-answer: 2,
-category: "Maths",
+question: "The 'James Webb Space Telescope' (JWST) operates primarily in?",
+options: ["Visible light","Infrared wavelengths","X-ray","Radio waves"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 804,
-question: 'If a number is multiplied by 3/4 and increased by 8 gives 20, the number is?',
-options: ["14","16","18","20"],
+question: "The 'Plasma State' of matter is characterized by?",
+options: ["Fixed shape","Ionized gas with free electrons","Rigid structure","Liquid-like flow with magnetic properties"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 805,
-question: 'What is the probability of getting at least one head in 3 coin tosses?',
-options: ["1/8","3/8","7/8","5/8"],
+question: "The 'Half-Reaction Method' is used to balance?",
+options: ["Acid-base reactions","Precipitation reactions","Redox (oxidation-reduction) reactions","Combustion reactions"],
 answer: 2,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 806,
-question: 'The sum of squares of first 10 natural numbers is?',
-options: ["300","350","385","400"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 807,
-question: 'Two trains of length 150m and 100m approach each other at 40 and 50 km/h. Time to cross?',
-options: ["9.8s","10.8s","11.8s","12.8s"],
-answer: 1,
-category: "Maths",
+question: "'Optogenetics' technology uses?",
+options: ["Light to control neurons genetically modified to express light-sensitive proteins","Sound waves for brain stimulation","Magnetic fields","Chemical drugs for neural control"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 808,
-question: 'If x/3 + y/4 = 1 and x/2 - y = 1, then x is?',
-options: ["1","2","3","4"],
-answer: 2,
-category: "Maths",
+id: 807,
+question: "The 'GSLV Mk-III' can carry payloads up to how many tonnes to GTO?",
+options: ["2 tonnes","4 tonnes","8 tonnes","10 tonnes"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 808,
+question: "India's 'Aditya-L1' mission studies?",
+options: ["Moon's surface","Mars atmosphere","Sun's corona from L1 Lagrange point","Jupiter's moons"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 809,
-question: 'The HCF and LCM of two numbers are 4 and 60. One number is 12. The other is?',
-options: ["18","20","24","28"],
-answer: 1,
-category: "Maths",
+question: "'Superconducting Magnetic Energy Storage' (SMES) uses?",
+options: ["Superconducting coils to store energy in magnetic field","Batteries with superconducting electrolyte","Fuel cells","Capacitors"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 810,
-question: 'What is (a+b)² - (a-b)²?',
-options: ["4ab","2ab","a²-b²","2(a²+b²)"],
-answer: 0,
-category: "Maths",
+question: "The 'Drake Equation' is used to estimate?",
+options: ["Speed of spacecraft","Number of civilizations in galaxy","Size of black holes","Distance to nearest star"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 811,
-question: 'A car increases speed from 60 to 90 km/h. Percentage increase is?',
-options: ["30%","40%","50%","60%"],
-answer: 2,
-category: "Maths",
+question: "India's 'RISAT' (Radar Imaging Satellite) uses which technology?",
+options: ["Optical imaging","Synthetic Aperture Radar (SAR)","Infrared sensors","UV sensors"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 812,
-question: 'If the mean of 5 observations is 6 and four observations are 4,7,8,5, the fifth is?',
-options: ["4","5","6","7"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 813,
-question: 'What is 1 + 2 + 3 + ... + 100?',
-options: ["4950","5000","5050","5100"],
-answer: 2,
-category: "Maths",
+question: "The 'Casimir Effect' demonstrates?",
+options: ["Zero-point energy fluctuations causing attractive force between uncharged plates","Sound in vacuum","Light pressure","Gravity waves"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 814,
-question: 'The circumference of a circle with area 154 cm² is? (π=22/7)',
-options: ["44cm","48cm","52cm","56cm"],
+id: 813,
+question: "The 'Methane Hydrates' on ocean floors are significant as?",
+options: ["Potential future fuel source","Cause of oceanic earthquakes","Carbon sink","Marine habitat"],
 answer: 0,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 814,
+question: "The 'RNA Interference' (RNAi) mechanism was discovered by?",
+options: ["Craig Venter","Andrew Fire and Craig Mello","Jennifer Doudna","James Watson"],
+answer: 1,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 815,
-question: 'If 10 men can complete a job in 15 days, 5 men will complete it in?',
-options: ["20","25","30","35"],
-answer: 2,
-category: "Maths",
+question: "India's 'IRNSS' system was renamed as?",
+options: ["GAGAN","NavIC","GLONASS-India","COMPASS-I"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 816,
-question: 'What is the value of sin²30° + cos²30°?',
-options: ["1/2","√3/2","1","3/4"],
-answer: 2,
-category: "Maths",
+question: "The 'Global Dimming' phenomenon refers to?",
+options: ["Decrease in sunlight reaching Earth due to aerosols","Solar cycle minimum","Night-time light pollution","Cooling from volcanic eruptions only"],
+answer: 0,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 817,
-question: 'A mixture contains milk and water in ratio 5:2. If 7L of water is added, ratio becomes 5:3. Find milk?',
-options: ["28L","35L","42L","49L"],
+question: "The 'Bose-Einstein Condensate' (BEC) is a state of matter formed at?",
+options: ["Very high pressure","Near absolute zero temperature","Plasma conditions","High magnetic fields"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 818,
-question: "The number of ways to arrange letters in 'INDIA' is?",
-options: ["60","120","180","360"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 819,
-question: 'If P(A) = 0.4 and P(B) = 0.5 and P(A∩B) = 0.2, P(A∪B) is?',
-options: ["0.5","0.6","0.7","0.8"],
-answer: 2,
-category: "Maths",
+question: "'Opticks' is the famous work on light by?",
+options: ["Galileo","Newton","Maxwell","Faraday"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 820,
-question: 'What is the sum of exterior angles of any polygon?',
-options: ["180°","270°","360°","540°"],
-answer: 2,
-category: "Maths",
+id: 819,
+question: "The 'MTCR' (Missile Technology Control Regime) India joined in?",
+options: ["2014","2016","2017","2018"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 820,
+question: "India's first nuclear test 'Smiling Buddha' was conducted in?",
+options: ["1971","1972","1974","1975"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 821,
-question: 'A shopkeeper buys at 10 for Rs 8, sells at 8 for Rs 10. Profit %?',
-options: ["56.25%","57.25%","58.25%","59.25%"],
-answer: 0,
-category: "Maths",
+question: "The 'Pokhran-II' nuclear tests (Operation Shakti) were conducted in?",
+options: ["1996","1997","1998","1999"],
+answer: 2,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 822,
-question: 'The curved surface area of a cone with radius 5cm and slant height 13cm is? (π=22/7)',
-options: ["204.05 cm²","209.09 cm²","220.05 cm²","214.29 cm²"],
-answer: 1,
-category: "Maths",
+question: "The 'PSLV' rocket first successfully launched in?",
+options: ["1991","1992","1993","1994"],
+answer: 2,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 823,
-question: 'How many even numbers are there between 1 and 100?',
-options: ["48","49","50","51"],
-answer: 2,
-category: "Maths",
+question: "The 'INS Arihant' is India's first?",
+options: ["Aircraft carrier","Nuclear-powered ballistic missile submarine","Nuclear-powered attack submarine","Advanced destroyer"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 824,
-question: 'If 20% of x is 16, then 30% of x is?',
-options: ["20","22","24","26"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 825,
-question: 'The harmonic mean of 4 and 6 is?',
-options: ["4.8","5","5.2","5.5"],
-answer: 0,
-category: "Maths",
+question: "The 'BrahMos' missile is a joint venture of India and?",
+options: ["France","Russia","Israel","USA"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 826,
-question: 'What is i² where i is the imaginary unit?',
-options: ["1","i","-i","-1"],
-answer: 3,
-category: "Maths",
+id: 825,
+question: "The 'ASTRA' missile is an?",
+options: ["Anti-tank missile","Air-to-air beyond visual range missile","Surface-to-air missile","Cruise missile"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 826,
+question: "The 'MRSAM' (Medium Range Surface to Air Missile) is jointly developed with?",
+options: ["Russia","France","Israel","USA"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 827,
-question: 'If a polynomial has roots 2, -3, and 5, it is?',
-options: ["x³-4x²-11x+30","x³+4x²-11x-30","x³-4x²+11x-30","x³+4x²+11x+30"],
-answer: 0,
-category: "Maths",
+question: "India's first 'Intercontinental Ballistic Missile' (ICBM) class is?",
+options: ["Agni-III","Agni-IV","Agni-V","Agni-VI"],
+answer: 2,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 828,
-question: 'The value of 7! is?',
-options: ["2040","4040","5040","6040"],
-answer: 2,
-category: "Maths",
+question: "The 'K-15 (B-05) Sagarika' is a?",
+options: ["Land-based ballistic missile","Submarine Launched Ballistic Missile (SLBM)","Air-launched cruise missile","Anti-ship missile"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 829,
-question: 'A number leaves remainder 3 when divided by 7 and remainder 2 when divided by 5. Smallest such number is?',
-options: ["17","22","27","32"],
-answer: 0,
-category: "Maths",
+question: "The 'NISAR' satellite is a joint mission of ISRO and?",
+options: ["ESA","JAXA","NASA","CNSA"],
+answer: 2,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 830,
-question: 'What is the 10th term of AP: 3, 7, 11, 15...?',
-options: ["39","41","43","45"],
+question: "India's 'lunar soil' simulation facility is at?",
+options: ["ISRO Ahmedabad","CSIR-SERC Chennai","SAC Bangalore","VSSC Trivandrum"],
 answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 831,
-question: 'If the mean of a data set is 50 and standard deviation is 10, CV (coefficient of variation) is?',
-options: ["15%","20%","25%","30%"],
-answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
-id: 832,
-question: 'A cone and cylinder have same base and height. Ratio of volumes is?',
-options: ["1:2","1:3","1:4","2:3"],
+id: 831,
+question: "The 'DRDO' was established in?",
+options: ["1955","1957","1958","1960"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "medium"
 },
 
 {
+id: 832,
+question: "India's 'fastest supercomputer' (PARAM Siddhi-AI) is installed at?",
+options: ["IIT Delhi","IISc Bangalore","C-DAC Pune","IIT Bombay"],
+answer: 2,
+category: "Science",
+difficulty: "hard"
+},
+
+{
 id: 833,
-question: 'What is the value of log₁₀(1000)?',
-options: ["2","3","4","5"],
-answer: 1,
-category: "Maths",
+question: "The 'Quantum Key Distribution' (QKD) is used for?",
+options: ["Unbreakable encryption using quantum mechanics","GPS enhancement","Medical imaging","Weather forecasting"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 834,
-question: 'Two numbers have LCM 60 and HCF 5. One number is 15. The other is?',
-options: ["15","20","25","30"],
+question: "The 'NETRA' (Network Traffic Analysis) system is used by?",
+options: ["ISRO for satellite tracking","Intelligence Bureau for internet monitoring","Weather department","Railway for traffic management"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 835,
-question: 'The maximum value of sin(x) + cos(x) is?',
-options: ["1","√2","2","√3"],
-answer: 1,
-category: "Maths",
+question: "The '3D Printing' technology in defence can be used to produce?",
+options: ["Ammunition and spare parts","Nuclear warheads","Aircraft engines","Satellite components only"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 836,
-question: 'What is 15 × 13 × 11 mod 7?',
-options: ["0","1","2","3"],
+question: "The '93rd Constitutional Amendment' (2005) reserved seats for OBC/SC/ST in?",
+options: ["Central government jobs","Private unaided educational institutions (with caveats)","Panchayati Raj bodies","Urban local bodies"],
 answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 837,
-question: 'A boat goes 12km upstream in 4 hours and 15km downstream in 3 hours. Speed of stream is?',
-options: ["1.5 km/h","2 km/h","2.5 km/h","3 km/h"],
-answer: 0,
-category: "Maths",
+category: "GK",
 difficulty: "hard"
 },
 
 {
-id: 838,
-question: 'The number of solutions of x + y + z = 10 in non-negative integers is?',
-options: ["55","65","66","77"],
-answer: 2,
-category: "Maths",
+id: 837,
+question: "The 'Narasimham Committee II' (1998) recommended?",
+options: ["Merging of public sector banks to create 3-4 large banks","Privatizing all PSBs","Abolishing NABARD","Creating new payment banks"],
+answer: 0,
+category: "GK",
 difficulty: "medium"
 },
 
 {
+id: 838,
+question: "The 'Kelkar Committee' recommendations were related to?",
+options: ["Tax reforms","Banking reforms","Labour reforms","Fiscal consolidation and tax reforms"],
+answer: 3,
+category: "GK",
+difficulty: "hard"
+},
+
+{
 id: 839,
-question: 'If x = 2 + √3, then x + 1/x is?',
-options: ["4","3+√3","4+√3","2√3"],
-answer: 0,
-category: "Maths",
+question: "The 'FRBM Act' (Fiscal Responsibility and Budget Management) was passed in?",
+options: ["2001","2002","2003","2004"],
+answer: 2,
+category: "GK",
 difficulty: "medium"
 },
 
 {
 id: 840,
-question: 'What is the value of sin(90° - θ)?',
-options: ["sin θ","cos θ","tan θ","-sin θ"],
-answer: 1,
-category: "Maths",
+question: "The 'Vijay Kelkar Committee' on Direct Tax code recommended?",
+options: ["Simplified tax structure with fewer exemptions","Higher corporate tax","Abolishing income tax","New tax for agriculture"],
+answer: 0,
+category: "GK",
 difficulty: "hard"
 },
 
 {
 id: 841,
-question: 'A man rows 24km upstream in 6 hours. If stream speed is 2 km/h, time downstream is?',
-options: ["3 hours","4 hours","5 hours","6 hours"],
+question: "'SEBI' was established as a non-statutory body in which year?",
+options: ["1988","1990","1992","1994"],
 answer: 0,
-category: "Maths",
+category: "GK",
 difficulty: "medium"
 },
 
 {
 id: 842,
-question: 'The variance of numbers 2, 4, 6, 8, 10 is?',
-options: ["6","8","10","12"],
+question: "The 'Kelkar-Shah Committee' (2012) was on?",
+options: ["Financial sector","Revisiting and revitalising PPP model in infrastructure","Tax reforms","Banking sector"],
 answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 843,
-question: 'If ΔABC ~ ΔPQR and their areas are 64 and 100, the ratio of perimeters is?',
-options: ["4:5","8:10","16:25","64:100"],
-answer: 0,
-category: "Maths",
+category: "GK",
 difficulty: "hard"
 },
 
 {
-id: 844,
-question: 'What is the sum of all 3-digit multiples of 9?',
-options: ["49000","54945","55000","59445"],
+id: 843,
+question: "The 'SARFAESI Act' (2002) allows banks to?",
+options: ["Issue new bonds","Recover loans by taking possession of assets without court order","Merge with each other","Issue IPO"],
 answer: 1,
-category: "Maths",
+category: "GK",
 difficulty: "medium"
 },
 
 {
+id: 844,
+question: "India's 'Micro, Small and Medium Enterprises' are classified based on?",
+options: ["Turnover and investment in plant & machinery","Only number of employees","Only turnover","Only investment"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
 id: 845,
-question: 'The number of integers in [−3.5, 3.5] is?',
-options: ["6","7","8","9"],
-answer: 1,
-category: "Maths",
+question: "The '8th Schedule' of Indian Constitution contains?",
+options: ["List of official languages (22)","Fundamental Duties","Emergency provisions","Union territories"],
+answer: 0,
+category: "GK",
 difficulty: "medium"
 },
 
 {
 id: 846,
-question: 'What is the distance between points (3,4) and (7,1)?',
-options: ["4","5","√34","√41"],
+question: "The 'PESA Act' (1996) extended Panchayati Raj to?",
+options: ["Scheduled Tribal areas (5th Schedule)","All rural areas","Urban areas","6th Schedule areas"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 847,
+question: "The 'Right to Education Act' (2009) is applicable for children aged?",
+options: ["5-14 years","6-14 years","5-16 years","6-16 years"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 848,
+question: "'Article 370' of Indian Constitution (before abrogation in 2019) gave special status to?",
+options: ["Nagaland","Mizoram","Jammu & Kashmir","Sikkim"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 849,
+question: "The 'Constitutent Assembly' adopted the Constitution of India on?",
+options: ["August 15, 1947","January 26, 1949","November 26, 1949","January 26, 1950"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 850,
+question: "The 'Eleventh Schedule' of Indian Constitution deals with?",
+options: ["Municipal bodies (74th Amendment)","Panchayati Raj (73rd Amendment)","Anti-defection","Official languages"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 851,
+question: "'Writ of Mandamus' is issued to compel?",
+options: ["A court to transfer a case","A public authority to perform its legal duty","Release of a person from custody","Produce a person before court"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 852,
+question: "The 'Directive Principles of State Policy' are?",
+options: ["Justiciable (enforceable by courts)","Non-justiciable but fundamental in governance","Advisory only to states","Only for Union government"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 853,
+question: "The 'Supreme Court' can issue writs under?",
+options: ["Article 226","Article 32","Article 136","Article 141"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 854,
+question: "India's '42nd Constitutional Amendment' (1976) is called?",
+options: ["Mini Constitution","Constitution of India Amendment","Fundamental Rights Amendment","Emergency Amendment"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 855,
+question: "The 'Separation of Powers' in India is?",
+options: ["Absolute like USA","Qualified (not strict, with overlapping functions)","Absent","Only between Centre and States"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 856,
+question: "The concept of 'Welfare State' in India is implied in?",
+options: ["Preamble and Directive Principles","Fundamental Rights only","Federal Structure","None of the above"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 857,
+question: "'Ordinance-making power' of President under Article 123 can be reviewed by?",
+options: ["Supreme Court","Both Houses of Parliament (must be laid)","Cabinet only","Rajya Sabha only"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 858,
+question: "The 'Comptroller and Auditor General' cannot be removed except by?",
+options: ["President alone","Parliament through address (like Supreme Court judge)","Cabinet recommendation","Prime Minister"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 859,
+question: "The 'Collegium System' for judicial appointments was established by which case?",
+options: ["S.P. Gupta case","Supreme Court Advocates-on-Record case 1993","Kesavananda Bharati case","Golaknath case"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 860,
+question: "India's 'National Commission for SCs' is established under?",
+options: ["Article 338","Article 338A","Article 338B","Article 340"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 861,
+question: "The 'Forest Rights Act' (2006) recognized rights of which communities?",
+options: ["Only Scheduled Tribes","Scheduled Tribes and other traditional forest dwellers","Only BPL families","All rural poor"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 862,
+question: "'Mission Vatsalya' (earlier ICPS) aims at protection of?",
+options: ["Senior citizens","Children in difficult circumstances","Differently-abled persons","Women in distress"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 863,
+question: "The 'CAMPA' (Compensatory Afforestation Fund) was made statutory in?",
+options: ["2010","2012","2016","2018"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 864,
+question: "The 'National Commission for Backward Classes' was constituted under?",
+options: ["Article 340","National Commission for Backward Classes Act 1993","102nd Constitutional Amendment","73rd Amendment"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 865,
+question: "The 'Citizenship Amendment Act' (CAA) 2019 provides citizenship to persecuted minorities from?",
+options: ["Pakistan, Bangladesh, Afghanistan","Pakistan, Bangladesh, Sri Lanka","Bangladesh, Myanmar, Afghanistan","Pakistan, Afghanistan, Myanmar"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 866,
+question: "The 'National Register of Citizens' (NRC) was first implemented in?",
+options: ["Punjab","Assam","West Bengal","Tripura"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 867,
+question: "The '102nd Constitutional Amendment' (2018) gave Constitutional status to?",
+options: ["NCBC (National Commission for Backward Classes)","OBC reservations","SC reservations","Women reservation"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 868,
+question: "The 'Rohingya refugees' issue involves which country?",
+options: ["Bangladesh","Sri Lanka","Myanmar","Tibet"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 869,
+question: "India's 'National Security Act' (NSA) 1980 allows preventive detention for up to?",
+options: ["3 months","6 months","12 months","18 months"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 870,
+question: "The 'Armed Forces Special Powers Act' (AFSPA) was first enacted in?",
+options: ["1957","1958","1967","1972"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 871,
+question: "'Mission Shakti' (2019) demonstrated India's?",
+options: ["Nuclear deterrence","Anti-satellite weapon capability (ASAT)","Ballistic missile defence","Space station capability"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 872,
+question: "The 'International Solar Alliance' was jointly launched by India and?",
+options: ["USA","France","Germany","Australia"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 873,
+question: "The 'Coalition for Disaster Resilient Infrastructure' (CDRI) was launched by India at?",
+options: ["G20 2019","UN Climate Action Summit 2019","COP26","BRICS 2020"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 874,
+question: "India's 'One Sun One World One Grid' initiative is related to?",
+options: ["Single global solar power grid","Solar panel manufacturing","Solar research","Space solar power"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 875,
+question: "The 'SAGAR' doctrine (Security and Growth for All in the Region) was introduced by PM Modi at?",
+options: ["Mauritius","Seychelles","Sri Lanka","Maldives"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 876,
+question: "The 'Neighbourhood First Policy' of India focuses on?",
+options: ["ASEAN countries","SAARC countries primarily","Central Asian countries","Gulf countries"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 877,
+question: "'Act East Policy' (renamed from Look East) was announced in?",
+options: ["2012","2013","2014","2015"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 878,
+question: "The 'BIMSTEC' (Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation) was established in?",
+options: ["1996","1997","1998","1999"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 879,
+question: "India's 'Neighbourhood First Policy' was practiced through infrastructure in?",
+options: ["Kaladan Multimodal Project (Myanmar) and others","Only bilateral trade","Only military cooperation","Only cultural exchange"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 880,
+question: "The 'Teesta River Water Sharing' dispute is between India and?",
+options: ["Nepal","Bhutan","Bangladesh","China"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 881,
+question: "The 'Galwan Valley clash' (2020) was between India and?",
+options: ["Pakistan","Nepal","China","Bangladesh"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 882,
+question: "India's 'Five Trillion Dollar Economy' target was set for?",
+options: ["2025","2027","2030","2024"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 883,
+question: "The 'National Infrastructure Pipeline' (NIP) in India is for period?",
+options: ["2019-2025","2020-2025","2019-2023","2021-2026"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 884,
+question: "The 'PM Gati Shakti' National Master Plan aims at?",
+options: ["Multimodal connectivity for infrastructure","Agricultural productivity","Digital connectivity","Industrial clusters"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 885,
+question: "The 'National Monetisation Pipeline' was launched in?",
+options: ["2020","2021","2022","2019"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 886,
+question: "India's 'Semiconductor Mission' targets setting up fabrication plants. First was announced partnership with?",
+options: ["Samsung","TSMC","Foxconn-Vedanta (and others)","Intel"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 887,
+question: "The 'PLI scheme for Solar PV Modules' aims to achieve what GW of solar manufacturing?",
+options: ["10 GW","20 GW","25 GW","50 GW"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 888,
+question: "India's 'Green Hydrogen Mission' target is to produce how many MMT per year by 2030?",
+options: ["3 MMT","5 MMT","7 MMT","10 MMT"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 889,
+question: "The 'Panchamrit' commitments made by India at COP26 include achieving net zero by?",
+options: ["2047","2050","2060","2070"],
+answer: 3,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 890,
+question: "The 'Kunming-Montreal Global Biodiversity Framework' (2022) target '30x30' refers to?",
+options: ["30% of land and ocean protected by 2030","30 endangered species saved by 2030","30 countries meeting 30% targets","$30bn funding by 2030"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 891,
+question: "The 'UNFCCC' (UN Framework Convention on Climate Change) was opened for signature at?",
+options: ["Stockholm 1972","Rio 1992","Johannesburg 2002","Kyoto 1997"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 892,
+question: "The 'Paris Agreement' (2015) aims to limit global temperature rise to?",
+options: ["1°C","1.5°C or well below 2°C","2°C","3°C"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 893,
+question: "The 'Loss and Damage' fund for climate vulnerable nations was established at?",
+options: ["COP26 Glasgow","COP27 Sharm el-Sheikh","COP28 Dubai","COP25 Madrid"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 894,
+question: "'LIFE' (Lifestyle for Environment) movement was proposed by India at?",
+options: ["G20","COP26","UN General Assembly 2022","BRICS"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 895,
+question: "The 'International Big Cat Alliance' (IBCA) was launched by India in?",
+options: ["2021","2022","2023","2024"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 896,
+question: "The 'Cheetah Reintroduction Project' brought cheetahs from?",
+options: ["South Africa and Namibia","Zimbabwe","Kenya","Botswana"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 897,
+question: "The 'National Mission for Clean Ganga' (NMCG) is under which ministry?",
+options: ["Ministry of Environment","Ministry of Jal Shakti (formerly Water Resources)","Ministry of Rural Development","Ministry of Urban Development"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 898,
+question: "The 'Arth Ganga' concept for sustainable development along Ganga was proposed by?",
+options: ["NMCG","NITI Aayog","PM Modi at National Ganga Council","Ministry of Environment"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 899,
+question: "India's 'MICE Tourism' (Meetings, Incentives, Conferences, Exhibitions) hub is primarily?",
+options: ["Delhi","Mumbai","Bengaluru","Hyderabad"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 900,
+question: "The 'Vibrant Gujarat Summit' is held every?",
+options: ["Year","2 years","3 years","4 years"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 901,
+question: "The 'India Stack' refers to?",
+options: ["Integrated digital infrastructure (Aadhaar, UPI, DigiLocker)","Technology stack for software","Defence stack","Space technology stack"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 902,
+question: "The 'ONDC' (Open Network for Digital Commerce) aims to?",
+options: ["Create government e-commerce monopoly","Democratize e-commerce with open protocol","Replace Amazon","Only for MSMEs"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 903,
+question: "The 'Account Aggregator' framework in India is for?",
+options: ["Centralised financial data storage","Consent-based financial data sharing","Bank account aggregation for fraud","Tax aggregation"],
+answer: 1,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 904,
+question: "'Jan Vishwas Act' (2023) decriminalized how many provisions across laws?",
+options: ["42","77","113","180"],
+answer: 2,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 905,
+question: "The 'National Logistics Policy' (2022) aims to reduce logistics cost to?",
+options: ["6-8% of GDP","8-10% of GDP","12-14% of GDP","5% of GDP"],
+answer: 0,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 906,
+question: "India's 'PM-DevINE' scheme is for development of which region?",
+options: ["Northeast India","Tribal areas","Aspirational districts","Border areas"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 907,
+question: "The 'Tribal Health Collaborative' initiative falls under which ministry?",
+options: ["Ministry of Tribal Affairs","Ministry of Health","Both jointly","NITI Aayog"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 908,
+question: "The 'National Commission for Women' was established in?",
+options: ["1990","1992","1995","1998"],
+answer: 1,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 909,
+question: "India's 'Surrogacy (Regulation) Act' was passed in?",
+options: ["2019","2020","2021","2022"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 910,
+question: "The 'PM Vishwakarma Yojana' targets?",
+options: ["Traditional artisans and craftspeople","Farmers","Street vendors","Weavers only"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 911,
+question: "The 'NIPUN Bharat' aims to achieve universal foundational literacy by?",
+options: ["2023","2024","2025","2026-27"],
+answer: 2,
+category: "GK",
+difficulty: "medium"
+},
+
+{
+id: 912,
+question: "The 'PM SHRI Schools' (PM Schools for Rising India) aim to develop?",
+options: ["Model schools with NEP 2020 implementation","Schools in rural areas only","Schools for SC/ST students","Technical schools"],
+answer: 0,
+category: "GK",
+difficulty: "hard"
+},
+
+{
+id: 913,
+question: 'If a + b + c = 0, then a³ + b³ + c³ equals?',
+options: ["0","abc","3abc","(a+b+c)²"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 914,
+question: 'The value of (sin A + cos A)² + (sin A – cos A)² is?',
+options: ["1","2","0","4"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 915,
+question: 'If p% of q = q% of p, then?',
+options: ["p = q always","Always true regardless of p,q","p + q = 100","p × q = 100"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 916,
+question: "A man sells at 12% loss. Had he sold for Rs 36 more, he'd gain 12%. Cost price is?",
+options: ["Rs 100","Rs 140","Rs 150","Rs 160"],
 answer: 2,
 category: "Maths",
 difficulty: "hard"
 },
 
 {
-id: 847,
-question: 'If ax² + bx + c = 0, sum of roots is?',
-options: ["c/a","-b/a","b/a","-c/a"],
+id: 917,
+question: 'If tan θ = 3/4, value of (sin θ + cos θ)/(sin θ − cos θ) is?',
+options: ["7","-7","7/1","1/7"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 918,
+question: 'The sum of first n even numbers is?',
+options: ["n(n+1)","n(n-1)","n²","n(n+2)"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 919,
+question: 'A cistern is 2/3 full. Pipe A fills it in 12 min and pipe B empties it in 8 min. If both opened, time for cistern to empty is?',
+options: ["12 min","16 min","18 min","20 min"],
 answer: 1,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
-id: 848,
-question: 'The geometric series 1 + 1/2 + 1/4 + ... has sum?',
+id: 920,
+question: 'In an exam, 52% failed in Hindi, 42% failed in English, 17% failed in both. Percentage passed in both is?',
+options: ["17%","23%","23%","25%"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 921,
+question: 'If x = 2 + 2^(2/3) + 2^(1/3), then x³ − 6x² + 6x is?',
+options: ["2","3","6","12"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 922,
+question: "The perimeter of a triangle is 36cm. One side is 13cm, another is 10cm. Area by Heron's formula is?",
+options: ["60 cm²","48 cm²","56 cm²","52 cm²"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 923,
+question: 'Successive discounts of 10% and 20% are equivalent to single discount of?',
+options: ["28%","29%","30%","25%"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 924,
+question: 'A mixture of 80L has milk:water = 3:1. How much water added to make ratio 3:2?',
+options: ["15L","20L","25L","30L"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 925,
+question: 'If cos A + cos²A = 1, then sin²A + sin⁴A is?',
+options: ["0","1","-1","2"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 926,
+question: 'A person can row 7.5 kmph in still water. River flows at 1.5 kmph. He rows 30km upstream and returns. Total time is?',
+options: ["8 hours","7.5 hours","8.5 hours","9 hours"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 927,
+question: 'The remainder when 1! + 2! + 3! + ... + 100! is divided by 5 is?',
+options: ["0","1","3","4"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 928,
+question: 'If 2x + 3y = 14 and 3x - 2y = 5, value of x + y is?',
+options: ["4","5","6","7"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 929,
+question: 'A conical tent is 10m high with base circumference 44m. Slant height and canvas needed are?',
+options: ["Slant height 12.37m, canvas 272.7 m²","Slant height 12m, canvas 264 m²","Slant height 10m, canvas 220 m²","Slant height 14m, canvas 308 m²"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 930,
+question: 'The value of (1 – 1/n²) for n = 2 to ∞ converges to?',
+options: ["1/2","π/4","1","2/π"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 931,
+question: 'A machine depreciates at 10% annually. After 3 years, value is Rs 7290. Original value was?',
+options: ["Rs 8000","Rs 9000","Rs 10000","Rs 12000"],
+answer: 2,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 932,
+question: 'If sec A − tan A = x, then sec A + tan A is?',
+options: ["x","1/x","2x","x+1"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 933,
+question: 'The number of ways 5 men and 3 women can be arranged in a row such that no two women are adjacent is?',
+options: ["14400","17280","21600","25200"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 934,
+question: 'A and B can do a job in 12 days. B and C in 15 days. C and A in 20 days. B alone can do it in?',
+options: ["20 days","24 days","30 days","40 days"],
+answer: 1,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 935,
+question: 'If the sum of n terms of an AP is n² + 2n, then common difference is?',
 options: ["1","2","3","4"],
 answer: 1,
 category: "Maths",
@@ -7633,1053 +8416,270 @@ difficulty: "medium"
 },
 
 {
-id: 849,
-question: 'In how many ways can 4 boys and 3 girls be seated in a row if girls must sit together?',
-options: ["720","840","1080","4320"],
-answer: 0,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 850,
-question: 'What is 12!/10!?',
-options: ["110","120","132","144"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 851,
-question: 'If x³ - y³ = 152 and x - y = 2, xy is?',
-options: ["20","22","24","26"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 852,
-question: 'What is the area of a rhombus with diagonals 12cm and 18cm?',
-options: ["100 cm²","108 cm²","116 cm²","124 cm²"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 853,
-question: 'A can complete work in 20 days, B in 30, C in 60. All work for 4 days, then A leaves. B and C finish in?',
-options: ["8 more days","10 more days","12 more days","14 more days"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 854,
-question: 'What is the unit digit of 7⁶⁸?',
-options: ["1","3","7","9"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 855,
-question: 'The number of factors of 2⁴ × 3³ × 5² is?',
-options: ["30","35","40","45"],
-answer: 0,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 856,
-question: 'If A and B are mutually exclusive, P(A)=0.3, P(B)=0.4, P(A∪B) is?',
-options: ["0.5","0.6","0.7","0.8"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 857,
-question: 'What is the arithmetic mean of 1/2, 1/3, 1/4?',
-options: ["1/4","13/36","3/36","1/3"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 858,
-question: 'The area of a sector with angle 90° in a circle of radius 14cm is? (π=22/7)',
-options: ["121 cm²","144 cm²","154 cm²","164 cm²"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 859,
-question: 'If the mode of a data set is 4 and median is 5, mean is approximately?',
-options: ["5.5","6","7","8"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 860,
-question: 'What is the value of cos²45° - sin²45°?',
-options: ["-1","0","1","√2"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 861,
-question: 'A ladder 10m long rests against a wall. Its foot is 6m from the wall. Height on wall is?',
-options: ["6m","7m","8m","9m"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 862,
-question: 'The number of triangles in a figure with n points on a circle is?',
-options: ["nC3","nC2","n!","2^n"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 863,
-question: 'What is 50% of (40% of 500)?',
-options: ["90","100","110","120"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 864,
-question: 'If a:b = 2:3 and b:c = 4:5, then a:b:c is?',
-options: ["8:12:15","2:3:5","4:6:5","6:9:10"],
-answer: 0,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 865,
-question: 'The sum of all odd numbers from 1 to 199 is?',
-options: ["9900","10000","10100","10200"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 866,
-question: 'What is the value of (1 + tan²θ)?',
-options: ["cos²θ","sin²θ","sec²θ","cosec²θ"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 867,
-question: 'A number when divided by 56 gives remainder 29. When divided by 8, remainder is?',
-options: ["4","5","6","7"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 868,
-question: 'The product of two numbers is 1575 and their ratio is 7:9. The numbers are?',
-options: ["35 and 45","42 and 54","45 and 55","49 and 63"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 869,
-question: 'What is 8 × 9 × 10 ÷ 6?',
-options: ["110","115","120","125"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 870,
-question: 'If f(x) = 2x² - 5x + 3, the minimum value is?',
-options: ["-1/8","1/8","7/8","−7/8"],
-answer: 3,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 871,
-question: 'The angle subtended by an arc at the center is 120°. Angle at the circumference is?',
-options: ["40°","50°","60°","70°"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 872,
-question: 'What is the perimeter of an equilateral triangle with area 16√3 cm²?',
-options: ["20cm","24cm","28cm","30cm"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 873,
-question: 'If x + 1/x = 4, then x² + 1/x² is?',
-options: ["12","14","16","18"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 874,
-question: 'A bag has 3 red and 4 blue balls. P(two red balls drawn without replacement) is?',
-options: ["1/7","2/7","3/14","1/14"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 875,
-question: 'What is ⁷C₃?',
-options: ["21","28","35","42"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 876,
-question: 'If the diagonals of a parallelogram are 6cm and 8cm, area of parallelogram when diagonals are perpendicular is?',
-options: ["24 cm²","48 cm²","56 cm²","64 cm²"],
-answer: 0,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 877,
-question: 'What is the value of sin 120°?',
-options: ["√3/2","1/2","-1/2","−√3/2"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 878,
-question: 'The equation of line with slope 2 and y-intercept -3 is?',
-options: ["y = 2x + 3","y = 2x - 3","y = -2x + 3","y = 3x - 2"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 879,
-question: 'A train takes 9 sec to pass a man walking at 3 km/h and 12 sec to pass a 150m platform. Train speed is?',
-options: ["45 km/h","51 km/h","54 km/h","57 km/h"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 880,
-question: 'What is the area of a circle with circumference 44cm? (π=22/7)',
-options: ["100 cm²","121 cm²","144 cm²","154 cm²"],
-answer: 3,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 881,
-question: 'If cot θ = √3, what is θ?',
-options: ["30°","45°","60°","90°"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 882,
-question: 'A man bought an article and sold it at 20% profit. If cost was 15% more, profit % would be?',
-options: ["4.35%","5.35%","6.35%","7.35%"],
-answer: 0,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 883,
-question: 'What is the number of terms in (2a + 3b)⁵?',
-options: ["4","5","6","7"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 884,
-question: 'The AM, GM, and HM of two numbers: if AM = 10 and GM = 8, HM is?',
-options: ["6","6.2","6.4","6.6"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 885,
-question: 'If x + y + z = 0, then x³ + y³ + z³ is?',
-options: ["0","xyz","3xyz","x²+y²+z²"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 886,
-question: 'What is the volume of a sphere with diameter 14cm? (π=22/7)',
-options: ["1437.3 cm³","1437.1 cm³","1441.3 cm³","1437.0 cm³"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 887,
-question: 'A and B can complete a work in 15 and 20 days. If A works for 5 days, B finishes in?',
-options: ["10 days","12 days","14 days","15 days"],
-answer: 3,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 888,
-question: 'The number of ways to choose a team of 2 men from 6 and 3 women from 5 is?',
-options: ["100","120","150","200"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 889,
-question: 'What is (√5 + √3)(√5 - √3)?',
-options: ["1","2","√2","√8"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 890,
-question: 'A sum of Rs 6000 yields Rs 1325 compound interest in 2 years. Rate of interest is?',
-options: ["8%","9%","10%","11%"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 891,
-question: 'The distance from origin to the line 3x + 4y = 15 is?',
-options: ["2","3","4","5"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 892,
-question: 'What is the value of (1/2)⁻³?',
-options: ["1/8","1/4","4","8"],
-answer: 3,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 893,
-question: 'If 4x ≡ 3 (mod 5), x is?',
-options: ["2","3","4","5"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 894,
-question: 'The number of 4-digit numbers formed from 1,2,3,4,5 without repetition is?',
-options: ["100","120","150","200"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 895,
-question: 'What is the value of cos(A+B) + cos(A-B)?',
-options: ["2cosAcosB","2sinAsinB","2cosAsinB","2sinAcosB"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 896,
-question: 'If log₂(x) = 5, x is?',
-options: ["16","24","32","64"],
-answer: 2,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 897,
-question: 'What is the perimeter of a right triangle with legs 8cm and 15cm?',
-options: ["30cm","36cm","40cm","44cm"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 898,
-question: 'A man can row 8 km/h in still water. If river flows at 2 km/h, time to row 30km upstream is?',
-options: ["5 hours","5.5 hours","6 hours","6.5 hours"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 899,
-question: 'The sum of n terms of GP: 1 + 2 + 4 + 8... is?',
-options: ["2n - 1","2n","2n+1 - 1","2n-1 - 1"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 900,
-question: 'What is the value of ∑(r=1 to 5) r²?',
-options: ["50","55","60","65"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 901,
-question: 'If f(x) = √(x² - 4), domain of f is?',
-options: ["x ≥ 2","x ≤ -2 or x ≥ 2","x ≤ 2","-2 ≤ x ≤ 2"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 902,
-question: 'A wire of length 44m is bent into a circle. Its area is? (π=22/7)',
-options: ["154 m²","144 m²","124 m²","104 m²"],
-answer: 0,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 903,
-question: 'How many 3-digit palindrome numbers are there?',
-options: ["80","81","90","99"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 904,
-question: 'The Vernacular Press Act was passed during the tenure of?',
-options: ["Lord Lytton","Lord Ripon","Lord Curzon","Lord Dufferin"],
-answer: 0,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 905,
-question: 'Who was the President of INC during Quit India Movement?',
-options: ["Gandhi","Nehru","Maulana Azad","Patel"],
-answer: 2,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 906,
-question: 'The Sikh Guru who was executed by Aurangzeb was?',
-options: ["Guru Gobind Singh","Guru Tegh Bahadur","Guru Arjan Dev","Guru Hargobind"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 907,
-question: 'The Second Anglo-Afghan War took place in?',
-options: ["1878-1880","1880-1882","1863-1866","1839-1842"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 908,
-question: 'The Gandhi-Irwin Pact was signed in?',
-options: ["1929","1930","1931","1932"],
-answer: 2,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 909,
-question: 'Who founded the Aligarh Scientific Society?',
-options: ["Syed Ahmed Khan","Muhammad Ali Jinnah","Aga Khan III","Maulana Azad"],
-answer: 0,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 910,
-question: 'The Mughal painter famous for court scenes was?',
-options: ["Ustad Mansur","Abul Hasan","Govardhan","Bichitr"],
-answer: 3,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 911,
-question: 'Razia Sultana was deposed in?',
-options: ["1238","1240","1242","1244"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 912,
-question: 'The Wavell Plan was presented in?',
-options: ["1944","1945","1946","1947"],
-answer: 1,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 913,
-question: 'The Rowlatt Act is also known as?',
-options: ["Black Act","Anarchical Act","Revolutionary Act","Sedition Act"],
-answer: 1,
-category: "History",
-difficulty: "medium"
-},
-
-{
-id: 914,
-question: 'The Widow Remarriage Act was passed in?',
-options: ["1850","1852","1854","1856"],
-answer: 3,
-category: "History",
-difficulty: "hard"
-},
-
-{
-id: 915,
-question: 'The Suez Canal is approximately how long?',
-options: ["120 km","145 km","160 km","193 km"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 916,
-question: 'The Ross Ice Shelf is in?',
-options: ["Arctic","Greenland","Antarctica","Iceland"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 917,
-question: 'Which Indian state borders the most countries?',
-options: ["Arunachal Pradesh","Sikkim","Manipur","Meghalaya"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 918,
-question: "The 'Fertile Crescent' is also called?",
-options: ["Cradle of Civilization","Bread Basket","Garden of Eden","Land of Rivers"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 919,
-question: 'The Great Barrier Reef is primarily made of?',
-options: ["Sandstone","Limestone","Coral polyps","Volcanic rock"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 920,
-question: 'Which country has the most rivers by number?',
-options: ["Russia","Brazil","China","Canada"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 921,
-question: 'The Niger Delta is located in?',
-options: ["Niger","Mali","Senegal","Nigeria"],
-answer: 3,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 922,
-question: 'The Danakil Depression is in?',
-options: ["Ethiopia","Kenya","Sudan","Somalia"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 923,
-question: 'Which country has no rivers?',
-options: ["Malta","Saudi Arabia","Qatar","Maldives"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 924,
-question: "The world's highest waterfall is?",
-options: ["Victoria Falls","Niagara Falls","Angel Falls","Iguazu Falls"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 925,
-question: 'Palk Strait connects Bay of Bengal with?',
-options: ["Arabian Sea","Gulf of Mannar","Indian Ocean","Laccadive Sea"],
-answer: 1,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 926,
-question: 'The Trans-Siberian Railway connects Moscow to?',
-options: ["Vladivostok","Beijing","Almaty","Ulaanbaatar"],
-answer: 0,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 927,
-question: 'Which ocean has the most seamounts?',
-options: ["Atlantic","Indian","Pacific","Arctic"],
-answer: 2,
-category: "Geography",
-difficulty: "medium"
-},
-
-{
-id: 928,
-question: "The 'Corn Belt' of USA is primarily in?",
-options: ["Great Plains","Mississippi Basin","Midwest","Southeast"],
-answer: 2,
-category: "Geography",
-difficulty: "hard"
-},
-
-{
-id: 929,
-question: 'The bond angle in water molecule is?',
-options: ["90°","104.5°","107°","109.5°"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 930,
-question: 'Which planet has the highest density?',
-options: ["Jupiter","Saturn","Earth","Neptune"],
-answer: 2,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 931,
-question: 'The process of making alcohol from sugar is?',
-options: ["Oxidation","Fermentation","Hydrolysis","Reduction"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 932,
-question: 'Which blood type can receive from all groups?',
-options: ["A","B","O","AB"],
-answer: 3,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 933,
-question: 'The unit of measurement for sound intensity is?',
-options: ["Hertz","Decibel","Pascal","Watt"],
-answer: 1,
-category: "Science",
-difficulty: "medium"
-},
-
-{
-id: 934,
-question: 'How many bones are in the human skull?',
-options: ["20","22","24","26"],
-answer: 1,
-category: "Science",
-difficulty: "hard"
-},
-
-{
-id: 935,
-question: 'The chemical symbol for Tungsten is?',
-options: ["Tg","Tu","W","Tn"],
-answer: 2,
-category: "Science",
-difficulty: "medium"
-},
-
-{
 id: 936,
-question: 'Which gas is used in fire extinguishers?',
-options: ["Nitrogen","Helium","Carbon dioxide","Argon"],
-answer: 2,
-category: "Science",
+question: 'Two numbers are in ratio 5:6. If 7 is subtracted from each, ratio becomes 4:5. Numbers are?',
+options: ["35,42","40,48","45,54","50,60"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 937,
-question: 'The Krebs cycle takes place in?',
-options: ["Cytoplasm","Nucleus","Mitochondria","Ribosome"],
+question: 'A ball dropped from height h bounces to 3/4 of previous height. Total distance after infinite bounces is?',
+options: ["4h","6h","7h","8h"],
 answer: 2,
-category: "Science",
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 938,
-question: 'What is the oxidation state of Oxygen in H2O?',
-options: ["0","+1","-1","-2"],
-answer: 3,
-category: "Science",
+question: 'If sec θ = 5/3, then cot θ + tan θ equals?',
+options: ["25/12","5/4","25/6","13/12"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 939,
-question: 'The second law of thermodynamics relates to?',
-options: ["Conservation of energy","Entropy","Temperature","Pressure"],
-answer: 1,
-category: "Science",
+question: 'The product of three consecutive integers divisible by 6 is?',
+options: ["Never","Sometimes","Always","Only if first is even"],
+answer: 2,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 940,
-question: 'What is the name of the protein that carries oxygen in blood?',
-options: ["Albumin","Globulin","Hemoglobin","Fibrin"],
-answer: 2,
-category: "Science",
+question: 'A tank of capacity 9000L is filled by two pipes in 10h and 15h respectively. After 6h a leak develops and tank empties in 12h. When is tank full?',
+options: ["8.5h from start","11h from start (leak opening)","14h from start","Never fills"],
+answer: 1,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 941,
-question: 'Which planet rotates on its side?',
-options: ["Neptune","Saturn","Uranus","Venus"],
-answer: 2,
-category: "Science",
+question: 'If cos 9α = sin α, and 9α < 90°, then cot 5α is?',
+options: ["0","1","∞","√3"],
+answer: 1,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 942,
-question: 'The process of removing minerals from water is?',
-options: ["Filtration","Distillation","Demineralization","Sedimentation"],
-answer: 2,
-category: "Science",
+question: 'The area of the quadrilateral with vertices at (0,0), (4,0), (4,3), (0,3) is?',
+options: ["10","12","15","8"],
+answer: 1,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 943,
-question: 'Peristalsis is movement of food in?',
-options: ["Intestines","Heart","Lungs","Blood vessels"],
-answer: 0,
-category: "Science",
+question: 'A man invested Rs 5000 at 10% and Rs 8000 at 15% per annum. Weighted average interest rate is?',
+options: ["12.3%","13%","12%","13.85%"],
+answer: 3,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 944,
-question: 'Which type of mirror is used in solar cookers?',
-options: ["Plane","Convex","Concave","Parabolic concave"],
-answer: 3,
-category: "Science",
+question: 'If the perimeter of an isosceles triangle is 36 cm and base is 12 cm, area is?',
+options: ["36√2 cm²","72 cm²","36 cm²","48 cm²"],
+answer: 1,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 945,
-question: 'What is the atomic number of Nitrogen?',
-options: ["5","6","7","8"],
-answer: 2,
-category: "Science",
+question: 'How many 4-digit numbers divisible by 5 can be formed using digits 0,1,2,3,4,5 without repetition?',
+options: ["150","156","100","120"],
+answer: 0,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 946,
-question: 'Which is the smallest planet in our solar system?',
-options: ["Mars","Venus","Mercury","Pluto"],
-answer: 2,
-category: "Science",
+question: 'The distance between lines 3x + 4y = 5 and 6x + 8y = 15 is?',
+options: ["1/2","1","3/2","5/4"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 947,
-question: 'The process of nuclear reactions in the Sun is?',
-options: ["Fission","Fusion","Decay","Bombardment"],
+question: 'If arithmetic mean of two observations is 15 and geometric mean is 9, the harmonic mean is?',
+options: ["5.4","27/5","3","4.5"],
 answer: 1,
-category: "Science",
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 948,
-question: 'Blood pressure is measured by?',
-options: ["ECG","Sphygmomanometer","Stethoscope","Thermometer"],
-answer: 1,
-category: "Science",
+question: 'A man covers first half of distance at 6 km/h and second half at 3 km/h. Average speed is?',
+options: ["4 km/h","4.5 km/h","3 km/h","5 km/h"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 949,
-question: 'Which element is used in making matches?',
-options: ["Sulfur","Phosphorus","Carbon","Nitrogen"],
-answer: 1,
-category: "Science",
+question: 'The value of cos(α + β) given sin α = 3/5 and cos β = 5/13 (both in first quadrant) is?',
+options: ["56/65","16/65","33/65","63/65"],
+answer: 0,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 950,
-question: "The term 'Laser' stands for?",
-options: ["Light Amplification by Stimulated Emission of Radiation","Light Absorption by Special Energy Radiation","Luminous Amplification by Stimulated Electron Radiation","Light Amplification by Secondary Energy Radiation"],
-answer: 0,
-category: "Science",
+question: 'A cube painted red on all faces is cut into 125 small equal cubes. How many small cubes have exactly 2 faces painted?',
+options: ["36","48","60","72"],
+answer: 1,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 951,
-question: 'What is the molecular formula of ethane?',
-options: ["CH4","C2H4","C2H6","C3H8"],
-answer: 2,
-category: "Science",
+question: 'If |x - 3| + |x + 2| = 9, values of x are?',
+options: ["x=4 only","x=4 or x=-5","x≥4 or x≤-5","4≥x≥-5"],
+answer: 0,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 952,
-question: "The 'White Revolution' in India relates to?",
-options: ["Wheat production","Milk production","Cotton production","Sugar production"],
-answer: 1,
-category: "GK",
+question: 'The locus of midpoints of all chords of a circle x² + y² = r² passing through (a,b) is?',
+options: ["x² + y² = ax + by","x² + y² + ax + by = 0","Circle with center (a/2, b/2)","Both A and C"],
+answer: 3,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 953,
-question: "The term 'cyberspace' was coined by?",
-options: ["William Gibson","Timothy Leary","Philip K. Dick","Isaac Asimov"],
-answer: 0,
-category: "GK",
+question: 'A merchant buys goods at 4/5 of marked price and sells at 4% above marked price. Profit % is?',
+options: ["20%","25%","30%","28%"],
+answer: 2,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 954,
-question: 'The CERN is located in?',
-options: ["Germany","Switzerland","France","Both Switzerland and France"],
-answer: 3,
-category: "GK",
+question: 'The value of sin(36°)sin(72°)sin(108°)sin(144°) is?',
+options: ["1/16","5/16","√5/16","3/16"],
+answer: 1,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 955,
-question: 'The highest civilian award in India is?',
-options: ["Padma Shri","Padma Bhushan","Padma Vibhushan","Bharat Ratna"],
-answer: 3,
-category: "GK",
+question: 'In a GP if p-th term is q and q-th term is p, then (p+q)-th term is?',
+options: ["pq","1","p+q","p/q"],
+answer: 1,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 956,
-question: "Who is known as the 'Father of the Internet'?",
-options: ["Tim Berners-Lee","Vint Cerf","Larry Page","Bill Gates"],
-answer: 1,
-category: "GK",
+question: 'The number of ways to seat 7 persons around a circular table with 2 specific persons not adjacent is?',
+options: ["480","600","720","600"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 957,
-question: 'Which country has the most UNESCO Creative Cities?',
-options: ["USA","France","China","Germany"],
-answer: 2,
-category: "GK",
+question: 'If x² + y² + z² = 1, then xy + yz + zx lies between?',
+options: ["[-1/2, 1]","[-1, 1]","[0, 1]","[-1/2, 1/2]"],
+answer: 0,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 958,
-question: "The world's longest railway network is in?",
-options: ["China","Russia","India","USA"],
-answer: 3,
-category: "GK",
+question: 'A sum of money at compound interest amounts to Rs 2420 in 2 years and Rs 2662 in 3 years. Rate is?',
+options: ["8%","9%","10%","11%"],
+answer: 2,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 959,
-question: 'The Cannes Film Festival is held in?',
-options: ["Italy","France","Spain","Germany"],
-answer: 1,
-category: "GK",
+question: 'The exterior angle of a regular polygon is 30°. Number of diagonals is?',
+options: ["90","104","108","110"],
+answer: 0,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 960,
-question: "The 'Blue Revolution' in India relates to?",
-options: ["Water conservation","Fisheries development","Sky monitoring","Air quality"],
-answer: 1,
-category: "GK",
+question: 'The mode of 2, 3, 3, 4, 5, 3, 4, 4, 5, 3, 3 is?',
+options: ["3","4","5","3 and 4"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 961,
-question: 'Which country invented pizza?',
-options: ["Greece","Spain","France","Italy"],
-answer: 3,
-category: "GK",
+question: 'In ΔABC, if a = 5, b = 7, c = 8, then cos A = ?',
+options: ["67/70","11/14","23/28","57/70"],
+answer: 1,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 962,
-question: 'The Nobel Prize in Economics is formally called?',
-options: ["Nobel Economic Sciences Award","Sveriges Riksbank Prize in Economic Sciences","International Economic Prize","Stockholm Economic Award"],
-answer: 1,
-category: "GK",
+question: 'The probability of getting sum > 9 when two dice are thrown is?',
+options: ["1/6","1/5","5/18","1/4"],
+answer: 0,
+category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 963,
-question: "The 'Silicon Plateau' refers to?",
-options: ["Hyderabad","Bengaluru","Pune","Chennai"],
-answer: 0,
-category: "GK",
+question: 'A 120m long train running at 90 km/h passes a man running in opposite direction at 18 km/h. Time taken is?',
+options: ["3.2s","3.8s","4s","4.8s"],
+answer: 2,
+category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 964,
-question: 'What is the value of 0! (zero factorial)?',
-options: ["0","1","Undefined","Infinity"],
-answer: 1,
+question: 'If f(x) = x/(1+x) and g(x) = x/(1-x), then f(g(x)) is?',
+options: ["x","1-x","x/(1-x²)","x/(2-x)"],
+answer: 0,
 category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 965,
-question: 'The sum of interior angles of a decagon is?',
-options: ["1440°","1260°","1620°","1080°"],
+question: 'Area of triangle formed by lines y = 2x, y = -x and x = 4 is?',
+options: ["24","36","18","12"],
 answer: 0,
 category: "Maths",
 difficulty: "medium"
@@ -8687,62 +8687,62 @@ difficulty: "medium"
 
 {
 id: 966,
-question: 'If z = 3 + 4i, |z| is?',
-options: ["4","5","7","3"],
-answer: 1,
+question: 'Two tangents from external point make angle 60° between them. Angle subtended at center is?',
+options: ["120°","90°","150°","100°"],
+answer: 0,
 category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 967,
-question: 'The number of prime numbers between 50 and 100 is?',
-options: ["9","10","11","12"],
-answer: 1,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 968,
-question: 'What is the value of lim(x→0) sin(x)/x?',
-options: ["0","1","Infinity","Undefined"],
-answer: 1,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 969,
-question: 'A regular hexagon has how many lines of symmetry?',
-options: ["3","4","5","6"],
-answer: 3,
-category: "Maths",
-difficulty: "medium"
-},
-
-{
-id: 970,
-question: 'What is the derivative of x³?',
-options: ["x","2x","3x²","3x"],
-answer: 2,
-category: "Maths",
-difficulty: "hard"
-},
-
-{
-id: 971,
-question: 'The sum of GP: 2 + 6 + 18 + ... + 4374 is?',
-options: ["6558","6560","6562","6564"],
+question: 'A sum triples in 8 years at SI. In how many years does it become 6 times?',
+options: ["20 years","18 years","16 years","24 years"],
 answer: 0,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
+id: 968,
+question: 'If cot A + cosec A = √3, then A is?',
+options: ["π/3","π/6","π/2","2π/3"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 969,
+question: 'In a class, 30 students play chess, 25 play carrom, 20 play both. Students who play neither is 10. Total students?',
+options: ["45","50","55","60"],
+answer: 0,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
+id: 970,
+question: 'The value of log 2 (log₄ 256) is?',
+options: ["2","3","4","8"],
+answer: 0,
+category: "Maths",
+difficulty: "hard"
+},
+
+{
+id: 971,
+question: 'A polygon has 44 diagonals. Number of sides is?',
+options: ["10","11","12","13"],
+answer: 1,
+category: "Maths",
+difficulty: "medium"
+},
+
+{
 id: 972,
-question: 'If tan A = 1/√3, A is?',
-options: ["30°","45°","60°","90°"],
+question: 'If the HCF and LCM of two polynomials p(x) and q(x) are (x+3) and (x³+7x²+7x-15), p(x) = x²+4x+3, then q(x) is?',
+options: ["x²+2x-5","x²-2x-15","x²+6x+5","x²-4x+3"],
 answer: 0,
 category: "Maths",
 difficulty: "hard"
@@ -8750,251 +8750,251 @@ difficulty: "hard"
 
 {
 id: 973,
-question: 'What is the angle between hour and minute hands at 3:15?',
-options: ["0°","7.5°","15°","22.5°"],
-answer: 1,
+question: 'An egg is dropped from 4th floor (30m). Time to fall? (g=10m/s²)?',
+options: ["√6 s","2√2 s","√5 s","√7 s"],
+answer: 0,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 974,
-question: "What is the value of e (Euler's number) approximately?",
-options: ["2.618","2.718","2.818","2.918"],
-answer: 1,
+question: 'The ratio of diagonal to side of a square is?',
+options: ["√2 : 1","√3 : 1","2 : 1","1 : √2"],
+answer: 0,
 category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 975,
-question: 'The equation of a circle with center (2,3) and radius 5 is?',
-options: ["(x-2)²+(y-3)²=5","(x-2)²+(y-3)²=25","(x+2)²+(y+3)²=25","(x-2)²+(y-3)²=10"],
-answer: 1,
+question: 'The value of 2⁻³ + 2⁻² + 2⁻¹ is?',
+options: ["7/8","3/4","1/2","7/4"],
+answer: 0,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 976,
-question: 'What is the integral of 1/x?',
-options: ["x","ln|x|","x²/2","1/x²"],
-answer: 1,
+question: 'A square and equilateral triangle have same perimeter. Ratio of their areas is?',
+options: ["4:3","16:12","16:9√3 (approx)","√3:4"],
+answer: 2,
 category: "Maths",
 difficulty: "hard"
 },
 
 {
 id: 977,
-question: 'How many sides does an icosagon have?',
-options: ["12","15","18","20"],
-answer: 3,
+question: 'If sin A + cosec A = 2, then sin²A + cosec²A is?',
+options: ["2","4","0","1"],
+answer: 0,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 978,
-question: 'The value of nC0 + nC1 + ... + nCn is?',
-options: ["n","n²","2n","2n+1"],
-answer: 2,
-category: "Maths",
+question: "The 'Tinkathia System' in Champaran required farmers to cultivate?",
+options: ["1/4 of land with indigo","3/20 (tinkathia=3/20) of land with indigo","1/3 of land","1/5 of land"],
+answer: 1,
+category: "History",
 difficulty: "hard"
 },
 
 {
 id: 979,
-question: 'What is the geometric mean of 4 and 9?',
-options: ["5","6","6.5","7"],
+question: "'Subhas Chandra Bose' resigned from Congress Presidentship in 1939 over?",
+options: ["Disagreement on Swaraj","Disagreement with Gandhi on strategy and cooperation with British","Foreign policy","Financial mismanagement"],
 answer: 1,
-category: "Maths",
+category: "History",
 difficulty: "medium"
 },
 
 {
 id: 980,
-question: 'The sum of all 2-digit odd numbers is?',
-options: ["2475","2525","2580","2500"],
-answer: 0,
-category: "Maths",
+question: "The 'Indian Statutory Commission' (Simon Commission) had how many members?",
+options: ["5","6","7","8"],
+answer: 2,
+category: "History",
 difficulty: "hard"
 },
 
 {
 id: 981,
-question: 'If A is a 3×3 matrix and det(A) = 5, det(2A) is?',
-options: ["10","20","40","80"],
+question: "Who coined the term 'Drain of Wealth' for British India?",
+options: ["R.C. Dutt","Gopal Krishna Gokhale","Dadabhai Naoroji","Romesh Dutt"],
 answer: 2,
-category: "Maths",
+category: "History",
 difficulty: "medium"
 },
 
 {
 id: 982,
-question: 'What is the value of sin(A+B) - sin(A-B)?',
-options: ["2sinAcosB","2cosAsinB","2sinAsinB","2cosAcosB"],
-answer: 1,
-category: "Maths",
+question: "The 'Laccadive Sea' is part of which larger ocean?",
+options: ["Pacific Ocean","Atlantic Ocean","Indian Ocean","Arabian Sea"],
+answer: 2,
+category: "Geography",
 difficulty: "hard"
 },
 
 {
 id: 983,
-question: 'How many 3-digit numbers are divisible by 7?',
-options: ["126","127","128","129"],
-answer: 2,
-category: "Maths",
+question: "The 'Peltier Effect' is the reverse of which phenomenon?",
+options: ["Joule effect","Seebeck effect","Thomson effect","Hall effect"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 984,
-question: 'A number is chosen from 1-100. P(it is a perfect square) is?',
-options: ["1/10","1/12","1/9","1/11"],
-answer: 0,
-category: "Maths",
+question: "India's 'ASTROSAT' can observe in how many wavelength bands simultaneously?",
+options: ["2","3","5","7"],
+answer: 2,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 985,
-question: 'What is the value of (a-b)(a²+ab+b²)?',
-options: ["a³+b³","a³-b³","a²-b²","a²+b²"],
-answer: 1,
-category: "Maths",
+question: "The 'principle of superposition' in quantum mechanics means?",
+options: ["Particles can be in multiple states simultaneously","Waves cancel each other","Light splits in medium","Particles have definite position"],
+answer: 0,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 986,
-question: 'The diagonal of a cube with side 3cm is?',
-options: ["3cm","3√2 cm","3√3 cm","9 cm"],
+question: "The 'Heliocentric Model' was proposed by?",
+options: ["Galileo","Kepler","Copernicus","Brahe"],
 answer: 2,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 987,
-question: 'What is the solution set of |x - 3| < 2?',
-options: ["1 < x < 5","1 ≤ x ≤ 5","x > 5","x < 1"],
-answer: 0,
-category: "Maths",
+question: "India's 'Dhruv' Advanced Light Helicopter was developed by?",
+options: ["DRDO","HAL (Hindustan Aeronautics Limited)","ISRO","BEL"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 988,
-question: 'Two dice are thrown. P(sum is 9) is?',
-options: ["1/9","1/6","4/36","5/36"],
-answer: 2,
-category: "Maths",
+question: "The 'PARAM 8000' was India's first supercomputer developed by?",
+options: ["IIT Bombay","C-DAC","ISRO","IISc"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 989,
-question: 'What is the value of arctan(1)?',
-options: ["30°","45°","60°","90°"],
-answer: 1,
-category: "Maths",
+question: "The 'Akash' Surface-to-Air Missile system was developed by?",
+options: ["HAL","DRDO","BEL","Both DRDO and BEL"],
+answer: 3,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 990,
-question: 'In a GP, if first term is 2 and common ratio is 3, 5th term is?',
-options: ["54","81","162","243"],
-answer: 2,
-category: "Maths",
+question: "'Prithvi' is India's first?",
+options: ["ICBM","Surface-to-Surface tactical ballistic missile","Anti-aircraft missile","Submarine launched missile"],
+answer: 1,
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 991,
-question: 'If the circumradius of an equilateral triangle is 6cm, its side is?',
-options: ["6√3 cm","6 cm","3√3 cm","12 cm"],
-answer: 0,
-category: "Maths",
+question: "The 'NMR Spectroscopy' technique is based on?",
+options: ["Absorption of infrared radiation","Magnetic properties of atomic nuclei","Emission of X-rays","Photoelectric effect"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 992,
-question: 'What is the number of ways to distribute 5 identical balls in 3 boxes?',
-options: ["18","21","24","27"],
+question: "The chemical formula of 'Laughing Gas' is?",
+options: ["NO","N₂O","NO₂","N₂O₅"],
 answer: 1,
-category: "Maths",
+category: "Science",
 difficulty: "hard"
 },
 
 {
 id: 993,
-question: 'The locus of points equidistant from two fixed points is?',
-options: ["Circle","Ellipse","Perpendicular bisector","Parabola"],
-answer: 2,
-category: "Maths",
+question: "The 'MASER' works on principle similar to LASER but uses?",
+options: ["Light waves","Microwave radiation","Sound waves","Infrared radiation"],
+answer: 1,
+category: "Science",
 difficulty: "medium"
 },
 
 {
 id: 994,
-question: 'What is 2log3 + log4 - log36?',
-options: ["0","1","2","3"],
-answer: 0,
-category: "Maths",
+question: "The 'National Green Tribunal' deals with cases related to?",
+options: ["Forest crimes only","Environmental protection and disputes","Wildlife crimes","Water pollution only"],
+answer: 1,
+category: "GK",
 difficulty: "hard"
 },
 
 {
 id: 995,
-question: 'What is the remainder when x⁴ - 3x³ + 2x - 1 is divided by (x-1)?',
-options: ["-1","0","1","2"],
-answer: 0,
-category: "Maths",
+question: "India's 'Competition Commission' has jurisdiction over?",
+options: ["Only manufacturing sector","Only service sector","All sectors of economy","Only public sector"],
+answer: 2,
+category: "GK",
 difficulty: "medium"
 },
 
 {
 id: 996,
-question: 'How many times do clock hands overlap in 24 hours?',
-options: ["22","23","24","44"],
+question: "The 'Prevention of Money Laundering Act' (PMLA) was passed in?",
+options: ["2000","2001","2002","2003"],
 answer: 3,
-category: "Maths",
+category: "GK",
 difficulty: "hard"
 },
 
 {
 id: 997,
-question: 'The number of solutions of 2sinx = 1 in [0, 2π] is?',
-options: ["1","2","3","4"],
-answer: 1,
-category: "Maths",
+question: "The 'Whistle Blowers Protection Act' was passed in?",
+options: ["2012","2013","2014","2015"],
+answer: 2,
+category: "GK",
 difficulty: "medium"
 },
 
 {
 id: 998,
-question: 'If P and Q are sets with |P|=5 and |Q|=3 and |P∩Q|=2, |P∪Q| is?',
-options: ["6","7","8","9"],
-answer: 0,
-category: "Maths",
+question: "India's 'Enforcement Directorate' works under which ministry?",
+options: ["Ministry of Home Affairs","Ministry of Finance","Ministry of Law","CBI"],
+answer: 1,
+category: "GK",
 difficulty: "hard"
 },
 
 {
 id: 999,
-question: 'What is the distance between the parallel lines 3x+4y=7 and 3x+4y=12?',
-options: ["1","5/4","5","7/5"],
-answer: 0,
+question: 'If x = (√5 + 1)/(√5 - 1), then x² - x - 1 = ?',
+options: ["0","1","2","3"],
+answer: 2,
 category: "Maths",
 difficulty: "medium"
 },
 
 {
 id: 1000,
-question: 'The value of (sinθ + cosθ)² + (sinθ - cosθ)² is?',
-options: ["1","2","3","4"],
+question: 'The total surface area of a hemisphere of radius r is?',
+options: ["2πr²","3πr²","4πr²","πr²"],
 answer: 1,
 category: "Maths",
 difficulty: "hard"
