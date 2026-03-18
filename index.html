@@ -17,16 +17,225 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="favicon.ico">
+
+<!-- ── Supabase CDN ── -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<style>
+/* ══ AUTH OVERLAY ══════════════════════════════════════════════ */
+#auth-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 24px;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+#auth-overlay.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.auth-card {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 24px;
+  padding: 40px 32px;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+}
+.auth-logo {
+  font-family: 'Sora', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8b7cf6;
+  margin-bottom: 20px;
+}
+.auth-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 8px;
+}
+.auth-sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 20px;
+  background: #fff;
+  border: 1.5px solid #ddd;
+  border-radius: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.12s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.google-btn:hover {
+  background: #f7f7f7;
+  border-color: #bbb;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+}
+.google-btn:active { transform: translateY(0); }
+.google-btn svg { flex-shrink: 0; }
+.auth-skip {
+  margin-top: 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: #aaa;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.auth-skip:hover { color: #666; }
+
+/* ══ USER PILL (top-right of home screen) ══════════════════════ */
+#user-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f4f4f4;
+  border-radius: 100px;
+  padding: 6px 14px 6px 6px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+#user-pill.hidden { display: none; }
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ddd;
+}
+.user-avatar-placeholder {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #8b7cf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.logout-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 6px;
+  transition: color 0.15s;
+}
+.logout-btn:hover { color: #e55; }
+
+/* ══ SIGN IN PROMPT (when guest plays) ═══════════════════════ */
+#signin-nudge {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  background: #f0eeff;
+  border: 1px solid #d6cfff;
+  border-radius: 14px;
+  padding: 12px 16px;
+  margin: 12px 0 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: #5a4dbf;
+}
+#signin-nudge.visible { display: flex; }
+#signin-nudge button {
+  background: #8b7cf6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: auto;
+}
+</style>
 </head>
 <body>
+
+<!-- ══════════════ AUTH OVERLAY ══════════════ -->
+<div id="auth-overlay">
+  <div class="auth-card">
+    <div class="auth-logo">OnlyGeniusesPass</div>
+    <div class="auth-title">Sign in to play 🧠</div>
+    <div class="auth-sub">Save your scores, climb the leaderboard,<br>and challenge your friends.</div>
+
+    <button class="google-btn" id="google-login-btn" onclick="signInWithGoogle()">
+      <!-- Google logo SVG -->
+      <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.36-8.16 2.36-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        <path fill="none" d="M0 0h48v48H0z"/>
+      </svg>
+      Continue with Google
+    </button>
+
+    <button class="auth-skip" onclick="continueAsGuest()">Continue as guest</button>
+  </div>
+</div>
 
 <!-- ══════════════ HOME SCREEN ══════════════ -->
 <div id="screen-home" class="screen active">
   <div class="home-inner">
+
+    <!-- User pill shown when logged in -->
+    <div id="user-pill" class="hidden">
+      <div class="user-avatar-placeholder" id="user-initials">?</div>
+      <span id="user-name-display">Guest</span>
+      <button class="logout-btn" onclick="signOut()" title="Sign out">Sign out</button>
+    </div>
+
     <div class="home-header">
       <div class="eyebrow">Challenge yourself</div>
       <h1 class="home-title">Only <span>Geniuses</span> Pass</h1>
       <p class="home-sub">Only 1 in 10 people can pass this quiz.<br>Are you one of them?</p>
+    </div>
+
+    <!-- Nudge for guests to sign in -->
+    <div id="signin-nudge">
+      <span>Sign in to save your scores &amp; rank!</span>
+      <button onclick="showAuthOverlay()">Sign in</button>
     </div>
 
     <div class="stat-row">
@@ -171,7 +380,7 @@
       <div class="lb-row"><div class="lb-rank silver">2</div><div class="lb-name">Priya M.</div><div class="lb-score">90%</div></div>
       <div class="lb-row you" id="lb-you">
         <div class="lb-rank you-rank">—</div>
-        <div class="lb-name">You</div>
+        <div class="lb-name" id="lb-your-name">You</div>
         <div class="lb-score" id="lb-your-score">—</div>
       </div>
       <div class="lb-row"><div class="lb-rank bronze">3</div><div class="lb-name">Rahul K.</div><div class="lb-score">80%</div></div>
@@ -183,5 +392,127 @@
 
 <script src="questions.js"></script>
 <script src="script.js"></script>
+
+<!-- ══════════════ AUTH LOGIC ══════════════ -->
+<script>
+// ─── 1. INIT SUPABASE ────────────────────────────────────────────
+// 👇 Replace these with your actual Supabase project values
+const SUPABASE_URL  = 'https://YOUR_PROJECT_ID.supabase.co';
+const SUPABASE_ANON = 'YOUR_ANON_PUBLIC_KEY';
+
+const { createClient } = supabase;
+const _supabase = createClient(SUPABASE_URL, SUPABASE_ANON);
+
+// ─── 2. STATE ────────────────────────────────────────────────────
+let currentUser = null;   // null = guest
+
+// ─── 3. ON PAGE LOAD — check existing session ────────────────────
+(async () => {
+  const { data: { session } } = await _supabase.auth.getSession();
+  if (session?.user) {
+    handleUserLoggedIn(session.user);
+  } else {
+    // No session: show the auth overlay
+    showAuthOverlay();
+  }
+})();
+
+// Listen for auth state changes (e.g. after redirect from Google)
+_supabase.auth.onAuthStateChange((_event, session) => {
+  if (session?.user) {
+    handleUserLoggedIn(session.user);
+  }
+});
+
+// ─── 4. SIGN IN WITH GOOGLE ──────────────────────────────────────
+async function signInWithGoogle() {
+  const btn = document.getElementById('google-login-btn');
+  btn.textContent = 'Signing in…';
+  btn.disabled = true;
+
+  const { error } = await _supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: {
+      // After Google redirects back, Supabase will restore the session
+      redirectTo: window.location.href,
+    }
+  });
+
+  if (error) {
+    btn.disabled = false;
+    btn.innerHTML = `
+      <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+        <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+        <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+        <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.36-8.16 2.36-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        <path fill="none" d="M0 0h48v48H0z"/>
+      </svg>
+      Continue with Google`;
+    alert('Sign-in failed: ' + error.message);
+  }
+}
+
+// ─── 5. GUEST MODE ───────────────────────────────────────────────
+function continueAsGuest() {
+  currentUser = null;
+  hideAuthOverlay();
+  // Show nudge banner on home screen
+  document.getElementById('signin-nudge').classList.add('visible');
+}
+
+// ─── 6. HANDLE SUCCESSFUL LOGIN ──────────────────────────────────
+function handleUserLoggedIn(user) {
+  currentUser = user;
+  hideAuthOverlay();
+
+  const name    = user.user_metadata?.full_name || user.email || 'Player';
+  const initials = name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+  const avatar  = user.user_metadata?.avatar_url;
+
+  // Update user pill
+  const pill = document.getElementById('user-pill');
+  pill.classList.remove('hidden');
+
+  if (avatar) {
+    pill.querySelector('.user-avatar-placeholder').outerHTML =
+      `<img class="user-avatar" src="${avatar}" alt="${name}" referrerpolicy="no-referrer">`;
+  } else {
+    document.getElementById('user-initials').textContent = initials;
+  }
+
+  document.getElementById('user-name-display').textContent = name.split(' ')[0];
+
+  // Update leaderboard "You" row
+  document.getElementById('lb-your-name').textContent = name.split(' ')[0] + ' (You)';
+
+  // Hide guest nudge
+  document.getElementById('signin-nudge').classList.remove('visible');
+}
+
+// ─── 7. SIGN OUT ─────────────────────────────────────────────────
+async function signOut() {
+  await _supabase.auth.signOut();
+  currentUser = null;
+
+  // Reset user pill
+  const pill = document.getElementById('user-pill');
+  pill.classList.add('hidden');
+  document.getElementById('lb-your-name').textContent = 'You';
+  document.getElementById('lb-your-score').textContent = '—';
+
+  // Show auth overlay again
+  showAuthOverlay();
+}
+
+// ─── 8. OVERLAY HELPERS ──────────────────────────────────────────
+function showAuthOverlay() {
+  document.getElementById('auth-overlay').classList.remove('hidden');
+}
+function hideAuthOverlay() {
+  document.getElementById('auth-overlay').classList.add('hidden');
+}
+</script>
+
 </body>
 </html>
