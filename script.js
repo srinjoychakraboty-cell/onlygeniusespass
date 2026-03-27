@@ -35,7 +35,9 @@ async function signInWithGoogle() {
   btn.disabled = true;
   const { error } = await _supabase.auth.signInWithOAuth({
     provider: 'google',
-    options: { redirectTo: window.location.origin + window.location.pathname }
+    options: {
+  redirectTo: 'onlygeniusespass://login'
+}
   });
   if (error) {
     btn.disabled = false;
