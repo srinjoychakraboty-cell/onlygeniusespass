@@ -434,7 +434,7 @@ async function signInWithGoogle() {
     provider: 'google',
     options: {
       // After Google redirects back, Supabase will restore the session
-      redirectTo: window.location.href,
+     redirectTo: 'onlygenius://login',
     }
   });
 
